@@ -377,4 +377,14 @@ Con el fin de comprender en mayor profundidad a nuestros usuarios clave, se dise
 | Controlar asistencia y recolectar feedback del público | Sometimes | Medium |
 | Automatizar tareas operativas para ahorrar tiempo | Always | High |
 
+####   2.3.3 User Journey Mapping.
+
+En esta sección, analizaremos el recorrido del usuario al utilizar nuestra plataforma VibeStage
+
+**Segmento 1: Músicos Independientes** <br>
+<img src="/assets/musicosjourneymap.png" alt="Musicos" > <br>
+
+**Segmento 2: Promotores** <br>
+<img src="/assets/PromotoresJourneymap.png" alt="Promotores" > <br> 
+
 
