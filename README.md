@@ -442,14 +442,13 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 
 ###   2.5. Strategic-Level Domain-Driven Design.
 ####   2.5.1. EventStorming.
-En esta sección el equipo explica y evidencia el proceso de EventStorming, con el fin
-de plantear una primera aproximación al modelado de nivel general para el dominio
-del problema, buscando a partir de ahí identificar el mayor nivel de detalle posible. Es
-recomendable que el equipo organice la sesión de EventStorming con una duración
-entre 1 - 2 horas, a fin de concentrar esfuerzos y no extender el proceso de forma
-innecesaria. La sección inicia con una introducción y explicación de las actividades
-realizadas en la sesión de EventStorming, e incluye capturas de lo elaborado en la
-herramienta indicada.
+**Segmento 1: Músicos Independientes** <br>
+
+![Image](https://github.com/user-attachments/assets/b98be728-9b7a-4928-bcdf-5750f8cef0d8)
+
+**Segmento 2: Promotores** <br>
+
+![Image](https://github.com/user-attachments/assets/00c2891e-1f33-4ce9-b551-4f6eda5fbbc0)
 
 #####   2.5.1.1. Candidate Context Discovery.
 En esta sección el equipo, a partir del dominio modelado como EventStorm, explica y
