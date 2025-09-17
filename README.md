@@ -167,3 +167,35 @@ Para sobresalir dentro del competitivo sector musical y de entretenimiento, Vibe
 - ¿Cómo te gustaría que evolucionaran los procesos de contratación y visibilidad para músicos independientes?
 - ¿Qué esperas de una plataforma digital que prometa conectarte con promotores y espacios?
 
+####   2.2.2 Registro de entrevistas. 
+
+#### Segmento Administrador de locales
+
+Entrevistado #1
+
+| Campo                        | Información                                                                                                                           |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre del entrevistado** |                                                                                                                           |
+| **Edad**                    |                                                                                                                                |
+| **Screenshot de la entrevista**|                                                                                 |
+| **Link de la entrevista**   |                                                                                                                         |
+| **Tiempo de inicio y duración** |                 00:00 -                                                                    |                                                                                    |
+| **Resumen**                 |                                                                                                                     |
+----
+
+
+#### Segmento Artistas
+
+Entrevistado #1
+
+| Campo                        | Información                                                                                                                           |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre del entrevistado**  |                                                                                                                       |
+| **Edad**                     |                                                                                                                                |
+| **Distrito**                 |                                                                                                                             |
+| **Screenshot de la entrevista** |                                  |
+| **Link de la entrevista**    |                                                                                                                     |
+| **Tiempo de inicio y duración** |                  0:00 -                                                                                                 |
+| **Resumen**                  |                                                                                                                     |
+
+
