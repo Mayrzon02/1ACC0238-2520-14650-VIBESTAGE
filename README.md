@@ -331,4 +331,17 @@ Todos los artistas expresaron un fuerte interés por contar con una solución qu
 
 Los artistas entrevistados muestran un perfil activo y profesional, con una fuerte vocación hacia el crecimiento de su carrera, aunque actualmente se desenvuelven en un sistema marcado por la informalidad y la falta de estructura. En este contexto, se evidencia de manera clara la necesidad de una plataforma como TocaAquí, capaz de automatizar y profesionalizar el proceso completo de contratación musical, abarcando desde la postulación inicial hasta la confirmación del evento y el pago final de manera segura y transparente. Entre los aspectos más críticos señalados en las entrevistas destaca la ausencia de contratos formales y la inseguridad en los pagos, factores que generan incertidumbre y, en muchos casos, desconfianza en la relación con los organizadores. No obstante, los músicos también expresaron una alta disposición a incorporar nuevas tecnologías, siempre que estas logren reducir la carga operativa, eliminen la improvisación y les permitan concentrarse en lo que verdaderamente valoran: la creación y la interpretación de su música.
 
+###   2.3. Needfinding. 
+
+####   2.3.1 User Personas. 
+
+Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User Persona que representan de forma ficticia a nuestros segmentos principales: artistas independientes y administradores de locales. Estos perfiles nos permiten identificar sus motivaciones, frustraciones, hábitos y expectativas, facilitando el diseño de una solución más alineada con sus necesidades reales y mejorando así su experiencia con la plataforma.
+
+#### Segmento Objetivo Administradores de locales
+
+![Administrador_user_persona](/assets/Administrador%20de%20Local.png)
+
+#### Segmento Objetivo Artista independiente
+
+![Artista_user_persona](/assets/Artista%20Independiente.png)
 
