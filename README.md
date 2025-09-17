@@ -165,6 +165,51 @@ Los promotores de eventos en ciudades como Lima, Bogotá o Buenos Aires indican 
 
 ---
 
+#### 1.2.2.3. Declaraciones de hipótesis de Lean UX
+  
+Para la elaboración de las siguientes declaraciones de hipótesis, se utilizó el formato Lean UX:  
+**[Creemos que]**, **[Esto logrará]**, y **[Lo habremos demostrado cuando]**.
+
+---
+
+**Hipótesis 1: Simplificación del proceso de búsqueda**
+
+**Creemos que** simplificar el proceso de búsqueda y comparación de espacios y eventos musicales en la plataforma VibeStage
+**Esto logrará** aumentar las contrataciones al facilitar la conexión directa entre músicos emergentes y promotores de eventos  
+**Lo habremos demostrado cuando** observemos un aumento del 25% en la cantidad de contratos firmados entre músicos y promotores en los primeros seis meses.
+
+---
+**Hipótesis 2: Promoción automatizada para mayor visibilidad**
+
+**Creemos que** integrar un módulo de promoción automatizada que incluya difusión en redes sociales  
+**Esto logrará** aumentar la visibilidad de los músicos emergentes y atraer un mayor número de solicitudes de contratación  
+**Lo habremos demostrado cuando** se observe un aumento del 35% en las visitas a los perfiles de músicos y en las postulaciones a eventos durante el primer año.
+
+---
+**Hipótesis 3: Mejora en la coordinación logística**
+
+**Creemos que** incorporar una herramienta de agenda compartida y validación de requerimientos técnicos  
+**Esto logrará** mejorar la organización y puntualidad en la ejecución de los eventos musicales  
+**Lo habremos demostrado cuando** las encuestas post-evento muestren un incremento del 20% en la satisfacción de los usuarios respecto a la coordinación logística.
+
+---
+
+
+**Hipótesis 4: Retroalimentación y profesionalización**
+
+**Creemos que** implementar un sistema de evaluaciones y retroalimentación post-evento  
+**Esto logrará** elevar la calidad del servicio y fortalecer la profesionalización dentro del ecosistema de VibeStage  
+**Lo habremos demostrado cuando** las calificaciones promedio superen 4.0 sobre 5 y se evidencie un aumento del 30% en la recurrencia de contrataciones.
+
+---
+
+**Hipótesis 5: Seguridad en la contratación**
+
+**Creemos que** implementar un sistema integrado para la firma digital de contratos y pagos seguros  
+**Esto logrará** reducir significativamente los riesgos de impago y cancelaciones, generando mayor confianza entre los usuarios  
+**Lo habremos demostrado cuando** se registre una disminución del 30% en casos de impagos y cancelaciones en los eventos organizados a través de la plataforma.
+
+---
 
 
 
