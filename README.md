@@ -335,7 +335,7 @@ Los artistas entrevistados muestran un perfil activo y profesional, con una fuer
 
 ####   2.3.1 User Personas. 
 
-Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User Persona que representan de forma ficticia a nuestros segmentos principales: artistas independientes y administradores de locales. Estos perfiles nos permiten identificar sus motivaciones, frustraciones, hábitos y expectativas, facilitando el diseño de una solución más alineada con sus necesidades reales y mejorando así su experiencia con la plataforma.
+Con el fin de comprender en mayor profundidad a nuestros usuarios clave, se diseñaron dos perfiles de User Persona que representan de manera ficticia, pero fundamentada, a los principales segmentos de nuestra plataforma: los artistas independientes y los administradores de locales. Estos arquetipos permiten identificar con claridad sus motivaciones, frustraciones, hábitos de trabajo y expectativas frente al uso de herramientas digitales, lo que a su vez facilita el diseño de una solución más cercana a sus necesidades reales. Al apoyarnos en estos perfiles, buscamos no solo optimizar la funcionalidad de la aplicación, sino también mejorar de forma significativa la experiencia integral de los usuarios al interactuar con nuestra App.
 
 #### Segmento Objetivo Administradores de locales
 
