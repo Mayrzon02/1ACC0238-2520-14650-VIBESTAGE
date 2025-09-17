@@ -339,11 +339,11 @@ Con el fin de comprender en mayor profundidad a nuestros usuarios clave, se dise
 
 #### Segmento Objetivo Administradores de locales
 
-![Administrador_user_persona](/assets/Administrador%20de%20Local.png)
+<img width="650" height="1450" alt="image" src="https://github.com/user-attachments/assets/1c199da1-4c01-40f0-b580-ec9a2b14ad5d" />
 
 #### Segmento Objetivo Artista independiente
 
-![Artista_user_persona](/assets/Artista%20Independiente.png)
+<img width="650" height="1450" alt="image" src="https://github.com/user-attachments/assets/67a779d8-8f57-427d-8d9f-a3fd41273644" />
 
 ####   2.3.2 User Task Matrix.
 
