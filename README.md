@@ -69,3 +69,101 @@ Para sobresalir dentro del competitivo sector musical y de entretenimiento, Vibe
 - **Estrategia:** Colaborar con instituciones culturales, asociaciones de músicos y marcas relacionadas con la música en vivo para aumentar la visibilidad y credibilidad.  
 - **Táctica:** Generar convenios con bares, discotecas, escuelas de música y empresas de sonido para ofrecer beneficios cruzados y asegurar presencia constante en la escena.
 
+###   2.2. Entrevistas. 
+
+####   2.2.1 Diseño de entrevistas. 
+
+#### Segmento Objetivo Administradores de locales
+#### Preguntas Objetivas:
+
+**Características Demográficas:**
+- ¿Cual es tu nombre?
+- ¿Cuántos años tienes?
+- ¿En qué ciudad y distrito está ubicado tu local?
+- ¿Cuál es el aforo y tipo de espacio que administras (bar, discoteca, centro cultural, etc.)?
+
+
+**Ocupación y Responsabilidades:**
+
+- ¿Cuál es tu cargo dentro del establecimiento?
+- ¿Qué funciones desempeñas específicamente en la organización y gestión de eventos?
+- ¿Con qué frecuencia alquilas tu espacio para presentaciones musicales?
+- ¿Cómo gestionas actualmente la programación de artistas y bandas?
+
+**Uso de Tecnología:**
+
+- ¿Qué dispositivos usas para gestionar tu local (PC, laptop, tablet, celular)?
+- ¿Qué herramientas digitales o sistemas usas para reservas, programación o promoción?
+- ¿Qué canales usas para comunicarte con músicos o productores?
+
+#### Preguntas Subjetivas:
+
+**Personalidad y Habilidades:**
+
+- ¿Qué habilidades personales consideras claves para manejar eventos y relaciones con artistas?
+
+
+**Objetivos y Frustraciones:**
+
+- ¿Qué objetivos tienes al permitir que bandas se presenten en tu espacio?
+- ¿Qué problemas o frustraciones enfrentas al gestionar reservas, pagos o promociones?
+- ¿Qué procesos te gustaría automatizar?
+
+**Preferencias y Canales Digitales:**
+- ¿Qué funcionalidades valorarías en una plataforma que centralice reservas, pagos y promoción de eventos?
+-¿Cómo prefieres recibir notificaciones sobre postulaciones o confirmaciones de artistas?
+
+**Visión del Futuro:**
+
+- ¿Cómo te gustaría que evolucionara el proceso de reserva y programación musical?
+- ¿Qué mejoras digitales facilitarían tu trabajo como administrador de espacios?
+
+
+
+
+#### Segmento Objetivo Artistas:
+#### Preguntas Objetivas:
+
+**Características Demográficas:**
+
+- ¿Cuál es tu género?
+- ¿Cuántos años tienes?
+- ¿Cuál es tu rol musical (solista, vocalista, guitarrista, DJ, etc.)?
+- ¿Tocas solo o formas parte de una banda?
+
+**Ocupación y Responsabilidades:**
+
+
+- ¿Desde hace cuánto tiempo estás activo/a como músico?
+- ¿Cuántas presentaciones en vivo realizas en promedio al mes?
+- ¿Qué tipo de escenarios frecuentas (bares, festivales, discotecas)?
+
+**Uso de Tecnología:**
+
+- ¿Qué dispositivos usas para organizar tus presentaciones (PC, celular, tablet)?
+- ¿Qué redes o plataformas usas para gestionar tus bookings o mostrar tu trabajo (Instagram, SoundCloud, etc.)?
+- ¿Usas algún sistema para generar contratos o manejar pagos?
+
+
+#### Preguntas Subjetivas:
+
+**Personalidad y Habilidades:**
+
+- ¿Cómo defines tu estilo musical y tu enfoque en vivo?
+- ¿Qué habilidades consideras esenciales para posicionarte como artista en la escena local?
+
+**Objetivos y Frustraciones:**
+
+- ¿Qué metas tienes en relación con tus presentaciones en vivo?
+- ¿Qué dificultades encuentras al buscar espacios para tocar?
+- ¿Qué parte del proceso (contacto, pagos, contratos, logística) te resulta más difícil o engorrosa?
+
+**Preferencias y Canales Digitales:**
+
+- ¿Qué funcionalidades valoras en una plataforma para músicos (contratos automáticos, pagos seguros, agenda, etc.)?
+- ¿Por qué motivos dejarías de usar una plataforma si no cumpliera con tus expectativas?
+
+**Visión del Futuro:**
+- ¿Cómo te gustaría que evolucionaran los procesos de contratación y visibilidad para músicos independientes?
+- ¿Qué esperas de una plataforma digital que prometa conectarte con promotores y espacios?
+
