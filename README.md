@@ -211,5 +211,10 @@ Para la elaboración de las siguientes declaraciones de hipótesis, se utilizó 
 
 ---
 
+#### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas es una herramienta  que permite a los equipos plasmar y visualizar de manera concisa los aspectos clave de su proyecto. En este punto, exploraremos cómo el Canvas facilita la colaboración y la alineación del equipo al definir claramente el problema, la solución propuesta, los usuarios y sus necesidades, así como las métricas de éxito.
+![Lean Ux Canvas](/assets/leanuxcanvas.png) 
+
+
 
 
