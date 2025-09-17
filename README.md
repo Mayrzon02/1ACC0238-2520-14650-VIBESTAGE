@@ -95,5 +95,76 @@ Los promotores de eventos en ciudades como Lima, Bogotá o Buenos Aires indican 
 
 - **Consolidar una red activa de al menos 1.000 músicos verificados y 250 promotores en el primer año**
 
+ #### 1.2.2.2. Lean UX Assumptions
+ 
+  ### **Business Assumptions**
+  
+- **Demanda del mercado:**  
+  Se asume una creciente demanda en el sector de eventos musicales en vivo, impulsada por músicos emergentes que buscan oportunidades y espacios que requieren talentos confiables para dinamizar sus agendas.
+
+- **Transformación digital del sector:**  
+  Se presupone que la digitalización de procesos en la industria musical facilitará la contratación, coordinación y pagos, generando mejoras en eficiencia y profesionalismo.
+
+- **Valor diferencial en formalización:**  
+  Se cree que herramientas como contratos digitales, pagos seguros y evaluaciones post-evento aportarán un valor agregado, diferenciando a *TocaAquí* de alternativas informales.
+
+- **Creciente uso de tecnologías:**  
+  Se asume que músicos y promotores cuentan con infraestructura tecnológica suficiente y están dispuestos a adoptar plataformas digitales que optimicen sus operaciones.
+
+---
+  ### **Business Outcomes Assumptions**
+- **Optimización de operaciones:**  
+  Al centralizar la búsqueda, contratación y coordinación de eventos, los espacios reducirán tiempos y costos administrativos, aumentando su eficiencia.
+
+- **Incremento en la rentabilidad:**  
+  La digitalización del proceso disminuirá riesgos como cancelaciones o impagos, favoreciendo mayores ingresos y menor pérdida económica.
+
+- **Fidelización y crecimiento del ecosistema:**  
+  Una experiencia profesional y confiable fomentará la lealtad de usuarios y facilitará el crecimiento orgánico en nuevas regiones o segmentos.
+
+- **Posicionamiento como referente:**  
+  Se proyecta que * VibeStage * se consolide como líder en la contratación de eventos musicales en vivo, superando prácticas informales actuales.
+
+---
+  ### **User Assumptions**
+
+#### **Músicos y bandas independientes**
+
+- Buscan profesionalizar su carrera y aumentar su visibilidad.  
+- Requieren herramientas para autogestionar presentaciones, logística y pagos.  
+- Valoran una plataforma con contratos digitales, evaluaciones y coordinación centralizada.
+
+#### **Espacios y promotores (bares, discotecas, centros culturales)**
+
+- Necesitan un sistema confiable y eficiente para contratar talentos según criterios específicos (género, ubicación, disponibilidad).  
+- Buscan minimizar incertidumbre, riesgos financieros y optimizar la planificación de sus eventos.
+
+#### **Capacidad tecnológica y disposición**
+
+- Ambos segmentos tienen la capacidad y disposición para usar una plataforma digital que facilite su operatividad diaria.
+
+---
+  ### **User Outcomes Assumptions**
+
+#### **Para músicos y bandas**
+
+- Mayor visibilidad y acceso a nuevas oportunidades de presentación.  
+- Gestión autónoma y profesional de su carrera artística.  
+- Seguridad y confianza mediante pagos en escrow y contratos digitales.
+
+#### **Para espacios y promotores**
+
+- Acceso ágil a talentos filtrados por criterios específicos.  
+- Planificación eficiente mediante agenda compartida y herramientas logísticas.  
+- Reducción de riesgos e incertidumbre en la contratación.
+
+#### **Resultados compartidos**
+
+- Evaluaciones post-evento promueven transparencia, retroalimentación y mejora continua.  
+- Reputación fortalecida en todo el ecosistema musical.
+
+---
+
+
 
 
