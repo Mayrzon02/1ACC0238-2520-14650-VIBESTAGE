@@ -394,10 +394,12 @@ En esta sección, analizaremos el recorrido del usuario al utilizar nuestra App 
 En esta sección se expone el Empathy Mapping, una herramienta que permite construir un perfil más completo de los user personas y, con ello, desarrollar una comprensión profunda de su manera de pensar, actuar y relacionarse con su entorno. A través de este recurso, se busca representar no solo los comportamientos observables, sino también las percepciones y emociones que influyen en sus decisiones. Para cada user persona se analizan cinco dimensiones fundamentales: lo que el usuario ve, lo que escucha, lo que dice, lo que hace y lo que siente, ofreciendo así una visión integral que facilita el diseño de soluciones más empáticas, relevantes y alineadas con sus necesidades reales.
 
 **Segmento 1: Músicos Independientes** <br>
-<img src="/assets/musicosEmp.png" alt="Musicos" ></a> <br>
+
+<img width="1050" height="1060" alt="image" src="https://github.com/user-attachments/assets/4406cc9a-802d-4726-a0bd-f22039963d34" />
 
 **Segmento 2: Promotores** <br>
-<img src="/assets/musicosEmpathy.png" alt="Promotores" ></a> <br> 
+
+<img width="1050" height="1060" alt="image" src="https://github.com/user-attachments/assets/9ee1e2a5-0e4b-4c23-b5fe-5dd4b42d2400" />
 
 ####   2.3.5 Ubiquitous Language.
 A continuación se presenta un glosario con los términos centrales del dominio de la plataforma ** VibeStage **. Este vocabulario compartido garantiza que todas las partes involucradas (usuarios, desarrolladores, stakeholders) utilicen un lenguaje consistente y sin ambigüedades.
