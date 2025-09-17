@@ -345,3 +345,36 @@ Con el fin de comprender en mayor profundidad a nuestros usuarios clave, se dise
 
 ![Artista_user_persona](/assets/Artista%20Independiente.png)
 
+####   2.3.2 User Task Matrix.
+
+#### - Artista Independiente:
+
+| **Tareas** | **Frecuencia** | **Importancia** |
+|------------|----------------|-----------------|
+| Buscar y postularse a nuevos escenarios y eventos | Always | High |
+| Firmar contratos formales para presentaciones | Sometimes | High |
+| Coordinar fechas, pagos y ensayos desde una sola plataforma | Always | High |
+| Gestionar su agenda y compromisos artísticos | Always | High |
+| Promocionar sus eventos en redes sociales | Sometimes | Medium |
+| Crear y actualizar su perfil artístico profesional | Always | High |
+| Evaluar presentaciones y recibir feedback para mejorar | Sometimes | Medium |
+| Asegurar pagos mediante mecanismos confiables | Sometimes | High |
+| Crear contenido para mantener su visibilidad en redes | Sometimes | Medium |
+
+---
+
+#### - Administrador de Local:
+
+| **Tareas** | **Frecuencia** | **Importancia** |
+|------------|----------------|-----------------|
+| Publicar disponibilidad de fechas y espacios para eventos | Always | High |
+| Recibir y filtrar propuestas de artistas | Always | High |
+| Coordinar logística y ensayos de manera organizada | Sometimes | High |
+| Formalizar contratos y pagos a través de una plataforma | Sometimes | High |
+| Gestionar inventario técnico (sonido, luces, etc.) | Sometimes | Medium |
+| Evaluar artistas después de los eventos | Sometimes | Medium |
+| Promocionar eventos en redes sociales | Sometimes | Medium |
+| Controlar asistencia y recolectar feedback del público | Sometimes | Medium |
+| Automatizar tareas operativas para ahorrar tiempo | Always | High |
+
+
