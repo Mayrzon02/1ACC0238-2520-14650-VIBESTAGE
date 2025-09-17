@@ -1,6 +1,10 @@
 # **Capítulo I: Introducción**
 ## 1.1. Startup Profile
-En esta sección se encuentra la descripción de nuestra Startup
+El startup profile es una pieza clave para comprender de manera integral la naturaleza y la orientación estratégica de una empresa emergente. Este perfil no solo refleja su visión a futuro y los valores que la sustentan, sino que también facilita identificar con claridad la propuesta de valor que la distingue en el mercado.
+
+En este apartado se presentarán los elementos más representativos de la identidad de la startup, como su origen, las motivaciones que impulsaron su creación, el problema que busca resolver y cómo su enfoque innovador le otorga una ventaja frente a la competencia.
+
+Asimismo, se explorarán sus objetivos a mediano y largo plazo, junto con las estrategias que implementa para crecer y consolidarse en su sector. Comprender estos aspectos resulta fundamental para evaluar el potencial del startup profile y el impacto que puede generar en su entorno.
 ### 1.1.1. Descripción de la Startup
 
 VibeStage es una plataforma web innovadora que surge con el objetivo de conectar a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos, creando un espacio digital donde se facilita no solo la contratación directa, sino también la gestión integral de la disponibilidad de locales, la organización logística, la programación de presentaciones y la promoción musical en diferentes formatos. Los espacios pueden publicar de manera clara su disponibilidad indicando fechas, estilos musicales y ubicación, lo que permite que las bandas interesadas encuentren oportunidades acordes a su propuesta artística, postulen con facilidad, revisen posibles restricciones y agenden su participación sin intermediarios innecesarios. De igual manera, el sistema está equipado con funciones que agilizan el proceso profesional, como la generación y firma de contratos digitales, la administración de pagos seguros bajo la modalidad de escrow, la programación colaborativa en una agenda compartida y la promoción automatizada mediante la creación de entradas digitales que fortalecen la difusión de cada espectáculo. Cada presentación contempla un flujo de trabajo detallado que incluye la validación del rider técnico de la banda, el seguimiento en tiempo real de la agenda, el control de asistencia y una evaluación posterior al evento que permite mejorar futuras experiencias, garantizando así un ecosistema confiable, transparente y eficiente tanto para los artistas como para los organizadores, con el propósito de impulsar la escena musical independiente y acercar al público a nuevas propuestas artísticas.
@@ -9,6 +13,8 @@ VibeStage es una plataforma web innovadora que surge con el objetivo de conectar
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Rafael Alberto Cuya Villegas](/assets/rafael.jpg) | Me llamo Rafael Alberto Cuya Villegas, estudiante de la carrera de Ingeniería de Software; tengo conocimiento en los lenguajes HTML, CSS, Javascript, SQL, MongoDB ciberseguridad y Python. Me considero una persona responsable y que le gusta trabajar en equipo. |
+| ![Juan Paul Llamccaya Arone](/assets/juan.jpg) | Mi nombre es Juan Paul Llamccaya Arone, estoy cursando el sexto ciclo en la carrera de Ingeniería de Software. Cuento con conocimientos de desarrollo de Apps Web profundizando el dominio de lenguajes de Programción como python, C++, HTML y otros mas. Me considero una persona reponsable y me gusta trabajar en equipo. |
+
 
 ## 1.2. Solution Profile
 
@@ -43,7 +49,7 @@ VibeStage no solo conecta talento con oportunidades, sino que impulsa un cambio 
 
 ### 1.2.2 Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements
+El proceso Lean UX es una metodología ágil que transforma la manera de diseñar y construir productos digitales. En esta sección se analizarán los principios esenciales de Lean UX y la forma en que se incorporan dentro del ciclo de desarrollo. A través de la colaboración entre equipos multidisciplinarios, la iteración constante y la validación continua, veremos cómo este enfoque facilita la creación de productos centrados en el usuario de manera ágil, práctica y efectiva.
 
 ### 1.2.2.1 Lean UX Problem Statements  
 #### **VibeStage: Plataforma para la Contratación de Músicos Emergentes**
@@ -216,7 +222,7 @@ Para la elaboración de las siguientes declaraciones de hipótesis, se utilizó 
 
 #### 1.2.2.4. Lean UX Canvas
 El Lean UX Canvas es una herramienta  que permite a los equipos plasmar y visualizar de manera concisa los aspectos clave de su proyecto. En este punto, exploraremos cómo el Canvas facilita la colaboración y la alineación del equipo al definir claramente el problema, la solución propuesta, los usuarios y sus necesidades, así como las métricas de éxito.
-![Lean Ux Canvas](/assets/leanuxcanvas.png) 
+![Lean Ux Canvas](/assets/Lean%20UX%20Canvas%20(v2)%20(Community)%20(1).jpg) 
 
 ## 1.3. Segmentos objetivo.
 Los segmentos objetivo son grupos específicos de usuarios a los que se dirige un producto o servicio en particular.
