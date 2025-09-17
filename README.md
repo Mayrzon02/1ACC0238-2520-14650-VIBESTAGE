@@ -379,12 +379,21 @@ Con el fin de comprender en mayor profundidad a nuestros usuarios clave, se dise
 
 ####   2.3.3 User Journey Mapping.
 
-En esta sección, analizaremos el recorrido del usuario al utilizar nuestra plataforma VibeStage
+En esta sección, analizaremos el recorrido del usuario al utilizar nuestra App VibeStage
 
 **Segmento 1: Músicos Independientes** <br>
 <img src="/assets/musicosjourneymap.png" alt="Musicos" > <br>
 
 **Segmento 2: Promotores** <br>
 <img src="/assets/PromotoresJourneymap.png" alt="Promotores" > <br> 
+####   2.3.4 Empathy Mapping.
+
+En esta sección se expone el Empathy Mapping, una herramienta que permite construir un perfil más completo de los user personas y, con ello, desarrollar una comprensión profunda de su manera de pensar, actuar y relacionarse con su entorno. A través de este recurso, se busca representar no solo los comportamientos observables, sino también las percepciones y emociones que influyen en sus decisiones. Para cada user persona se analizan cinco dimensiones fundamentales: lo que el usuario ve, lo que escucha, lo que dice, lo que hace y lo que siente, ofreciendo así una visión integral que facilita el diseño de soluciones más empáticas, relevantes y alineadas con sus necesidades reales.
+
+**Segmento 1: Músicos Independientes** <br>
+<img src="/assets/musicosEmp.png" alt="Musicos" ></a> <br>
+
+**Segmento 2: Promotores** <br>
+<img src="/assets/musicosEmpathy.png" alt="Promotores" ></a> <br> 
 
 
