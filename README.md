@@ -175,12 +175,12 @@ Entrevistado #1
 
 | Campo                        | Información                                                                                                                           |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre del entrevistado** |                                                                                                                           |
-| **Edad**                    |                                                                                                                                |
-| **Screenshot de la entrevista**|                                                                                 |
-| **Link de la entrevista**   |                                                                                                                         |
-| **Tiempo de inicio y duración** |                 00:00 -                                                                    |                                                                                    |
-| **Resumen**                 |                                                                                                                     |
+| **Nombre del entrevistado** |                Eduardo Arenas                                                                                                           |
+| **Edad**                    |                         23 años                                                                                                       |
+| **Screenshot de la entrevista**|                         <img width="848" height="424" alt="Image" src="https://github.com/user-attachments/assets/5e3e5095-8b4b-41a9-9bbc-2d5bf115b840" />                                                        |
+| **Link de la entrevista**   |                   [Ver entrevista en Youtube](https://youtu.be/Pw7NdsG1w44)                                                                                                      |
+| **Tiempo de inicio y duración** |                 00:00 - 7:14                                                                  |                                                                                    |
+| **Resumen**                 |       Eduardo Arenas, un joven trabajador de un bar en San Isidro, nos comparte los desafíos que enfrenta en la gestión de los eventos del local. Señala que trabajan de jueves a domingo, y que cada día se desarrolla bajo una temática distinta, lo que implica una constante organización y adaptación. Además, Eduardo nos brinda su opinión acerca de lo que le gustaría encontrar en una aplicación móvil que lo apoye en su labor diaria. En particular, espera que esta herramienta le permita desempeñar su trabajo de manera más eficiente y sencilla, facilitando la coordinación de las actividades y mejorando la experiencia tanto del personal como de los clientes.                                                          |
 ----
 
 
