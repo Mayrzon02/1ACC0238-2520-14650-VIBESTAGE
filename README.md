@@ -190,13 +190,13 @@ Entrevistado #1
 
 | Campo                        | Información                                                                                                                           |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre del entrevistado**  |                                                                                                                       |
-| **Edad**                     |                                                                                                                                |
-| **Distrito**                 |                                                                                                                             |
-| **Screenshot de la entrevista** |                                  |
-| **Link de la entrevista**    |                                                                                                                     |
-| **Tiempo de inicio y duración** |                  0:00 -                                                                                                 |
-| **Resumen**                  |                                                                                                                     |
+| **Nombre del entrevistado**  |   Sebastian Rivera                                                                                                                    |
+| **Edad**                     |    23 años                                                                                                                            |
+| **Distrito**                 |         San Luis                                                                                                                    |
+| **Screenshot de la entrevista** |        <img width="995" height="468" alt="Image" src="https://github.com/user-attachments/assets/3c1b986c-711e-41f9-828b-2ac86873e4cb" />                          |
+| **Link de la entrevista**    |                    [Ver entrevista en Youtube](https://youtu.be/fFyIb1JSkuo)                                                                                                  |
+| **Tiempo de inicio y duración** |                  0:00 - 19:40                                                                                                  |
+| **Resumen**                  |   Sebastián Rivera es un joven cantante y estudiante de la carrera de Música, que además desarrolla su talento de manera profesional tanto en coros como en presentaciones como solista. Nos comparte los diversos desafíos que enfrenta en su día a día dentro del mundo del canto profesional, así como su perspectiva sobre el mercado y las oportunidades que este ofrece. Asimismo, señala algunas deficiencias que ha identificado en distintas situaciones relacionadas con su ámbito artístico y nos brinda valiosas sugerencias sobre las mejoras que le gustaría encontrar en nuestra aplicación móvil, con el fin de que esta se adapte mejor a las necesidades de músicos y cantantes como él.                       |
 
 ####   2.2.3 Análisis de entrevistas. 
 
