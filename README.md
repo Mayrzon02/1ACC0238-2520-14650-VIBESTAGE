@@ -36,6 +36,64 @@ VibeStage no solo conecta talento con oportunidades, sino que impulsa un cambio 
 | When?       | ¿Cuándo sucede el problema?                             | Este problema ocurre constantemente en el ecosistema musical. Cada vez que un artista intenta conseguir una presentación o un local necesita llenar su agenda musical, ambos enfrentan complicaciones por la falta de una herramienta centralizada y confiable. |
 | Where?      | ¿Dónde surge el problema?                               | El problema surge principalmente en contextos urbanos y zonas con alta actividad cultural donde hay una gran oferta de músicos pero pocos canales formales de contratación. Con VibeStage, se busca resolverlo desde cualquier lugar con conexión a internet. |
 | Why?        | ¿Cuál es la causa del problema?                         | El origen radica en la informalidad de la industria musical emergente, la falta de visibilidad para los artistas independientes, y la ausencia de una plataforma que profesionalice la gestión de eventos y presentaciones musicales en vivo. |
-| How?        | ¿Qué llevó a la persona a esta situación?               | Los músicos independientes suelen carecer de representación o contactos, mientras que los locales enfrentan incertidumbre sobre la calidad y responsabilidad de los artistas. Esta brecha impide relaciones sostenibles y eventos exitosos. VibeStage surge como solución digital que facilita la logística, contratación, pago seguro y retroalimentación para todas las partes. |                                                                                                                                                       | How Much?   | ¿Cuál es la cantidad, duración o intensidad del evento? | La plataforma apunta a atender un mercado activo en el que muchos espacios realizan entre 4 a 12 eventos mensuales, y existen decenas de miles de músicos que buscan espacios donde tocar. La falta de una solución como VibeStage representa una pérdida constante de oportunidades para ambos lados, así como eventos mal organizados y poco rentables. |                                                                                                                                                                                                                                                                                                                                                                                                      
+| How?        | ¿Qué llevó a la persona a esta situación?               | Los músicos independientes suelen carecer de representación o contactos, mientras que los locales enfrentan incertidumbre sobre la calidad y responsabilidad de los artistas. Esta brecha impide relaciones sostenibles y eventos exitosos. VibeStage surge como solución digital que facilita la logística, contratación, pago seguro y retroalimentación para todas las partes. |                                                                                                                                                       | How Much?   | ¿Cuál es la cantidad, duración o intensidad del evento? | La plataforma apunta a atender un mercado activo en el que muchos espacios realizan entre 4 a 12 eventos mensuales, y existen decenas de miles de músicos que buscan espacios donde tocar. La falta de una solución como VibeStage representa una pérdida constante de oportunidades para ambos lados, así como eventos mal organizados y poco rentables. |                                
+
+### 1.2.2 Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+### 1.2.2.1 Lean UX Problem Statements  
+#### **VibeStage: Plataforma para la Contratación de Músicos Emergentes**
+
+---
+
+#### **Descripción del Problema**
+
+En el competitivo mundo de la industria de eventos musicales, los **músicos emergentes** enfrentan grandes dificultades para acceder a oportunidades reales de contratación. La mayoría carece de visibilidad, redes de contacto y canales formales para conectar con **promotores de eventos** que buscan talento nuevo.  
+Por otro lado, los promotores suelen invertir demasiado tiempo en buscar músicos adecuados y muchas veces no tienen acceso a un **catálogo confiable y actualizado** de artistas.  
+Esta **desconexión** genera frustración, pérdida de oportunidades y procesos de contratación informales e ineficientes.
+
+🔗 [Informe IFPI sobre Industria Musical](https://www.ifpi.org/resources/)  
+🔗 [Estudio sobre Booking de Artistas Emergentes – Berklee Online](https://online.berklee.edu/)
+
+---
+
+#### **Solución Propuesta: VibeStage**
+
+** VibeStage ** es una **plataforma web** que permite a músicos emergentes y promotores de eventos conectar de manera fácil, segura y estructurada.  
+A través de la plataforma, los músicos pueden **postularse a eventos**, firmar **contratos digitales**, recibir **pagos seguros** y construir su **reputación artística**.  
+Simultáneamente, los promotores pueden encontrar talento filtrado por género, estilo o ubicación, revisar perfiles artísticos verificados y **gestionar todo el proceso de contratación y pago de forma automatizada**.
+
+🔗 [Sofar Sounds – Comunidad musical global](https://www.sofarsounds.com/)  
+🔗 [Gigmor – Plataforma de contratación de músicos](https://www.gigmor.com/)  
+🔗 [Stripe – Pagos seguros](https://stripe.com)  
+🔗 [DocuSign – Contratos digitales](https://www.docusign.com/)
+
+---
+
+#### **Contexto del Sector y Evidencia**
+
+Según el estudio “Banda Sonora del Mercado Latino”, el 74% de los músicos independientes en América Latina reporta **dificultades para conseguir espacios donde tocar**, y más del 60% afirma que ha trabajado sin contrato o sin pago asegurado.  
+🔗 [Fuente: Latin Music Business Report, 2022](https://www.latinmusicreport.com)
+
+Los promotores de eventos en ciudades como Lima, Bogotá o Buenos Aires indican que les toma en promedio entre 5 y 7 días concretar la contratación de un artista emergente, en parte por la **falta de plataformas confiables**.  
+🔗 [Estudio: Gestión de Eventos Independientes, Universidad de Palermo](https://fido.palermo.edu/)
+
+---
+
+#### **Objetivos Esperados con VibeStage **
+
+- **Reducir en un 40%** el tiempo promedio que toma encontrar y contratar músicos emergentes  
+  _(de 7 días a 3-4 días en promedio mediante contratación automatizada)_
+
+- **Aumentar en un 60%** la visibilidad de músicos independientes mediante perfiles públicos, reputación por estrellas y métricas de rendimiento
+
+- **Digitalizar el 100%** del proceso de contratación (registro, contrato, pago y evaluación)  
+  _(uso de Stripe + DocuSign + sistema de notificaciones)_
+
+- **Reducir en un 70% los casos de impago o incumplimiento**, gracias a los contratos digitales con pago seguro en escrow
+
+- **Consolidar una red activa de al menos 1.000 músicos verificados y 250 promotores en el primer año**
+
 
 
