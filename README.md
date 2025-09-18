@@ -918,25 +918,18 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 
 ###   2.5. Strategic-Level Domain-Driven Design.
 ####   2.5.1. EventStorming.
-**Segmento 1: Músicos Independientes** <br>
-
-![Image](https://github.com/user-attachments/assets/b98be728-9b7a-4928-bcdf-5750f8cef0d8)
-
-**Segmento 2: Promotores** <br>
-
-![Image](https://github.com/user-attachments/assets/00c2891e-1f33-4ce9-b551-4f6eda5fbbc0)
+En esta sección se presentará la aplicación de Event Storming como técnica de modelado colaborativo dentro del proyecto. El propósito es descubrir y visualizar los principales eventos de dominio, así como los actores, comandos, políticas y dependencias externas que interactúan entre sí. De esta manera, se logra una comprensión compartida del flujo del negocio y se sientan las bases para definir los bounded contexts y sus relaciones, permitiendo estructurar una arquitectura flexible y alineada con los objetivos del sistema.
 
 #####   2.5.1.1. Candidate Context Discovery.
-En esta sección el equipo, a partir del dominio modelado como EventStorm, explica y
-evidencia el proceso realizado para la sesión de Candidate Context Discovery, en la
-que se busca identificar los bounded contexts. Puede aplicar las técnicas de start-with-
-value (Identificar las partes core del dominio que tienen el mayor valor para el
-negocio), start-with-simple (Crear modelos simples, pero con propósito,
-descomponiendo el timeline en steps secuenciales), ó look-for-pivotal-events (Buscar
-eventos clave del negocio que indiquen cambios de estado entre diferentes partes del
-proceso de negocio). La sesión de Candidate Context Discovery no debería durar más
-de 2 horas. Utilice para el proceso la herramienta indicada. Complemente la
-explicación con capturas en imagen de los cambios progresivos del EventStorm.
+![Step1](/assets/candidate-step1.JPG)
+![Step2](/assets/candidate-step2.JPG)
+![Step3](/assets/candidate-step3.JPG)
+![Step4](/assets/candidate-step4.JPG)
+![Step5](/assets/candidate-step5.JPG)
+![Step6](/assets/candidate-step6.JPG)
+![Step7](/assets/candidate-step7.JPG)
+![Step8](/assets/candidate-step8.JPG)
+![Step9](/assets/candidate-step9.JPG)
 
 #####   2.5.1.2. Domain Message Flows Modeling.
 En esta sección, el equipo explica y evidencia el proceso seguido para visualizar cómo
