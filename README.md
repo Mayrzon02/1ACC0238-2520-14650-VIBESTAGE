@@ -460,14 +460,603 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 ###   2.4. Requirements Specification.
 ####   2.4.1 User Stories.
 
-| Epic ID | Título                                         | Descripción |
-|---------|------------------------------------------------|-------------|
-| EPIC-01 | Construcción de la landing page                | Página inicial pública con información clara sobre VibeStage, sus beneficios, funcionalidades principales y llamado a la acción para captar usuarios. |
+| Epic ID  | Título                                    | Descripción |
+|----------|-------------------------------------------|-------------|
+| EPIC-01  | Construcción de la landing page           | Página inicial pública con información clara sobre Vibestage, sus beneficios, funcionalidades principales y llamado a la acción para captar usuarios. |
+| EPIC-02  | Implementación responsive y visual        | Adaptación del diseño de la landing a todos los dispositivos y aplicación del Web Style Guide con identidad gráfica coherente. |
+| EPIC-03  | Versiones multilenguaje y accesibilidad   | Inclusión de una versión en inglés y adecuación de la landing a criterios básicos de accesibilidad web. |
+| EPIC-04  | Captura de interés y contacto             | Inclusión de botones de registro, sección de contacto funcional y otras herramientas para convertir visitantes en usuarios. |
+| EPIC-05  | Registro y login como artista             | Creación de formulario de registro e inicio de sesión para artistas, con validación, recuperación de contraseña y redirección al dashboard. |
+| EPIC-06  | Dashboard y navegación del artista        | Construcción del home privado del artista, con acceso rápido a perfil, eventos, postulaciones, agenda, pagos y evaluaciones. |
+| EPIC-07  | Exploración de eventos y postulación      | Implementación del sistema de búsqueda de espacios/eventos y postulación automática con filtros por afinidad musical. |
+| EPIC-08  | Perfil del artista                        | Creación, edición y visualización de perfil artístico incluyendo biografía, estilo musical, links multimedia y evaluaciones previas. |
+| EPIC-09  | Contratos digitales y rider técnico       | Generación automática de contratos, firma digital integrada y flujo para subir, validar y coordinar logística técnica del show. |
+| EPIC-10  | Sistema de pagos para artistas            | Gestión de pagos pendientes, pagos liberados vía escrow y visualización de historial económico. |
+| EPIC-11  | Evaluación y reputación del artista       | Implementación de evaluaciones post evento hacia locales, visualización de reputación acumulada en el perfil del artista. |
+| EPIC-12  | Registro y login como promotor/local      | Registro y acceso de administradores de espacios, con login, recuperación de contraseña y asignación automática de rol. |
+| EPIC-13  | Dashboard del promotor/local              | Creación del home privado del local con vista rápida de shows agendados, publicaciones activas, agenda, contratos, pagos y evaluaciones. |
+| EPIC-14  | Publicación y gestión de eventos          | Sistema de publicación de fechas, condiciones, restricciones técnicas y tipos de música aceptada. |
+| EPIC-15  | Gestión de postulaciones e invitaciones   | Revisión de postulaciones recibidas, filtrado de bandas y opción para invitar a postular. |
+| EPIC-16  | Contratos, validaciones y coordinación logística | Validación del rider técnico, firma digital del contrato y coordinación de pruebas de sonido. |
+| EPIC-17  | Pagos y confirmación de shows             | Validación del show completado y activación del pago a artista a través del sistema escrow. |
+| EPIC-18  | Evaluación de bandas y reputación         | Evaluación de las bandas post evento, con sistema de puntuación y visibilidad futura en el perfil del artista. |
+| EPIC-19  | Implementación del formulario de contacto | Crear una sección "Contáctanos" en la landing page, que permita a los visitantes enviar consultas o dudas mediante un formulario de contacto con botón de envío claro y funcional. |
+| EPIC-20  | Implementación de la sección de testimonios | Crear una sección de testimonios en la landing page que permita visualizar opiniones de artistas y promotores con nombre, rol y reseña breve de su experiencia. |
+| EPIC-21  | Gestión de agenda y eventos confirmados   | Implementación de una vista de agenda con formato semanal que permita al artista organizar eventos confirmados, visualizar estados de pago/contrato y acceder a los detalles. |
+| EPIC-22  | Vista rápida y resumen de actividades     | Crear módulos visuales dentro del dashboard que resuman actividades relevantes del artista, como próximos eventos y pagos pendientes. |
+| EPIC-23  | Seguimiento de reservas activas           | Permitir al artista visualizar reservas confirmadas y acceder al detalle de cada una, incluyendo condiciones técnicas y contacto con el promotor. |
 
-| ID   | Título                                                   | Descripción                                                                                                                                      | Criterios de aceptación | EpicID |
-|------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|--------|
-| US01 | Visualización clara del propósito de la plataforma | Como visitante de ambos segmentos, quiero entender rápidamente qué es TocaAquí y cómo funciona, para saber si es relevante para mí como artista o local. | **Escenario 1: Información destacada en el home**<br>**Dado** que el visitante de ambos segmentos accede a la página principal<br>**Cuando** visualiza el encabezado principal y descripción<br>**Entonces** debe comprender claramente qué es la plataforma y qué roles pueden usarla. | EPIC-01 |
 
+
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US01     | Visitante (Artista o Local) | Alta     | EPIC-01 |
+
+| Title | Visualización clara del propósito de la plataforma |
+|-------|----------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos, quiero entender rápidamente qué es Vibestage y cómo funciona, para saber si es relevante para mí como artista o local. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante accede a la página principal<br>When visualiza el encabezado principal y la descripción<br>Then comprende claramente qué es la plataforma y qué roles pueden usarla. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US02     | Visitante (Artista o Local) | Alta     | EPIC-01 |
+
+| Title | Navegación fluida entre secciones informativas |
+|-------|------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos, quiero navegar entre secciones como "Sobre Nosotros" o "Planes" desde el menú principal, para explorar fácilmente la solución. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante está en cualquier parte de la landing<br>When selecciona un ítem del menú<br>Then la página se desplaza automáticamente a la sección correspondiente sin recargar.<br><br>**Escenario 2**<br>Given que el visitante hace clic en un ítem<br>When selecciona una sección<br>Then la página realiza un scroll automático y suave hacia dicha sección. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US03     | Visitante (Artista o Local) | Alta     | EPIC-02 |
+
+| Title | Visualización adecuada en móviles y pantallas pequeñas |
+|-------|-------------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos, quiero que el sitio se adapte bien a mi celular o tablet, para tener una experiencia óptima sin importar el dispositivo. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante accede desde un dispositivo móvil<br>When navega por la landing<br>Then los elementos se reorganizan para visualización óptima.<br><br>**Escenario 2**<br>Given que el visitante interactúa con elementos táctiles<br>When selecciona botones o menús<br>Then responden correctamente y permanecen accesibles sin errores de visualización. |
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US04     | Visitante (Artista o Local) | Media    | EPIC-03 |
+
+| Title | Acceso a la versión en inglés del sitio |
+|-------|-----------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de los segmentos, quiero ver la página en inglés, para comprender toda la información sin barreras de idioma. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante extranjero selecciona el idioma inglés<br>When actualiza el contenido<br>Then todo el texto de la página se muestra correctamente en inglés. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US05     | Visitante (Artista o Local) | Alta     | EPIC-04 |
+
+| Title | Envío de un mensaje a través del formulario de contacto |
+|-------|--------------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos con dudas, quiero enviar un mensaje desde el formulario de contacto, para comunicarme fácilmente con el equipo de Vibestage. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante completa todos los campos requeridos<br>When envía el formulario<br>Then el sistema confirma que el mensaje fue enviado correctamente.<br><br>**Escenario 2**<br>Given que el visitante omite un campo obligatorio<br>When intenta enviar el formulario<br>Then el sistema muestra un mensaje indicando que debe completarlo. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US06     | Visitante (Artista o Local) | Alta     | EPIC-04 |
+
+| Title | Selección del tipo de usuario desde la landing |
+|-------|------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos interesado, quiero seleccionar si soy artista o promotor desde la landing, para empezar mi registro de forma adecuada. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante está en la sección principal<br>When selecciona “Soy artista” o “Soy local”<br>Then es redirigido al flujo de registro correspondiente.<br><br>**Escenario 2**<br>Given que el visitante selecciona un rol<br>When continúa navegando<br>Then las secciones y botones se muestran personalizados según el rol elegido. |
+
+
+| Story ID | User              | Priority | Epic    |
+|----------|-------------------|----------|---------|
+| US07     | Visitante Artista | Alta     | EPIC-05 |
+
+| Title | Registro como artista en la plataforma |
+|-------|----------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante del segmento Artista nuevo, quiero registrarme en Vibestage seleccionando mi rol, para poder acceder a mi panel personalizado. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante del segmento Artista accede al formulario de registro<br>When completa sus datos y selecciona “Artista”<br>Then se crea una cuenta con acceso directo al dashboard de artista. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US08     | Artista registrado | Alta   | EPIC-06 |
+
+| Title | Acceso al dashboard personalizado de artista |
+|-------|---------------------------------------------|
+
+| Description |
+|-------------|
+| Como usuario del segmento Artista registrado, quiero ingresar a un panel con herramientas específicas para músicos, para gestionar mis eventos y perfil fácilmente. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista ha iniciado sesión<br>When accede a la plataforma<br>Then visualiza un dashboard con módulos como perfil, postulaciones, agenda y pagos. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US09     | Artista registrado | Alta   | EPIC-07 |
+
+| Title | Búsqueda de eventos compatibles con mi perfil |
+|-------|----------------------------------------------|
+
+| Description |
+|-------------|
+| Como usuario del segmento Artista, quiero ver eventos recomendados según mi género musical y ubicación, para postular solo a los que se alinean con mi estilo. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista accede a “Eventos recomendados”<br>When consulta la sección en su dashboard<br>Then visualiza tarjetas de eventos filtradas por afinidad musical, localización y disponibilidad. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US10     | Artista registrado | Alta   | EPIC-07 |
+
+| Title | Postulación rápida a un evento desde la plataforma |
+|-------|---------------------------------------------------|
+
+| Description |
+|-------------|
+| Como usuario del segmento Artista, quiero postularme a un evento en pocos pasos, para agilizar mi proceso de presentación. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista encuentra un evento que le interesa<br>When selecciona “Postular”<br>Then la solicitud se envía automáticamente al local con su perfil adjunto.<br><br>**Escenario 2**<br>Given que el artista se postula a un evento<br>When la postulación se completa<br>Then recibe una confirmación visible de que fue exitosa. |
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US11     | Artista registrado | Alta   | EPIC-08 |
+
+| Title | Gestión y edición de mi perfil artístico |
+|-------|------------------------------------------|
+
+| Description |
+|-------------|
+| Como usuario del segmento Artista, quiero crear y editar mi perfil con biografía, estilo musical y contenido multimedia, para mostrarme profesionalmente a los locales. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista accede a “Mi perfil”<br>When edita biografía, redes sociales o sube contenido multimedia<br>Then los cambios se guardan y son visibles en su perfil público. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US12     | Artista confirmado | Alta   | EPIC-09 |
+
+| Title | Subida y validación del rider técnico |
+|-------|---------------------------------------|
+
+| Description |
+|-------------|
+| Como artista confirmado para un show, quiero subir mi rider técnico, para que el promotor lo revise y apruebe antes del evento. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista tiene un show confirmado<br>When accede a la sección de logística<br>Then puede subir un archivo con sus requerimientos técnicos visible para el promotor. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US13     | Artista registrado | Alta   | EPIC-10 |
+
+| Title | Visualización de pagos recibidos y pendientes |
+|-------|-----------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista, quiero revisar mis pagos pendientes, liberados y el historial de ingresos, para tener control sobre mis ganancias. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista accede a “Pagos”<br>When consulta la sección<br>Then visualiza pagos realizados, pendientes y montos de cada evento.<br><br>**Escenario 2**<br>Given que el artista revisa sus pagos<br>When selecciona la opción exportar<br>Then descarga un reporte con su historial. |
+
+
+| Story ID | User                  | Priority | Epic    |
+|----------|-----------------------|----------|---------|
+| US14     | Promotor/Local nuevo  | Alta     | EPIC-12 |
+
+| Title | Registro como administrador de local |
+|-------|--------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante del segmento Promotor/Local de un espacio, quiero registrarme en la plataforma con mi rol, para acceder a herramientas de publicación y gestión de eventos. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante del segmento Local accede al registro<br>When completa sus datos y selecciona “Promotor / Local”<br>Then se crea su cuenta con acceso al dashboard de local. |
+
+
+| Story ID | User                  | Priority | Epic    |
+|----------|-----------------------|----------|---------|
+| US15     | Promotor/Local        | Alta     | EPIC-13 |
+
+| Title | Acceso al dashboard del local |
+|-------|-------------------------------|
+
+| Description |
+|-------------|
+| Como usuario del segmento Promotor/Local, quiero visualizar un panel con mis shows, publicaciones y herramientas clave, para organizar fácilmente mis eventos. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el promotor inicia sesión en su cuenta<br>When accede a la plataforma<br>Then visualiza un dashboard con secciones como eventos agendados, publicar show, agenda y evaluaciones. |
+
+| Story ID | User                  | Priority | Epic    |
+|----------|-----------------------|----------|---------|
+| US16     | Promotor/Local        | Alta     | EPIC-14 |
+
+| Title | Publicación de eventos musicales |
+|-------|----------------------------------|
+
+| Description |
+|-------------|
+| Como usuario del segmento Promotor/Local, quiero publicar fechas disponibles con condiciones específicas, para recibir postulaciones de bandas que cumplan mis criterios. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el promotor accede a “Publicar evento”<br>When completa los datos requeridos (fecha, género musical, ubicación, requisitos técnicos)<br>Then el evento queda publicado y visible para artistas compatibles. |
+
+
+| Story ID | User                  | Priority | Epic    |
+|----------|-----------------------|----------|---------|
+| US17     | Promotor/Local        | Alta     | EPIC-15 |
+
+| Title | Revisión de postulaciones y selección de artista |
+|-------|--------------------------------------------------|
+
+| Description |
+|-------------|
+| Como usuario del segmento Promotor/Local, quiero ver las postulaciones recibidas y elegir la mejor opción, para asegurar un show alineado a mi público. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que existen postulaciones en
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US21     | Visitante (Artista o Local) | Alta     | EPIC-01 |
+
+| Title | Visualización de planes para artistas y promotores/locales |
+|-------|------------------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos, quiero ver claramente los diferentes planes disponibles para artistas y promotores/locales, para decidir cuál se adapta mejor a mis necesidades. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante accede a la sección “Planes”<br>When consulta la página<br>Then visualiza claramente las diferencias entre los planes Básico, Medio y Premium para cada tipo de usuario. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US22     | Visitante (Artista o Local) | Alta     | EPIC-04 |
+
+| Title | Acceso rápido a registro desde botones CTA |
+|-------|--------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos interesado, quiero encontrar botones claros para registrarme como artista o como local, para comenzar a usar la plataforma con un clic. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante está en la sección principal de la landing<br>When visualiza los botones “Soy artista” o “Soy local”<br>Then puede hacer clic y ser redirigido al formulario de registro correspondiente. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US23     | Visitante (Artista o Local) | Media    | EPIC-02 |
+
+| Title | Navegación accesible desde menú fijo |
+|-------|--------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos, quiero contar con un menú que permanezca visible mientras navego, para poder acceder fácilmente a cualquier sección de la página. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante hace scroll en la landing<br>When se desplaza hacia abajo<br>Then el menú de navegación permanece visible en la parte superior de la pantalla. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US24     | Visitante (Artista o Local) | Baja     | EPIC-01 |
+
+| Title | Visualización del equipo de desarrollo en la landing |
+|-------|------------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos curioso, quiero conocer al equipo de personas que desarrolla Vibestage, para sentir mayor confianza en la solución. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante accede a la sección “Nuestro equipo”<br>When navega por ella<br>Then visualiza tarjetas con nombre, rol e imagen de cada desarrollador. |
+
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US25     | Visitante (Artista o Local) | Media    | EPIC-20 |
+
+| Title | Visualización de testimonios de usuarios |
+|-------|------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos, quiero ver testimonios de artistas y promotores en la landing, para generar confianza en la calidad y efectividad de la plataforma. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante accede a la sección de testimonios<br>When navega por esa parte de la landing<br>Then visualiza opiniones de usuarios reales con nombre, rol (artista o promotor) y una reseña de su experiencia. |
+
+| Story ID | User                        | Priority | Epic    |
+|----------|-----------------------------|----------|---------|
+| US26     | Visitante (Artista o Local) | Media    | EPIC-06 |
+
+| Title | Botón de Call to Action "Enviar" en la sección de "Contáctanos" |
+|-------|----------------------------------------------------------------|
+
+| Description |
+|-------------|
+| Como visitante de ambos segmentos, quiero ver el botón de "Enviar" en la sección "Contáctanos", para poder enviar mis dudas o consultas directamente a la plataforma. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el visitante está en la sección "Contáctanos"<br>When visualiza el formulario<br>Then observa un botón claramente etiquetado como "Enviar".<br><br>**Escenario 2**<br>Given que el visitante completa todos los campos requeridos<br>When hace clic en el botón "Enviar"<br>Then el formulario se envía correctamente y muestra un mensaje de confirmación. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US27     | Artista registrado | Alta   | EPIC-22 |
+
+| Title | Visualización de próximos eventos agendados |
+|-------|---------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista registrado, quiero ver un resumen de mis próximos eventos desde el panel principal, para tener claridad de mi agenda sin tener que navegar a otras secciones. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista tiene eventos agendados<br>When accede al dashboard<br>Then visualiza una tarjeta con los próximos eventos, incluyendo fecha, lugar y estado.<br><br>**Escenario 2**<br>Given que el artista no tiene eventos próximos<br>When accede al dashboard<br>Then visualiza un mensaje indicando que no tiene eventos próximos. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US28     | Artista registrado | Alta   | EPIC-06 |
+
+| Title | Visualización de pagos pendientes desde el dashboard |
+|-------|------------------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista registrado, quiero ver de forma inmediata si tengo pagos pendientes, para gestionar mejor mis ingresos. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista tiene eventos realizados con pagos pendientes<br>When consulta el dashboard<br>Then visualiza el monto y estado de dichos pagos.<br><br>**Escenario 2**<br>Given que un pago está atrasado<br>When el artista revisa la sección de pagos<br>Then el sistema muestra una alerta visual indicando que hay un pago vencido. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US29     | Artista registrado | Media  | EPIC-06 |
+
+| Title | Acceso rápido a calificaciones recibidas |
+|-------|------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista registrado, quiero ver mis calificaciones directamente desde el panel, para conocer cómo me evalúan los locales. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista tiene evaluaciones<br>When accede al dashboard<br>Then visualiza su calificación promedio y número de evaluaciones.<br><br>**Escenario 2**<br>Given que el artista quiere detalles de las evaluaciones<br>When selecciona el módulo de calificación<br>Then accede al listado con comentarios y valoraciones por evento. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US30     | Artista registrado | Alta   | EPIC-23 |
+
+| Title | Visualización de reservas confirmadas |
+|-------|---------------------------------------|
+
+| Description |
+|-------------|
+| Como artista registrado, quiero saber si tengo reservas activas con locales, para prepararme adecuadamente para mis presentaciones. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista tiene reservas confirmadas<br>When accede al dashboard<br>Then visualiza un resumen de las reservas activas.<br><br>**Escenario 2**<br>Given que el artista tiene reservas<br>When selecciona la tarjeta de “Reservas”<br>Then accede al detalle completo de la reserva, incluyendo condiciones técnicas y datos de contacto del promotor. |
+
+| Story ID | User       | Priority | Epic    |
+|----------|------------|----------|---------|
+| US31     | Nuevo usuario | Alta  | EPIC-05 |
+
+| Title | Registro de usuario con selección de rol |
+|-------|------------------------------------------|
+
+| Description |
+|-------------|
+| Como nuevo visitante, quiero registrarme eligiendo si soy músico/banda o promotor/espacio, para que la plataforma me dirija al flujo adecuado. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el usuario accede a la pantalla de registro<br>When selecciona su rol y completa los campos<br>Then se crea su cuenta y se le redirige al dashboard correspondiente.<br><br>**Escenario 2**<br>Given que el usuario intenta registrarse sin elegir un rol<br>When hace clic en "Registrarse"<br>Then el sistema muestra un mensaje indicando que debe seleccionar un rol. |
+
+
+| Story ID | User             | Priority | Epic    |
+|----------|------------------|----------|---------|
+| US32     | Usuario registrado | Alta   | EPIC-05 |
+
+| Title | Inicio de sesión para usuarios registrados |
+|-------|--------------------------------------------|
+
+| Description |
+|-------------|
+| Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder a mi panel y funcionalidades personalizadas. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el usuario ya tiene una cuenta registrada<br>When ingresa correo y contraseña correctos<br>Then accede a su panel según su rol.<br><br>**Escenario 2**<br>Given que el usuario introduce credenciales incorrectas<br>When intenta iniciar sesión<br>Then el sistema muestra un mensaje de error indicando revisar credenciales. |
+
+
+| Story ID | User   | Priority | Epic    |
+|----------|--------|----------|---------|
+| US33     | Artista | Alta    | EPIC-10 |
+
+| Title | Visualización de pagos recibidos y pendientes |
+|-------|-----------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista, quiero visualizar mis pagos recibidos y pendientes, para hacer seguimiento de mis ingresos por eventos. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista accede a “Pagos Recibidos”<br>When la página carga<br>Then observa una tabla con listado de pagos (evento, monto, estado, fecha).<br><br>**Escenario 2**<br>Given que el artista consulta un pago específico<br>When selecciona la acción de detalle<br>Then visualiza información completa (evento, monto, método, banco, cuenta y estado).<br><br>**Escenario 3**<br>Given que el artista observa el estado de los pagos<br>When revisa la tabla<br>Then identifica fácilmente pagos “Pendiente”, “Retenido” o “Completado” con etiquetas visuales diferenciadas. |
+
+
+| Story ID | User   | Priority | Epic    |
+|----------|--------|----------|---------|
+| US34     | Artista | Alta    | EPIC-21 |
+
+| Title | Visualización de agenda de eventos |
+|-------|------------------------------------|
+
+| Description |
+|-------------|
+| Como artista, quiero visualizar mis eventos confirmados en una agenda, para organizar mis fechas y acceder fácilmente a los detalles. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista accede a “Agenda”<br>When se carga la vista<br>Then observa un calendario en formato semanal con eventos confirmados.<br><br>**Escenario 2**<br>Given que el artista tiene eventos confirmados<br>When revisa la agenda<br>Then visualiza nombre, fecha, hora, lugar y estado del contrato y pago.<br><br>**Escenario 3**<br>Given que los eventos tienen estados asociados<br>When se muestran los detalles<br>Then aparecen etiquetas como “Contrato firmado” o “Pago 50%” de forma clara. |
+
+
+| Story ID | User   | Priority | Epic    |
+|----------|--------|----------|---------|
+| US35     | Artista | Media   | EPIC-11 |
+
+| Title | Confirmación visual del estado del contrato |
+|-------|---------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista, quiero visualizar fácilmente si un contrato fue firmado por ambas partes, para estar seguro del compromiso. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el artista tiene un contrato pendiente o firmado<br>When accede a su panel<br>Then observa una tarjeta con el estado actual (“Pendiente”, “Firmado por ambos”).<br><br>**Escenario 2**<br>Given que el artista quiere consultar el contrato<br>When selecciona el enlace<br>Then accede directamente al documento del contrato. |
+
+| Story ID | User   | Priority | Epic    |
+|----------|--------|----------|---------|
+| US36     | Artista | Media   | EPIC-15 |
+
+| Title | Visualización de validación de rider técnico |
+|-------|----------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista, quiero saber si mi rider técnico fue validado por el promotor, para confirmar la logística del show. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el rider fue aprobado o rechazado<br>When el artista accede al dashboard<br>Then observa una tarjeta con el estado (“Aprobado” o “Rechazado”) y la fecha.<br><br>**Escenario 2**<br>Given que el contrato tiene un rider asociado<br>When el artista selecciona el enlace<br>Then accede al archivo subido. |
+
+
+| Story ID | User   | Priority | Epic    |
+|----------|--------|----------|---------|
+| US37     | Artista | Alta    | EPIC-10 |
+
+| Title | Indicador de pago liberado en el evento |
+|-------|-----------------------------------------|
+
+| Description |
+|-------------|
+| Como artista, quiero saber que el evento ya fue confirmado como realizado, para validar que el pago se liberó. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el evento fue confirmado como realizado<br>When el artista consulta los detalles<br>Then observa el estado “Pago liberado” o “Pago en revisión”.<br><br>**Escenario 2**<br>Given que el pago fue exitoso<br>When el artista accede a la sección de comprobantes<br>Then puede descargar el comprobante correspondiente. |
+
+
+| Story ID | User   | Priority | Epic    |
+|----------|--------|----------|---------|
+| US38     | Artista | Media   | EPIC-11 |
+
+| Title | Acceso directo al contrato desde el evento |
+|-------|--------------------------------------------|
+
+| Description |
+|-------------|
+| Como artista, quiero acceder directamente al contrato firmado desde la ficha del evento, para consultar sus condiciones. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el evento tiene un contrato firmado<br>When el artista accede a la ficha del evento<br>Then observa un botón “Ver contrato”.<br><br>**Escenario 2**<br>Given que el contrato ya está firmado<br>When el artista selecciona el botón “Ver contrato”<br>Then el documento se abre en formato PDF o se descarga. |
+
+
+| Story ID | User     | Priority | Epic    |
+|----------|----------|----------|---------|
+| US39     | Promotor | Media   | EPIC-09 |
+
+| Title | Edición del perfil del promotor |
+|-------|---------------------------------|
+
+| Description |
+|-------------|
+| Como promotor, quiero editar mi perfil con la información de mi local, para mantener mis datos actualizados y visibles para los artistas. |
+
+| Acceptance Criteria |
+|---------------------|
+| **Escenario 1**<br>Given que el promotor accede a la sección de perfil<br>When modifica datos como nombre del local, ciudad o descripción<br>Then los cambios se guardan correctamente.<br><br>**Escenario 2**<br>Given que el promotor intenta guardar el formulario sin completar campos obligatorios<br>When hace clic en guardar<br>Then el sistema muestra un mensaje de error indicando los campos faltantes. |
 
 
 ####   2.4.2 Impact Mapping.
