@@ -489,21 +489,13 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 
 
 
-
 | Story ID | User                        | Priority | Epic    |
 |----------|-----------------------------|----------|---------|
 | US01     | Visitante (Artista o Local) | Alta     | EPIC-01 |
+| **Title** | Visualización clara del propósito de la plataforma | | |
+| **Description** | Como visitante de ambos segmentos, quiero entender rápidamente qué es Vibestage y cómo funciona, para saber si es relevante para mí como artista o local. | | |
+| **Acceptance Criteria** | **Escenario 1**<br>Given que el visitante accede a la página principal<br>When visualiza el encabezado principal y la descripción<br>Then comprende claramente qué es la plataforma y qué roles pueden usarla. | | |
 
-| Title | Visualización clara del propósito de la plataforma |
-|-------|----------------------------------------------------|
-
-| Description |
-|-------------|
-| Como visitante de ambos segmentos, quiero entender rápidamente qué es Vibestage y cómo funciona, para saber si es relevante para mí como artista o local. |
-
-| Acceptance Criteria |
-|---------------------|
-| **Escenario 1**<br>Given que el visitante accede a la página principal<br>When visualiza el encabezado principal y la descripción<br>Then comprende claramente qué es la plataforma y qué roles pueden usarla. |
 
 
 | Story ID | User                        | Priority | Epic    |
