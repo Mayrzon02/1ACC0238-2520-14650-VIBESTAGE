@@ -1051,6 +1051,8 @@ En esta sección se presentará la aplicación de Event Storming como técnica d
 ![Step8](/assets/candidate-step8.JPG)
 ![Step9](/assets/candidate-step9.JPG)
 
+Link: [Candidate Context Discovery](https://miro.com/app/board/uXjVJG4rmNc=/?share_link_id=748212961655)
+
 #####   2.5.1.2. Domain Message Flows Modeling.
 ![Flow1](/assets/flow-1.JPG)
 ![Flow2](/assets/flow-2.JPG)
@@ -1058,6 +1060,7 @@ En esta sección se presentará la aplicación de Event Storming como técnica d
 ![Flow4](/assets/flow-4.JPG)
 ![Flow5](/assets/flow-5.JPG)
 
+Link: [Domain Message Flows Modeling](https://miro.com/app/board/uXjVJG4rmNc=/?share_link_id=748212961655)
 
 #####   2.5.1.3. Bounded Context Canvases.
 ![Canva1](/assets/bound-canva-1.JPG)
