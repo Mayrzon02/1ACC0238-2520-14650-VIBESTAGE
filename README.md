@@ -1427,68 +1427,6 @@ Evaluations centraliza la retroalimentación de eventos y artistas. Se integra c
 
 <img width="3070" height="3500" alt="Image" src="/assets/Deployment.png" />
 
-###   2.6. Tactical-Level Domain-Driven Design
-####   2.6.x. Bounded Context: <Bounded Context Name>
-En esta sección, para cada uno de los productos, el equipo presenta las clases
-identificadas y las detalla a manera de diccionario, explicando para cada una su
-nombre, propósito y la documentación de atributos y métodos considerados, junto
-con las relaciones entre ellas.
-
-#####   2.6.x.1. Domain Layer
-
-En esta capa el equipo explica por medio de qué clases representará el core de la
-aplicación y las reglas de negocio que pertenecen al dominio para el bounded context.
-Aquí el equipo presenta clases de categorías como Entities, Value Objects, Aggregates,
-Factories, Domain Services, o abstracciones representadas por interfaces como en el
-caso de Repositories.
-
-#####   2.6.x.2. Interface Layer
-En esta sección el equipo introduce, presenta y explica las clases que forman parte de
-Interface/Presentation Layer, como clases del tipo Controllers o Consumers.
-
-#####   2.6.x.3. Application Layer
-En esta sección el equipo explica a través de qué clases se maneja los flujos de
-procesos del negocio. En esta sección debe evidenciarse que se considera los
-capabilities de la aplicación en relación al bounded context. Aquí debe considerarse
-clases del tipo Command Handlers e Event Handlers.
-
-#####   2.6.x.4. Infrastructure Layer
-En esta capa el equipo presenta aquellas clases que acceden a servicios externos como
-databases, messaging systems o email services. Es en esta capa que se ubica la
-implementación de Repositories para las interfaces definidas en Domain Layer. Algo
-similar ocurre con interfaces definidas para MessageBrokers.
-
-#####   2.6.x.5. Bounded Context Software Architecture Component Level Diagrams.
-En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model
-para cada uno de los Containers considerados para el bounded context. En estos
-diagramas el equipo busca reflejar la descomposición de cada Container para
-identificar los bloques estructurales principales y sus interacciones. Un Component
-Diagram debe mostrar cómo un container está conformado por components, qué son
-cada uno de dichos components, sus responsabilidades y los detalles de
-implementación/tecnología. Utilice la herramienta indicada para la elaboración del
-diagrama.
-
-#####   2.6.x.6. Bounded Context Software Architecture Code Level Diagrams.
-
-######   2.6.x.6.1. Bounded Context Domain Layer Class Diagrams.
-En esta sección el equipo presenta el Class Diagram de UML para las clases del Domain
-Layer en el bounded context. El nivel de detalle debe incluir además de las clases,
-interfaces, enumeraciones y sus relaciones, los miembros para cada clase, incluyendo
-atributos, métodos y el scope en cada caso (private, public, protected). Las relaciones
-deben incluir la calificación con nombres, la dirección (cuando aplica) y la
-multiplicidad. Utilice para la elaboración del diagrama la herramienta indicada.
-
-######   2.6.x.6.1. Bounded Context Database Design Diagram.
-Bounded Context Database Diagram
-En esta sección el equipo presenta y explica para cada producto donde se implementa
-el bounded context, el Database Diagram que incluye los objetos de base de datos que
-permitirán la persistencia de información para los objetos del bounded context. Para
-el caso de un almacenamiento en base de datos relacional, aquí debe especificarse
-tablas, columnas, constraints (por ejemplo, primary, foreign key) y evidenciarse las
-relaciones entre tablas. Utilice para la elaboración del diagrama la herramienta
-indicada.
-
-
 ## Conclusiones
 Actualización constante:
 Durante el desarrollo de VibeStage nos dimos cuenta de la importancia de mantenernos actualizados en las herramientas y metodologías que usamos. La tecnología cambia muy rápido, y para poder responder a las necesidades del proyecto fue necesario reforzar conocimientos previos y aprender nuevas prácticas que hicieron más eficiente el proceso.
