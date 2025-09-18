@@ -940,13 +940,11 @@ En esta sección se presentará la aplicación de Event Storming como técnica d
 
 
 #####   2.5.1.3. Bounded Context Canvases.
-En esta sección el equipo diseña sus candidate bounded contexts, detallando los
-criterios de diseño. El equipo debe ir seleccionando cada bounded context, por orden
-de importancia, para elaborar su Bounded Context Canvas. La elaboración del
-Bounded Context Canvas debe seguir un proceso iterativo con los pasos de Context
-Overview Definition, Business Rules Distillation & Ubiquitous Language Capture,
-Capability Analysis, Capability Layering (si aplica), Dependencies Capture, y Design
-Critique.
+![Canva1](/assets/bound-canva-1.JPG)
+![Canva2](/assets/bound-canva-2.JPG)
+![Canva3](/assets/bound-canva-3.JPG)
+![Canva4](/assets/bound-canva-4.JPG)
+![Canva5](/assets/bound-canva-5.JPG)
 
 ####   2.5.2. Context Mapping.
 En esta sección el equipo explica y evidencia el proceso de elaboración de un conjunto
