@@ -898,7 +898,82 @@ A continuación se presenta un glosario con los términos centrales del dominio 
   <tr><td colspan="4"><b>Escenario 1</b><br>Given que el evento tiene un contrato firmado<br>When accede a la ficha del evento<br>Then observa un botón “Ver contrato”.<br><br><b>Escenario 2</b><br>Given que selecciona el botón “Ver contrato”<br>When el contrato ya está firmado<br>Then lo visualiza en PDF o lo descarga.</td></tr>
 </table>
 
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS1</td><td>Developer</td><td>Alta</td><td>EPIC-01</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Menú fijo y scroll suave. </td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero implementar el encabezado principal con tagline y botón de acción, para que los visitantes entiendan qué es VibeStage y cómo empezar.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Given que el evento tiene un contrato firmado<br>When accede a la ficha del evento<br>Then observa un botón “Ver contrato”.</td></tr>
+</table>
 
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS2</td><td>Developer</td><td>Alta</td><td>EPIC-02</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Menú fijo y scroll suave</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero implementar un menú sticky con navegación por anclas, para facilitar el recorrido entre secciones.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Given que el visitante hace clic en un ítem del menú, When selecciona una sección, Then la página realiza un scroll suave sin recargar.</td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS3</td><td>Developer</td><td>Alta</td><td>EPIC-02</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Diseño responsive</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero adaptar la landing a todos los dispositivos.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Given que el visitante accede desde un dispositivo móvil, When navega por la landing, Then la UI se reorganiza.</td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS4</td><td>Developer</td><td>Media</td><td>EPIC-03</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Implementar multilenguaje (ES/EN)</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero habilitar traducción completa en inglés, para que los visitantes internacionales comprendan la información.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Given que el visitante selecciona idioma inglés, When la landing recarga el contenido, Then todos los textos aparecen traducidos al inglés.</td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS5</td><td>Developer</td><td>Alta</td><td>EPIC-04</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Formulario de contacto funcional</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero implementar la sección “Contáctanos” con validaciones, para que los visitantes envíen consultas.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Given que el visitante completa los campos requeridos, When envía el formulario, Then recibe confirmación de envío.<br><br><b>Escenario 2</b><br>Given que omite un campo, When intenta enviar, Then se muestra un mensaje de error.</td></tr></td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS6</td><td>Developer</td><td>Alta</td><td>EPIC-04</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Botones de registro por rol</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero implementar botones “Soy artista” / “Soy local” en la landing, para redirigir a los visitantes al flujo de registro correcto.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Given que el visitante hace clic en un CTA, When selecciona un rol, Then es redirigido al formulario de registro correspondiente.</td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS7</td><td>Developer</td><td>Media</td><td>EPIC-20</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Sección de testimonios</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero implementar una sección de testimonios con foto, nombre, rol y reseña breve, para dar confianza a los visitantes.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Given que el visitante accede a la landing, When navega a la sección “Testimonios”, Then visualiza opiniones de artistas y locales con nombre y rol.</td></tr>
+</table>
 
 ####   2.4.2 Impact Mapping.
 ![alt text](image.png)
