@@ -901,7 +901,7 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 
 
 ####   2.4.2 Impact Mapping.
-![Impact Mapping](/assets/impact.png)
+![alt text](image.png)
 
 ####   2.4.3 Product Backlog.
 | Orden | User Story ID | Título                                                  | Story Points |
