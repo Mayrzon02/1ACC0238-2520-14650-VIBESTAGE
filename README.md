@@ -1,1 +1,6 @@
-# 1ACC0238-2520-14650-VIBESTAGE
+# Registro de Versiones del Informe
+
+| Versión | Fecha             | Autor                                                                                                                                                     | Descripción de modificación                                                                                                                                                                                                                                                                                                                                        |
+| ------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **TB1** | 18/09 | - Rafael Cuya Villegas<br>- Juan Paul Llamccaya Arone<br>- <br>- Gabriel Omar Lapa de la Cruz <br>- Stephano Landauri Preciado | Se han incluído los siguientes capítulos:<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Avance de Conclusiones, Bibliografía y Anexos |
+
