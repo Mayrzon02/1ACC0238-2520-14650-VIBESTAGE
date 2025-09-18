@@ -975,6 +975,51 @@ A continuación se presenta un glosario con los términos centrales del dominio 
   <tr><td colspan="4"><b>Escenario 1</b><br>Given que el visitante accede a la landing, When navega a la sección “Testimonios”, Then visualiza opiniones de artistas y locales con nombre y rol.</td></tr>
 </table>
 
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS8</td><td>Developer</td><td>Alta</td><td>EPIC-24</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Diagrama del Contexto del Artista</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero hacer el diagrama del Contexto del Artista, para mostrar de manera general cómo el músico se conecta con la app y con servicios externos (contratos, pagos, locales).</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>GDado el archivo artist-context.puml, cuando lo dibujo, entonces se ve al Artista y sus conexiones (perfil, eventos, contratos, pagos, calificaciones).</td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS9</td><td>Developer</td><td>Alta</td><td>EPIC-24</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Componentes de Eventos</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero hacer el diagrama de Componentes de Eventos, para mostrar en detalle los servicios que permiten publicar, buscar, postular y aceptar artistas en eventos.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Dado el archivo events-components.puml, cuando lo genero, entonces se ven los servicios: Eventos, Postulaciones y Motor de Recomendación.</td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS10</td><td>Developer</td><td>Alta</td><td>EPIC-24</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Componentes de Contratos y Riders</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero hacer el diagrama de Contratos y Riders, para enseñar cómo la app crea contratos y cómo los artistas suben su rider técnico para que el organizador lo apruebe.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Dado el archivo contracts-riders.puml, cuando lo muestro, entonces aparecen los servicios de Contratos y Riders conectados al Backend y al API de contratos digitales. Esc 2: Dado el diagrama, cuando QA lo compare con las HU, entonces cada flujo de firma y validación se ve reflejado.</td></tr>
+</table>
+
+<table>
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>TS11</td><td>Developer</td><td>Alta</td><td>EPIC-24</td></tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr><td colspan="4">Código de Pagos y Reputación</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">Como desarrollador, quiero hacer el diagrama del código de Pagos y Reputación, para mostrar qué clases, carpetas y endpoints se usan en estos módulos.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4"><b>Escenario 1</b><br>Dado el archivo payments-reviews-code.md, cuando lo publique, entonces lista las carpetas payments/ y reviews/ con endpoints /api/v1/payments y /api/v1/reviews. Esc 2: Dado el documento, cuando se compare con las HU de pagos y evaluaciones, entonces coincide con lo que pide el negocio.</td></tr>
+</table>
+
+
 ####   2.4.2 Impact Mapping.
 ![alt text](image.png)
 
