@@ -904,7 +904,18 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 ![Impact Mapping](/assets/impact.png)
 
 ####   2.4.3 Product Backlog.
-| Orden | User Story Id | Título                                                   | Descripción                                                                                                                                                   | Story Points (1/2/3/5/8) |
+| Orden | User Story ID | Título                                                  | Story Points |
+|-------|---------------|---------------------------------------------------------|--------------|
+| 1     | US01          | Visualización clara del propósito de la plataforma       | 3            |
+| 2     | US02          | Navegación fluida entre secciones informativas           | 3            |
+| 3     | US03          | Visualización adecuada en móviles y pantallas pequeñas   | 5            |
+| 4     | US04          | Acceso a la versión en inglés del sitio                  | 2            |
+| 5     | US21          | Visualización de planes para artistas y promotores/locales | 3          |
+| 6     | US22          | Acceso rápido a registro desde botones CTA               | 3            |
+| 7     | US23          | Navegación accesible desde menú fijo                     | 2            |
+| 8     | US24          | Visualización del equipo de desarrollo en la landing     | 2            |
+| 9     | US26          | Botón de Call to Action "Enviar" en la sección "Contáctanos" | 2         |
+                                                                                                                                            | Story Points (1/2/3/5/8) |
 |-------|----------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 
 ###   2.5. Strategic-Level Domain-Driven Design.
