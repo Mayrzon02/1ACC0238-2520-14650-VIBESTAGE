@@ -182,6 +182,17 @@ Entrevistado #1
 | **Tiempo de inicio y duración** |                 00:00 - 7:14                                                                  |                                                                                    |
 | **Resumen**                 |       Eduardo Arenas, un joven trabajador de un bar en San Isidro, nos comparte los desafíos que enfrenta en la gestión de los eventos del local. Señala que trabajan de jueves a domingo, y que cada día se desarrolla bajo una temática distinta, lo que implica una constante organización y adaptación. Además, Eduardo nos brinda su opinión acerca de lo que le gustaría encontrar en una aplicación móvil que lo apoye en su labor diaria. En particular, espera que esta herramienta le permita desempeñar su trabajo de manera más eficiente y sencilla, facilitando la coordinación de las actividades y mejorando la experiencia tanto del personal como de los clientes.                                                          |
 ----
+Entrevistado #2
+
+| Campo                        | Información                                                                                                                           |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre del entrevistado** |               Anapaula Diaz                                                                                                         |
+| **Edad**                    |                         25 años                                                                                                       |
+| **Screenshot de la entrevista**|                                     <img width="857" height="403" alt="Image" src="https://github.com/user-attachments/assets/946fd622-a49a-4a0f-8c19-a35a7f31fdff" />                                            |
+| **Link de la entrevista**   |                   [Ver entrevista en Youtube](https://youtu.be/lG9ygANtY2c)                                                                                                      |
+| **Tiempo de inicio y duración** |                 00:00 - 9:40                                                                  |                                                                                    |
+| **Resumen**                 |       Anapaula Díaz, una joven profesional del rubro de organización de eventos, nos comparte los procesos que sigue en su trabajo, las dificultades que enfrenta y sus expectativas respecto a una aplicación que pueda facilitar la gestión de eventos. Además, nos brinda algunas propuestas sobre las funcionalidades que le gustaría encontrar en esta app, con el objetivo de optimizar y potenciar su desempeño laboral.                                                          |
+----
 
 
 #### Segmento Artistas
