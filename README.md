@@ -489,12 +489,46 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 
 
 
-| Story ID | User                        | Priority | Epic    |
-|----------|-----------------------------|----------|---------|
-| US01     | Visitante (Artista o Local) | Alta     | EPIC-01 |
-| **Title** | Visualización clara del propósito de la plataforma | | |
-| **Description** | Como visitante de ambos segmentos, quiero entender rápidamente qué es Vibestage y cómo funciona, para saber si es relevante para mí como artista o local. | | |
-| **Acceptance Criteria** | **Escenario 1**<br>Given que el visitante accede a la página principal<br>When visualiza el encabezado principal y la descripción<br>Then comprende claramente qué es la plataforma y qué roles pueden usarla. | | |
+<table>
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Visitante (Artista o Local)</td>
+    <td>Alta</td>
+    <td>EPIC-01</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Visualización clara del propósito de la plataforma</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como visitante de ambos segmentos, quiero entender rápidamente qué es Vibestage y cómo funciona, para saber si es relevante para mí como artista o local.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1</b><br>
+      Given que el visitante accede a la página principal<br>
+      When visualiza el encabezado principal y la descripción<br>
+      Then comprende claramente qué es la plataforma y qué roles pueden usarla.
+    </td>
+  </tr>
+</table>
+
 
 
 
