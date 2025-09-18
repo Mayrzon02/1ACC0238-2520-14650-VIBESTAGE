@@ -497,15 +497,11 @@ corruption Layer, Conformist, Customer/Supplier ó Shared Kernel.
 ####   2.5.3.  Software Architecture.
 ##### 2.5.3.1. Software Architecture Context Level Diagrams.
 
-<img width="514" height="718" alt="Image" src="https://github.com/user-attachments/assets/c55d60ef-8a80-4678-9aa2-20522ccb0f82" />
+<img width="2300" height="3100" alt="Image" src="https://github.com/user-attachments/assets/df45a10d-6f87-4c2f-9000-ff81f6220b0d" />
 
 ##### 2.5.3.2. Software Architecture Container Level Diagrams.
-Software Architecture Container Level Diagrams
-En esta sección, el equipo realiza una introducción, presenta y explica el Container
-Diagram. Dicho diagrama debe mostrar los elementos de alto nivel de la arquitectura
-de software y cómo se distribuyen las responsabilidades entre ellos. Aquí se debe
-mostrar también las principales decisiones de tecnología y cómo los containers se
-comunican entre sí.
+
+<img width="3070" height="3500" alt="Image" src="https://github.com/user-attachments/assets/c96f2ddb-6936-4653-b045-56eddfe359b7" />
 
 ##### 2.5.3.3. Software Architecture Deployment Diagrams.
 En esta sección, el equipo realiza una introducción, presenta y explica el Deployment
