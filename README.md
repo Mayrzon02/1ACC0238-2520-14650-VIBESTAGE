@@ -1,3 +1,69 @@
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
+    <strong>Ingeniería de Software</strong><br>
+    <strong> Aplicaciones para Dispositivos Móviles - 1ACC0238</strong><br>
+    <strong>Profesor: Eduardo Martin Reyes Rodriguez</strong><br>
+    <br>INFORME DE TB1
+</p>
+
+<p align="center">
+    <strong>Startup: Vibestage </strong><br>
+    <strong>Producto:  </strong>
+</p>
+
+<div>
+    <h3 align="center">Team Members:</h3>
+    </div>
+<div>
+     <table align="center">
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Code</th>
+        </tr>
+        <tr>
+            <td>Llamccaya Arone, Juan Paul</td>
+            <td>U201923571</td>
+        </tr>
+        <tr>
+            <td>Cuya Villegas, Rafael Alberto</td>
+            <td>U201913495</td>
+        </tr>
+        <tr>
+           <td>Lapa de la Cruz, Gabriel Omar</td>
+           <td>U202216831</td>
+        </tr>
+        <tr>
+           <td>Landauri Preciado, Stephano</td>
+           <td>U202311828</td>
+        </tr>
+        <tr>
+            <td>Alvarez Ponce, Carlos Antonio</td>
+            <td>U201919386</td>
+        </tr>
+    </table>
+</div>
+
+<p align="center">
+    <strong>Agosto 2025</strong>
+</p>
+
+<br>
+
+# Registro de Versiones del Informe
+
+| Versión | Fecha             | Autor                                                                                                                                                     | Descripción de modificación                                                                                                                                                                                                                                                                                                                                        |
+| ------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **TB1** | 18/09 | - Rafael Cuya Villegas<br>- Juan Paul Llamccaya Arone<br>- <br>- Gabriel Omar Lapa de la Cruz <br>- Stephano Landauri Preciado | Se han incluído los siguientes capítulos:<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Avance de Conclusiones, Bibliografía y Anexos |
+
+# Project Report Collaboration Insights
+
+URL Project Report (Github): https://github.com/Mayrzon02/1ACC0238-2520-14650-VIBESTAGE
+
+TB1:
+
+<img width="280" height="136" alt="Image" src="https://github.com/user-attachments/assets/ab82132a-0c3a-4eee-8d61-703169c252a7" />
+
 # Student Outcome
 
 **ABET –  Student Outcome 7**
@@ -10,3 +76,4 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | :--- | :--- | :--- |
 | ** Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software.** | **TB1**<br>- Cuya Villegas, Rafael Alberto:<br>  Aunque ya dominaba algunos de los conceptos, hubo partes del informe en las que fue necesario profundizar más. Para ello busqué información adicional y revisé documentación que me permitió desarrollar esas secciones de manera adecuada.<br>- Stephano Mayrzon Landauri Preciado:<br>En esta entrega me desenvolví mejor con las herramientas para realizar el trabajo. Tuve que leer algunos conceptos, pero al final todo me quedó claro. <br>- Lapa de la Cruz, Gabriel Omar:<br> Al desarrollar el trabajo encontré puntos que no dominaba del todo, así que tuve que reforzar mi entendimiento para poder aportar con claridad en mi parte del informe. <br>- Juan Paul Llamccaya Arone: Para poder cumplir con mi parte del informe, tuve que reforzar ciertos conceptos técnicos que no dominaba completamente. Revisé documentación y ejemplos prácticos, lo que me ayudó a comprenderlos mejor y aplicarlos de forma adecuada en el proyecto. <br>  <br>- Estudiante5:<br>  <br>|
 | ** Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.** | **TB1**<br>- Cuya Villegas, Rafael Alberto:<br>  Durante el trabajo me encontré con términos que desconocía y tuve que investigarlos. Esto me ayudó no solo a comprenderlos mejor, sino también a aplicarlos en el proyecto de manera efectiva.<br>- Stephano Mayrzon Landauri Preciado:<br>En el transcurso del trabajo me topé con desafíos que tuve que abordar de la mejor manera para cumplir con los tiempos establecidos. Esto me ayudó a comprender mejor algunos conceptos que no tenía claros, pero que, tras la investigación, pude manejar sin problemas.<br>- Lapa de la Cruz, Gabriel Omar:<br> Me di cuenta de que siempre surgen nuevos conceptos que requieren esfuerzo extra para asimilarlos, lo que reafirma la importancia de seguir aprendiendo constantemente. <br>- Juan Paul Llamccaya Arone: Este trabajo me permitió darme cuenta de que siempre habrá nuevos términos, metodologías o tecnologías que aprender. La investigación constante fue clave para resolver mis dudas y me motivó a mantener una actitud de aprendizaje continuo en el ámbito profesional.<br>  <br>- Estudiante5:<br>  <br> | **TB1**<br>El equipo demostró disposición para actualizar y complementar los conocimientos previos con nuevos aprendizajes. Esa integración nos permitió adaptarnos a los requerimientos del proyecto y alcanzar un resultado final de calidad.<br> |
+
