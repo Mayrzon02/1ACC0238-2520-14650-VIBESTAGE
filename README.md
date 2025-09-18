@@ -1067,22 +1067,32 @@ En esta sección se presentará la aplicación de Event Storming como técnica d
 ![Canva5](/assets/bound-canva-5.JPG)
 
 ####   2.5.2. Context Mapping.
-En esta sección el equipo explica y evidencia el proceso de elaboración de un conjunto
-de contexts maps (visualizaciones de las relaciones estructurales entre bounded
-contexts). Para ello el equipo revisa información recolectada y la utiliza para producir
-los diseños candidatos. Se recomienda en el proceso incluir preguntas como: “¿qué
-pasaría si movemos este capability a otro bounded context?”, “¿qué pasaría si
-descomponemos este capability y movemos uno de los sub-capabilities a otro
-bounded context?”, “¿qué pasaría si partimos el bounded context en múltiples
-bounded contexts?”, “¿qué pasaría si tomamos este capability de estos 3 contexts y
-lo usamos para formar un nuevo context?”, “¿qué pasaría si duplicamos una
-funcionalidad para romper la dependencia?”, “¿qué pasaría si creamos un shared
-service para reducir la duplicación entre múltiples bounded contexts?”, “¿qué pasaría
-si aislamos los core capabilities y movemos los otros a un context aparte?”. Debe
-finalizar este proceso discutiendo cada alternativa de context mapping a fin de llegar
-a la mejor aproximación. Es importante que el equipo considere los patrones de
-relaciones entre Bounded Contexts establecidos en Domain-Driven Design, como Anti-
-corruption Layer, Conformist, Customer/Supplier ó Shared Kernel.
+El Context Mapping es la práctica de delimitar los alcances de cada Bounded Context, permitiendo que cada uno cuente con su propia tecnología, lenguaje y arquitectura para representar de manera precisa su parte del dominio. Mediante los Context Maps se visualizan las relaciones entre contextos, definiendo reglas de traducción y señalando qué contextos actúan como Upstream (proveedores de servicios) y cuáles como Downstream (consumidores), con el fin de asegurar la coherencia e independencia de cada modelo.
+
+#### Events Context
+El Events Context es el núcleo del dominio, ya que gestiona el ciclo de vida de los eventos y provee información esencial a otros bounded contexts. Funciona como Upstream para Invitations, Event Applicants y Evaluations, que consumen su modelo bajo un patrón Conformist; mientras que con Payments mantiene una relación Customer/Supplier usando un ACL para exponer solo el estado necesario del evento.
+
+![Context Mapping 1](/assets/context-1.png)
+
+#### Invitations Context
+Invitations gestiona la emisión y validación de invitaciones para los artistas. Event Applicants provee las postulaciones que se transforman en invitaciones (Customer–Supplier con patrón Conformist), mientras Events consume estas invitaciones para integrarlas en el ciclo de vida del evento (Customer–Supplier con patrón Conformist).
+
+![Context Mapping 2](/assets/context-2.png)
+
+#### Event Applicants Context
+Event Applicants centraliza la gestión de postulaciones de los artistas. Expone información que es consumida tanto por Events como por Invitations, bajo un patrón Customer–Supplier con relación Conformist, asegurando coherencia en los datos compartidos para confirmar la participación y generar invitaciones.
+
+![Context Mapping 3](/assets/context-3.png)
+
+#### Payments Context
+Payments gestiona el registro y validación de pagos a artistas. Se relaciona con Events bajo un patrón Customer–Supplier, usando un ACL para verificar el estado del evento antes de autorizar desembolsos. Además, se conecta con Evaluations mediante un patrón Conformist para reflejar los resultados de pago y mantener trazabilidad.
+
+![Context Mapping 4](/assets/context-4.png)
+
+#### Evaluations Context
+Evaluations centraliza la retroalimentación de eventos y artistas. Se integra con Events y Payments bajo un patrón Conformist, transmitiendo resultados de evaluaciones sin transformaciones adicionales. Su rol principal es garantizar que la información de feedback fluya de forma estandarizada para apoyar la toma de decisiones y validar pagos.
+
+![Context Mapping 5](/assets/context-5.png)
 
 ####   2.5.3.  Software Architecture.
 ##### 2.5.3.1. Software Architecture Context Level Diagrams.
