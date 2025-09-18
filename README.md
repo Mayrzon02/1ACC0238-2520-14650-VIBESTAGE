@@ -932,10 +932,13 @@ En esta sección se presentará la aplicación de Event Storming como técnica d
 ![Step9](/assets/candidate-step9.JPG)
 
 #####   2.5.1.2. Domain Message Flows Modeling.
-En esta sección, el equipo explica y evidencia el proceso seguido para visualizar cómo
-deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. Para ello debe aplicar la técnica de visualización
-Domain Storytelling. Complemente la explicación con capturas en imágenes de los
-diagramas de Domain Storytelling elaborados.
+![Flow1](/assets/flow-1.JPG)
+![Flow2](/assets/flow-2.JPG)
+![Flow3](/assets/flow-3.JPG)
+![Flow4](/assets/flow-4.JPG)
+![Flow5](/assets/flow-5.JPG)
+
+
 #####   2.5.1.3. Bounded Context Canvases.
 En esta sección el equipo diseña sus candidate bounded contexts, detallando los
 criterios de diseño. El equipo debe ir seleccionando cada bounded context, por orden
