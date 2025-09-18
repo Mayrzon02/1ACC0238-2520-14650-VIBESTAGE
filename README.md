@@ -1499,3 +1499,5 @@ En varias etapas del proyecto fue evidente que no bastaba con lo que ya conocía
 Trabajo colaborativo en GitHub:
 El uso de GitHub como repositorio compartido nos ayudó a organizarnos mejor y a trabajar de manera colaborativa. Cada integrante pudo aportar sus cambios, revisarlos y corregirlos, evitando confusiones y pérdidas de información. Esto fortaleció la dinámica del equipo y nos dio una experiencia práctica en el manejo de proyectos colaborativos con control de versiones.
 
+## Anexos
+Landing-Page: https://1acc0238-2520-14650-vibe-stage.github.io/Landing-Page/ 
