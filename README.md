@@ -31,7 +31,7 @@ En el ecosistema de soluciones para la gestión de eventos musicales y contratac
 |--------------------------------------|--------------------------------------------------------------------------------------|
 | **¿Por qué llevar a cabo este análisis?** | Llevar a cabo este análisis nos brindará información crítica que nos permitirá tomar decisiones más informadas y estratégicas para el desarrollo, comercialización y crecimiento de **TocaAquí**. |
 ------------------------------------------------------------------------------------------------------------------
-| **Categoría** | ** VibeStage ** ![VibeStage-Logo](../../assets/VibeStage_Logo.jpeg) | **Songkick** ![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)| **GigSalad** ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)| **Indie on the Move**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy) |
+| **Categoría** | VibeStage  ![VibeStage-Logo](./assets/logo.jpg)) | **Songkick** ![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)| **GigSalad** ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)| **Indie on the Move**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy) |
 |---------------|--------------|--------------|--------------|------------------------|
 | **Perfil - Overview** | App móvil que conecta músicos emergentes con bares, promotores y espacios culturales. Ofrece contratación directa, contrato digital, pagos seguros (escrow) y herramientas de promoción. | Plataforma internacional que notifica sobre conciertos de artistas favoritos, con opción de compra de entradas. | Marketplace para contratar artistas y animadores para eventos privados (principalmente en EE. UU.). | Plataforma para que bandas independientes encuentren lugares donde tocar. Ofrece listas de contactos y recursos para planear giras. |
 | **Ventaja competitiva** | Conexión directa y segura, contrato digital, logística integrada, sistema de pagos protegidos y promoción del evento. | Gran alcance global y facilidad para descubrir eventos, pero sin contratación directa ni gestión logística. | Facilidad para eventos privados, pero sin enfoque cultural ni contratación formal. | Buen recurso de base de datos, pero sin automatización, sin contratos ni pagos seguros. |
@@ -266,7 +266,7 @@ A partir de las entrevistas realizadas, se evidenció que el 100% de los adminis
 | Laptop                 | 100%    |
 | Celular                | 100%    |
 
-![Dispositivos Utilizados](/assets/Dispositivos.png)
+![alt text](output.png)
 
 
 ---
@@ -280,7 +280,7 @@ A partir de las entrevistas realizadas, se evidenció que el 100% de los adminis
 | Llamadas telefónicas   | 67%     |
 | Correo electrónico     | 33%     |
 
-![Canales de Comunicación](/assets/Canales_C.png)
+![alt text](<output (1).png>)
 
 La informalidad en estos canales genera pérdida de información y dificulta el seguimiento de acuerdos o condiciones pactadas.
 
@@ -303,7 +303,7 @@ Los tres entrevistados coincidieron en la necesidad de profesionalizar y automat
 | Problemas logísticos derivados de cambios de último minuto  | 67%         |
 
 ---
-![Desafios](/assets/desafios.png)
+![alt text](<output (2).png>)
 #### Conclusiones del Segmento
 
 Los administradores entrevistados señalaron que enfrentan una alta carga operativa derivada de la informalidad en la gestión musical, lo que genera procesos fragmentados, poco eficientes y difíciles de sostener en el tiempo. Ante esta situación, se evidencia una necesidad latente de contar con una plataforma digital integral como VibeStage, capaz de centralizar en un mismo entorno la contratación de artistas, la gestión de pagos, la organización de agendas, la comunicación entre las partes y la promoción de eventos. Los responsables coincidieron en que una solución de este tipo tendría una rápida y amplia adopción, siempre que logre adaptarse a los flujos de trabajo ya existentes, reduzca la fricción operativa y contribuya a elevar el estándar profesional tanto para los espacios culturales como para los músicos independientes. Asimismo, se detecta un interés genuino en dejar atrás los métodos dispersos, manuales e informales que actualmente predominan, apostando por una gestión más moderna, eficiente, confiable y alineada con las demandas del sector.
@@ -327,7 +327,7 @@ Los artistas entrevistados señalaron que hacen un uso intensivo de herramientas
 | Laptop                      | 67%     |
 | Instagram                   | 33%     |
 
-![Herramientas de artistas](/assets/Herramientas%20Y%20Dispositivos%20Más%20Utilizados%20Por%20Artistas.png)
+![alt text](<output (3).png>)
 
 Si bien los músicos recurren a medios digitales para coordinar sus actividades, la gestión actual se caracteriza por ser fragmentada y poco articulada. No hacen uso de plataformas centralizadas ni de herramientas especializadas que les permitan profesionalizar procesos clave como la contratación, la gestión de pagos o la promoción de sus presentaciones, lo que genera duplicidad de esfuerzos, falta de control y una evidente vulnerabilidad frente a imprevistos.
 
@@ -349,7 +349,7 @@ Los tres músicos entrevistados coincidieron en que la coordinación con los pro
 | Incertidumbre hasta el día del evento                          | 100%        |
 | Mala comunicación con algunos locales                          | 67%         |
 
-![Desafios de artistas](/assets/Desafíos%20Identificados%20Por%20Artistas.png)
+![alt text](<output (4).png>)
 ---
 
 #### Expectativas hacia soluciones tecnológicas
