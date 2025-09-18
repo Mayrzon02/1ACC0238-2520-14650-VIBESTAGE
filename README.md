@@ -1501,3 +1501,6 @@ El uso de GitHub como repositorio compartido nos ayudó a organizarnos mejor y a
 
 ## Anexos
 Landing-Page: https://1acc0238-2520-14650-vibe-stage.github.io/Landing-Page/ 
+
+
+
