@@ -915,8 +915,6 @@ A continuación se presenta un glosario con los términos centrales del dominio 
 | 7     | US23          | Navegación accesible desde menú fijo                     | 2            |
 | 8     | US24          | Visualización del equipo de desarrollo en la landing     | 2            |
 | 9     | US26          | Botón de Call to Action "Enviar" en la sección "Contáctanos" | 2         |
-                                                                                                                                            | Story Points (1/2/3/5/8) |
-|-------|----------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 
 ###   2.5. Strategic-Level Domain-Driven Design.
 ####   2.5.1. EventStorming.
