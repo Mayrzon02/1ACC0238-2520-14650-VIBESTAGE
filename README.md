@@ -1104,13 +1104,8 @@ Evaluations centraliza la retroalimentación de eventos y artistas. Se integra c
 <img width="3070" height="3500" alt="Image" src="https://github.com/user-attachments/assets/c96f2ddb-6936-4653-b045-56eddfe359b7" />
 
 ##### 2.5.3.3. Software Architecture Deployment Diagrams.
-En esta sección, el equipo realiza una introducción, presenta y explica el Deployment
-Diagram, el cual muestra la distribución física del sistema, destacando cómo los
-componentes del software se despliegan sobre el hardware y otros entornos. Este
-diagrama visualiza las máquinas, servidores, redes y otros dispositivos físicos que
-alojan el software, así como las relaciones y dependencias entre los distintos nodos.
-Su objetivo es describir cómo se implementa el sistema en la infraestructura de
-hardware.
+
+<img width="3070" height="3500" alt="Image" src="/assets/Deployment.png" />
 
 ###   2.6. Tactical-Level Domain-Driven Design
 ####   2.6.x. Bounded Context: <Bounded Context Name>
