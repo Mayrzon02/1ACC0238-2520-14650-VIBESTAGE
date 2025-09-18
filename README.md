@@ -56,3 +56,10 @@
 | ------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **TB1** | 18/09 | - Rafael Cuya Villegas<br>- Juan Paul Llamccaya Arone<br>- <br>- Gabriel Omar Lapa de la Cruz <br>- Stephano Landauri Preciado | Se han incluído los siguientes capítulos:<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Avance de Conclusiones, Bibliografía y Anexos |
 
+# Project Report Collaboration Insights
+
+URL Project Report (Github): https://github.com/Mayrzon02/1ACC0238-2520-14650-VIBESTAGE
+
+TB1:
+
+<img width="280" height="136" alt="Image" src="https://github.com/user-attachments/assets/ab82132a-0c3a-4eee-8d61-703169c252a7" />
