@@ -4,7 +4,7 @@
 Hemos diseñado el logo de nuestra aplicación VibeStage con una visión moderna, alineada con la temática musical de la aplicación. Para reforzar esta conexión, incorporamos una plumilla de guitarra en el diseño, ofreciendo una referencia directa al mundo de la música. En cuanto a la tipografía, seleccionamos un estilo claro y legible que también refleje la identidad musical de la aplicación.La paleta de colores elegida busca transmitir energía y dinamismo, al mismo tiempo que mantiene coherencia con la temática central de VibeStage, creando una experiencia visual atractiva y representativa de nuestra propuesta. A continuacion presentamos el logo de VibeStage.
 ![Image](https://github.com/user-attachments/assets/cbefa98a-18df-43c8-a0b2-5c45edb9e82c)
 
-Typography
+**Typography**
 En cuanto a la tipografía, hemos elegido Montserrat como fuente principal, una sans-serif que aporta una apariencia limpia y facilita la lectura para el usuario. Para los encabezados y títulos, optamos por Roboto, cuya versatilidad y dinamismo lo hacen ideal para destacar secciones importantes y captar la atención del usuario de manera efectiva.}
 
 <p float="left">
@@ -12,7 +12,8 @@ En cuanto a la tipografía, hemos elegido Montserrat como fuente principal, una 
   <img src="https://github.com/user-attachments/assets/c586c651-d187-4436-88db-50e246720ceb" width="400" />
 </p>
 
-Colors
+**Colors**
+
 La paleta de colores de VibeStage fue diseñada con el objetivo de transmitir energía y reflejar la esencia de nuestra aplicación. Se eligieron tonos que se asocian con distintos géneros musicales, lo que garantiza que la temática de la música esté siempre presente en la experiencia del usuario dentro de la aplicación móvil.
 
 <img width="437" height="316" alt="Image" src="https://github.com/user-attachments/assets/29e6e1c9-d975-494d-90ee-3599ec7c1e12" />
