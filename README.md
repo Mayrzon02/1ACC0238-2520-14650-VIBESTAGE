@@ -65,7 +65,7 @@ El lenguaje y estilo de la aplicación buscan conectar eficazmente con el públi
 
 <img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d770aed9-dd76-4426-b293-83f3df9e789b" />
 
-<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/cca82563-8fdc-451a-bc31-98bbb2f415dd" />
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/79a6d4b2-1009-42f5-bb1b-cd5427648e20" />
 
 <img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/185cf189-fc5b-44b6-ae3c-0e61b637dc39" />
 
