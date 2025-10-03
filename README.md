@@ -1428,64 +1428,64 @@ Evaluations centraliza la retroalimentación de eventos y artistas. Se integra c
 <img width="3070" height="3500" alt="Image" src="/assets/Deployment.png" />
 
 ###   2.6. Tactical-Level Domain-Driven Design
-####   2.6.x. Bounded Context: <Bounded Context Name>
-En esta sección, para cada uno de los productos, el equipo presenta las clases
-identificadas y las detalla a manera de diccionario, explicando para cada una su
-nombre, propósito y la documentación de atributos y métodos considerados, junto
-con las relaciones entre ellas.
+### 2.6.1. Bounded Context: Events
+El bounded context **Events** se encarga de la gestión del ciclo de vida de los eventos musicales. Permite crear, publicar, modificar y finalizar eventos, asegurando que las reglas del negocio y la información esencial se mantengan consistentes para su correcta administración.
 
-#####   2.6.x.1. Domain Layer
+#### 2.6.1.1. Domain Layer
+En esta capa se definen los elementos centrales del dominio de eventos. Se modelan los agregados, entidades, value objects y servicios de dominio que representan cómo se gestiona un evento y sus reglas clave.
 
-En esta capa el equipo explica por medio de qué clases representará el core de la
-aplicación y las reglas de negocio que pertenecen al dominio para el bounded context.
-Aquí el equipo presenta clases de categorías como Entities, Value Objects, Aggregates,
-Factories, Domain Services, o abstracciones representadas por interfaces como en el
-caso de Repositories.
+| Tipo            | Clase / Nombre            | Descripción                                                   | Atributos / Valores                                  |
+|-----------------|---------------------------|---------------------------------------------------------------|------------------------------------------------------|
+| Aggregate Root  | Event                 | Unidad de consistencia para la gestión de un evento.          | id, name, date, time, status, location, requirements |
+| Entity          | Schedule              | Agenda técnica asociada al evento.                            | date, soundcheckTime                                 |
+| Value Object    | Location              | Lugar donde se realizará el evento.                           | street, city, country                                |
+| Value Object    | Payment               | Datos de pago vinculados al evento.                           | amount, currency                                     |
+| Enum            | EventStatus           | Estados válidos del evento.                                   | CREATED, PUBLISHED, CANCELED, FINALIZED              |
+| Domain Service  | EventLifecycleService | Reglas para publicar, cancelar y finalizar eventos.           | publish(), cancel(), finalize()                      |
 
-#####   2.6.x.2. Interface Layer
-En esta sección el equipo introduce, presenta y explica las clases que forman parte de
-Interface/Presentation Layer, como clases del tipo Controllers o Consumers.
+#### 2.6.x.2. Interface Layer
+Esta capa expone los endpoints REST que permiten a clientes externos interactuar con el ciclo de vida de los eventos. Los controladores delegan la orquestación en la Application Layer y usan DTOs para entrada/salida de datos.
 
-#####   2.6.x.3. Application Layer
-En esta sección el equipo explica a través de qué clases se maneja los flujos de
-procesos del negocio. En esta sección debe evidenciarse que se considera los
-capabilities de la aplicación en relación al bounded context. Aquí debe considerarse
-clases del tipo Command Handlers e Event Handlers.
+| Tipo       | Clase / Nombre      | Descripción                                                                 | Métodos / Endpoints principales                                                                 |
+|------------|---------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Controller | EventController | Endpoints públicos para consulta y gestión básica de eventos.               | - **GET** `/api/v1/events` — obtener todos los eventos<br> - **GET** `/api/v1/events/{id}` — obtener detalle por ID<br> - **GET** `/api/v1/events/promoter/{promoterId}` — listar eventos por promotor<br> - **POST** `/api/v1/events` — crear nuevo evento<br> - **DELETE** `/api/v1/events/{id}` — eliminar evento |
+| DTO        | EventResource   | Respuesta con datos completos de un evento.                                 | `id`, `promoterId`, `name`, `date`, `time`, `publishDate`, `status`, `location`, `imageUrl`, `soundcheckDate`, `soundcheckTime`, `capacity`, `adminName`, `adminId`, `adminContact`, `requirements`, `description`, `payment`, `duration`, `genre`, `equipment` |
+| DTO        | CreateEventRequest | Comando/entrada para crear un evento. (body de **POST** `/api/v1/events`) | `promoterId`, `name`, `date`, `time`, `publishDate`, `location`, `imageUrl`, `status`, `soundcheckDate`, `soundcheckTime`, `capacity`, `adminName`, `adminId`, `adminContact`, `requirements`, `description`, `payment`, `duration`, `genre`, `equipment` |
+| DTO        | EventSummaryResource | Respuesta liviana para listados.                                           | `id`, `name`, `date`, `status`, `location`                                                     |
 
-#####   2.6.x.4. Infrastructure Layer
-En esta capa el equipo presenta aquellas clases que acceden a servicios externos como
-databases, messaging systems o email services. Es en esta capa que se ubica la
-implementación de Repositories para las interfaces definidas en Domain Layer. Algo
-similar ocurre con interfaces definidas para MessageBrokers.
+#### 2.6.1.3. Application Layer
+Esta capa coordina los flujos del **Events Context** mediante **command handlers** y **event handlers**. Orquesta las operaciones solicitadas por la interfaz, delega reglas al dominio y publica eventos de integración cuando corresponde.
 
-#####   2.6.x.5. Bounded Context Software Architecture Component Level Diagrams.
-En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model
-para cada uno de los Containers considerados para el bounded context. En estos
-diagramas el equipo busca reflejar la descomposición de cada Container para
-identificar los bloques estructurales principales y sus interacciones. Un Component
-Diagram debe mostrar cómo un container está conformado por components, qué son
-cada uno de dichos components, sus responsabilidades y los detalles de
-implementación/tecnología. Utilice la herramienta indicada para la elaboración del
-diagrama.
+| Tipo            | Clase / Nombre            | Descripción                                                                                      | Método / Comandos manejados                      |
+|-----------------|---------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Command Handler | CreateEventHandler    | Orquesta la creación de un evento: valida datos, crea el agregado y persiste.                   | `handle(CreateEventCommand)`                     |
+| Command Handler | DeleteEventHandler    | Maneja la eliminación de un evento: verifica restricciones (estado) y elimina.                  | `handle(DeleteEventCommand)`                     |
+| Command Handler | PublishCallHandler    | Cambia el estado del evento a *PUBLISHED* y dispara el evento de convocatoria publicada.        | `handle(PublishCallCommand)`                     |
+| Command Handler | CloseEventHandler     | Cierra el evento (*CLOSED*) cuando finaliza su ejecución y prepara emisión de eventos de cierre.| `handle(CloseEventCommand)`                      |
+| Event Handler   | EventCreatedListener  | Escucha `EventCreated` para notificar a **Invitations** que puede iniciarse el envío de invites.| `on(EventCreated)`                               |
+| Event Handler   | CallPublishedListener | Escucha `CallPublished` para abrir postulaciones en **Event Applicants**.                        | `on(CallPublished)`                              |
+| Event Handler   | EventClosedListener   | Escucha `EventClosed` para avisar a **Payments**/**Evaluations** procesos posteriores al evento. | `on(EventClosed)`                                |
 
-#####   2.6.x.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 2.6.1.4. Infrastructure Layer
+Conecta el **Events Context** con servicios externos (principalmente base de datos y mensajería). Implementa los repositorios de persistencia y los adaptadores que publican eventos de integración hacia otros bounded contexts.
 
-######   2.6.x.6.1. Bounded Context Domain Layer Class Diagrams.
-En esta sección el equipo presenta el Class Diagram de UML para las clases del Domain
-Layer en el bounded context. El nivel de detalle debe incluir además de las clases,
-interfaces, enumeraciones y sus relaciones, los miembros para cada clase, incluyendo
-atributos, métodos y el scope en cada caso (private, public, protected). Las relaciones
-deben incluir la calificación con nombres, la dirección (cuando aplica) y la
-multiplicidad. Utilice para la elaboración del diagrama la herramienta indicada.
+| Tipo         | Clase / Nombre                 | Descripción                                                                 | Notas Técnicas |
+|--------------|--------------------------------|-----------------------------------------------------------------------------|----------------|
+| Repository   | EventRepositoryJPA         | Implementación JPA/Hibernate para crear, actualizar y borrar eventos.      | Mapea `Event` a tabla **events** (PK `id`, índices por `promoter_id`, `status`). |
+| Repository   | EventReadRepositoryJPA     | Consultas de lectura (por *id*, por *promoterId*, paginación/filters).     | Proyecciones `EventSummary`, vistas/materializadas si aplica. |
+| Outbox       | EventOutboxRepository      | Persiste *domain events* en tabla outbox para publicación confiable.       | Tabla **outbox_events** con `aggregate_id`, `type`, `payload`, `status`. |
+| Messaging    | DomainEventPublisherKafka  | Publica mensajes a broker cuando hay `EventCreated`, `CallPublished`, `EventClosed`. | Topics: `events.created`, `events.call.published`, `events.closed`; idempotencia por `eventId`. |
+| HTTP Client  | InvitationsApiClient       | Adaptador REST opcional para operaciones sincrónicas con **Invitations** (si se requiere). | Base URL configurable; timeouts y *circuit breaker*. |
+| Storage      | ImageStorageAdapter        | Sube y resuelve `imageUrl` para posters del evento.                         | Implementación S3/Cloud Storage; carpeta `events/{eventId}/`. |
 
-######   2.6.x.6.1. Bounded Context Database Design Diagram.
-Bounded Context Database Diagram
-En esta sección el equipo presenta y explica para cada producto donde se implementa
-el bounded context, el Database Diagram que incluye los objetos de base de datos que
-permitirán la persistencia de información para los objetos del bounded context. Para
-el caso de un almacenamiento en base de datos relacional, aquí debe especificarse
-tablas, columnas, constraints (por ejemplo, primary, foreign key) y evidenciarse las
-relaciones entre tablas. Utilice para la elaboración del diagrama la herramienta
-indicada.
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+![Component-Events-1](/assets/Component-1.png)
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+![Component-Events-2](/assets/class-diagram-1.png)
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+![Component-Events-3](/assets/db-diagram-1.png)
 
 
