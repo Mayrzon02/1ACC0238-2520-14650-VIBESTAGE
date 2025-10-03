@@ -55,10 +55,6 @@ El lenguaje y estilo de la aplicación buscan conectar eficazmente con el públi
 #### 3.1.2.5. Navigation Systems
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
-
-#### 3.1.3.2. Landing Page Mock-up
-### 3.1.4. Mobile Applications UX/UI Design
-
 <img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/57f626cb-6a7d-4f28-9acb-a92a0cb60a32" />
 
 <img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d7daa0ef-76c1-4813-8d6c-93ea44ecb08c" />
@@ -72,6 +68,11 @@ El lenguaje y estilo de la aplicación buscan conectar eficazmente con el públi
 <img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/2069101a-1e81-48e8-95e0-8454dcd9075e" />
 
 <img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d2382646-1e95-4bb7-85a7-2f9da2b1f24e" />
+
+#### 3.1.3.2. Landing Page Mock-up
+### 3.1.4. Mobile Applications UX/UI Design
+
+
 
 #### 3.1.4.1. Mobile Applications Wireframes
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
