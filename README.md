@@ -1541,3 +1541,60 @@ En esta capa se implementa la conexión del contexto de invitaciones con la base
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 ![Component-Invitations-3](/assets/db-diagram-2.png)
+
+### 2.6.3. Bounded Context: Event Applicants
+El bounded context **Event Applicants** se encarga de la gestión de postulaciones de artistas a los eventos. Su objetivo es registrar y controlar las aplicaciones, validar si provienen de invitaciones y permitir su posterior actualización o eliminación. De esta manera se asegura que cada aplicación mantenga consistencia con las reglas del dominio, evitando duplicados y garantizando trazabilidad en el proceso.
+
+#### 2.6.x.3. Domain Layer
+En esta capa se definen los elementos principales del dominio de postulaciones. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica de cómo los artistas aplican a los eventos y cómo los promotores gestionan dichas solicitudes.
+
+| Tipo          | Clase / Nombre          | Descripción                                                                 | Atributos / Valores                          |
+|---------------|-------------------------|-----------------------------------------------------------------------------|-----------------------------------------------|
+| Aggregate     | ApplicationManagement   | Gestiona las postulaciones como una unidad de consistencia.                 | applicants                                    |
+| Root          | Application             | Representa una postulación realizada por un artista a un evento.            | id, userId, eventId, status, isInvited        |
+| Entity        | ApplicationStatusLog    | Historial de cambios de estado en la postulación.                           | id, applicationId, status, updatedAt          |
+| Value Object  | Status                  | Define los estados posibles de una postulación.                             | PENDING, APPROVED, REJECTED, CANCELLED        |
+| Value Object  | ApplicantInfo           | Datos esenciales del postulante.                                            | userId, nombre, contacto                      |
+| Domain Service| ApplicationValidation   | Valida reglas de negocio: duplicados, invitaciones y estado del evento.     | validateApplication(userId, eventId, isInvited)|
+| Enum          | ApplicationSource       | Define el origen de la postulación.                                         | INVITATION, SELF_APPLY                        |
+
+#### 2.6.3.2. Interface Layer  
+En esta capa se encuentran los controladores y objetos de transferencia (DTOs) que sirven como punto de comunicación entre la aplicación y los usuarios externos. Su función principal es exponer endpoints REST para la gestión de postulaciones, permitiendo crear, consultar, actualizar y eliminar solicitudes de manera clara y estructurada.
+
+| Tipo       | Clase / Nombre            | Descripción                                                                | Métodos / Endpoints principales                            |
+|------------|---------------------------|----------------------------------------------------------------------------|------------------------------------------------------------|
+| Controller | ApplicationController     | Expone endpoints REST para la gestión de postulaciones.                     | - POST /event-applicants — registrar nueva postulación <br> - GET /event-applicants/{id} — obtener detalle <br> - DELETE /event-applicants/{id} — eliminar postulación <br> - PATCH /event-applicants/{id}/status — actualizar estado <br> - GET /event-applicants/event/{eventId} — listar por evento <br> - GET /event-applicants/user/{userId} — listar por usuario |
+| DTO        | ApplicationResource       | Objeto de transferencia que devuelve los datos de una postulación.          | id, userId, eventId, status, isInvited                     |
+| DTO        | ApplicationCommandResource| Objeto de transferencia que recibe los comandos de creación/actualización.  | userId, eventId, status, isInvited                         |
+
+#### 2.6.3.3. Application Layer  
+Esta capa maneja los flujos de procesos de postulaciones mediante el uso de command handlers y event handlers. Su rol es coordinar las operaciones del negocio, orquestando las acciones desde la interfaz y delegando la lógica al dominio. De esta manera, se asegura que cada comando o evento dispare el proceso adecuado dentro del contexto de event applicants.
+
+| Tipo            | Clase / Nombre                | Descripción                                                             | Método / Comandos manejados                        |
+|-----------------|--------------------------------|-------------------------------------------------------------------------|----------------------------------------------------|
+| Command Handler | RegisterApplicationHandler     | Maneja el proceso de registrar una nueva postulación.                    | - handle(RegisterApplicationCommand)               |
+| Command Handler | UpdateApplicationHandler       | Maneja la actualización de datos de una postulación existente.           | - handle(UpdateApplicationCommand)                 |
+| Command Handler | RemoveApplicationHandler       | Maneja la eliminación de una postulación.                                | - handle(RemoveApplicationCommand)                 |
+| Command Handler | ChangeApplicationStatusHandler | Maneja el cambio de estado de una postulación (aceptada, rechazada, etc.)| - handle(ChangeApplicationStatusCommand)           |
+| Event Handler   | ApplicationUpdatedHandler      | Escucha eventos de actualización de postulaciones y dispara notificaciones o acciones asociadas. | - on(ApplicationUpdatedEvent)          |
+
+#### 2.6.3.4. Infrastructure Layer  
+En esta capa se implementan los componentes que permiten a las postulaciones interactuar con servicios externos como bases de datos o mensajería. Aquí se ubican las implementaciones concretas de los repositorios y adaptadores necesarios para persistencia, consulta y comunicación con otros bounded contexts. Su propósito es brindar soporte técnico al dominio y a la aplicación, asegurando que la información fluya correctamente.
+
+| Tipo              | Clase / Nombre                 | Descripción                                                                 | Métodos principales                     |
+|-------------------|--------------------------------|-----------------------------------------------------------------------------|-----------------------------------------|
+| Repository Impl   | ApplicationRepositoryImpl      | Implementa la persistencia de postulaciones en la base de datos.            | save(), findById(), findAll(), delete() |
+| Repository Impl   | ApplicantRepositoryImpl        | Gestiona la persistencia de los datos de los postulantes.                   | save(), findById(), findAll(), delete() |
+| Adapter           | EventPublisherAdapter          | Publica eventos de postulaciones hacia otros bounded contexts.              | publishEvent(ApplicationUpdatedEvent)   |
+| Adapter           | NotificationServiceAdapter     | Envía notificaciones externas sobre el estado de una postulación.           | sendNotification(applicationId, status) |
+| Database Service  | ApplicationDbContext           | Maneja la conexión y mapeo de entidades a la base de datos relacional.      | persist(), query()                       |
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+![Component-Applicants-1](/assets/Component-3.png)
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+![Component-Applicants-2](/assets/class-diagram-3.png)
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+![Component-Applicants-3](/assets/db-diagram-3.png)
