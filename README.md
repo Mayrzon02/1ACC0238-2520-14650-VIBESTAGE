@@ -1488,4 +1488,56 @@ Conecta el **Events Context** con servicios externos (principalmente base de dat
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 ![Component-Events-3](/assets/db-diagram-1.png)
 
+### 2.6.2. Bounded Context: Invitations
+Administra el ciclo de vida de las invitaciones entre promotores y artistas para un evento. Incluye la emisión de invitaciones, su consulta por evento/artista/promotor y la gestión de respuestas (aceptar/rechazar), manteniendo el estado coherente y trazable.
 
+#### 2.6.2.1. Domain Layer
+En esta capa se modela la regla central de cómo se crean y responden invitaciones.
+
+| Tipo            | Clase / Nombre             | Descripción                                                                      | Atributos / Valores                                                                 |
+|-----------------|----------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Aggregate       | InvitationManagement   | Orquesta la emisión y respuesta de invitaciones como unidad de consistencia.     | invitations                                                                         |
+| Aggregate Root  | Invitation             | Invitación enviada por un promotor a un artista para un evento.                  | id, **eventId**, **artistId**, **promoterId**, message, status, createdAt, respondedAt |
+| Value Object    | InvitationMessage      | Texto breve y validado que acompaña a la invitación.                             | text                                                                                |
+| Value Object    InvitationTarget       | Referencia inmutable al destino de la invitación.                                | eventId, artistId, promoterId                                                       |
+| Domain Service  | **InvitationPolicyService**| Reglas para emitir y responder (no duplicar, validar vigencia, cambiar estado).  | canSend(invitation), canRespond(invitation, status)                                 |
+| Enum            |InvitationStatus       | Estados válidos de una invitación.                                               | PENDING, ACCEPTED, REJECTED, EXPIRED                                                |
+
+#### 2.6.2.2. Interface Layer  
+En esta capa se encuentran los controladores y DTOs que exponen los endpoints REST para la gestión de invitaciones. Su propósito es permitir a promotores y artistas crear, consultar, responder y eliminar invitaciones de manera clara y estructurada, facilitando la comunicación entre las partes.  
+
+| Tipo       | Clase / Nombre          | Descripción                                                                 | Métodos / Endpoints principales                                                                 |
+|------------|-------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Controller | InvitationController    | Expone endpoints REST para manejar el ciclo de vida de invitaciones.        | - **POST /invitations** — crear invitación <br> - **GET /invitations/{id}** — obtener invitación <br> - **DELETE /invitations/{id}** — eliminar invitación <br> - **GET /invitations/event/{eventId}** — listar por evento <br> - **GET /invitations/artist/{artistId}** — listar por artista <br> - **GET /invitations/promoter/{promoterId}** — listar por promotor <br> - **PATCH /invitations/{id}/respond** — responder invitación |
+| DTO        | InvitationResource      | Objeto de transferencia que devuelve datos de una invitación.               | id, eventId, artistId, promoterId, message, status, createdAt, respondedAt                       |
+| DTO        | InvitationCommandResource | Objeto de transferencia para comandos de creación/actualización de invitación. | eventId, artistId, promoterId, message                                                           |
+
+#### 2.6.2.3. Application Layer  
+Esta capa orquesta los flujos de invitaciones mediante command handlers y event handlers. Se encarga de coordinar las operaciones principales como creación, actualización de estado, respuesta y eliminación de invitaciones. Cada comando dispara el proceso adecuado dentro del contexto de invitaciones, asegurando que los cambios se propaguen correctamente.  
+
+| Tipo            | Clase / Nombre                | Descripción                                                                 | Método / Comandos manejados                    |
+|-----------------|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------------|
+| Command Handler | CreateInvitationHandler       | Maneja la creación de una nueva invitación en el sistema.                   | - handle(CreateInvitationCommand)              |
+| Command Handler | RemoveInvitationHandler       | Maneja la eliminación de una invitación existente.                          | - handle(RemoveInvitationCommand)              |
+| Command Handler | RespondInvitationHandler      | Maneja la respuesta (aceptar/rechazar) de una invitación.                   | - handle(RespondInvitationCommand)             |
+| Command Handler | UpdateInvitationStatusHandler | Maneja la actualización manual del estado de una invitación.                | - handle(UpdateInvitationStatusCommand)        |
+| Event Handler   | InvitationCreatedHandler      | Escucha el evento de creación de invitación para notificar al destinatario. | - on(InvitationCreatedEvent)                   |
+| Event Handler   | InvitationRespondedHandler    | Escucha el evento de respuesta a invitación para notificar al promotor.     | - on(InvitationRespondedEvent)                 |
+
+#### 2.6.2.4. Infrastructure Layer  
+En esta capa se implementa la conexión del contexto de invitaciones con la base de datos y servicios externos. Aquí se definen los repositorios que permiten persistir las invitaciones, así como su estado y relación con eventos, artistas y promotores. De esta forma se asegura que el dominio permanezca independiente de la tecnología, mientras la infraestructura garantiza acceso confiable a los datos.  
+
+| Tipo       | Clase / Nombre         | Descripción                                                      | Notas Técnicas                                |
+|------------|------------------------|------------------------------------------------------------------|-----------------------------------------------|
+| Repository | InvitationRepository   | Implementación JPA/Hibernate para persistir las invitaciones.    | Mapea Invitation a la tabla `invitations`.    |
+| Repository | InvitationViewAdapter  | Permite consultas optimizadas para listar invitaciones por actor | Queries para búsquedas por eventId, artistId, promoterId |
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+![Component-Invitations-1](/assets/Component-2.png)
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+![Component-Invitations-2](/assets/class-diagram-2.png)
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+![Component-Invitations-3](/assets/db-diagram-2.png)
