@@ -1598,3 +1598,65 @@ En esta capa se implementan los componentes que permiten a las postulaciones int
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 ![Component-Applicants-3](/assets/db-diagram-3.png)
+
+### 2.6.4. Bounded Context: Payments
+Este bounded context administra los pagos de artistas asociados a eventos. Se encarga de **registrar solicitudes de pago**, **procesarlas/validarlas** y **actualizar su estado** (pendiente, confirmado, fallido, cancelado), manteniendo trazabilidad y reglas para liquidaciones seguras y oportunas.
+
+#### 2.6.4.1. Domain Layer
+En esta capa se modela el núcleo del dominio de pagos: agregados, entidades, value objects y servicios que encapsulan las reglas para registrar y liquidar pagos de forma consistente.
+
+| Tipo            | Clase / Nombre            | Descripción                                                                 | Atributos / Valores                                      |
+|-----------------|---------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------|
+| Aggregate   | PaymentManagement         | Unidad de consistencia que agrupa pagos y sus cambios de estado.           | payments                                                 |
+| Aggregate Root | Payment                | Representa un pago solicitado por un artista para un evento.               | id, eventId, userId, promoterId, money, method, bankAccount, status, note |
+| Entity      | PaymentTransaction        | Movimiento asociado al pago (creación, confirmación, fallo, anulación).    | id, paymentId, type, occurredAt                          |
+| Value Object| Money                     | Monto del pago con su moneda.                                              | amount, currency                                         |
+| Value Object| BankAccount               | Datos básicos de la cuenta destino.                                        | accountNumber, bankName, accountType                     |
+| Value Object| PaymentMethodVO           | Método de pago usado.                                                      | value                                                    |
+| Domain Service | PaymentProcessingService | Reglas para validar, liquidar y notificar el resultado del pago.           | process(payment), validateBankInfo(bankAccount)          |
+| Domain Service | PaymentStatusPolicy     | Políticas de transición de estados válidos.                                | canTransition(from, to)                                  |
+| Enum        | PaymentStatus             | Estados del pago.                                                          | PENDING, PROCESSED, FAILED, CANCELLED                    |
+| Enum        | PaymentMethod             | Métodos de pago admitidos.                                                 | TRANSFER, DEPOSIT, WALLET                                |
+| Enum        | AccountType               | Tipos de cuenta bancaria.                                                  | SAVINGS, CHECKING                                        |
+
+#### 2.6.4.2. Interface Layer
+En esta capa se encuentran los controladores y DTOs que permiten exponer endpoints REST para gestionar pagos. Los controladores manejan las operaciones de creación, consulta, actualización de estado y eliminación de pagos, mientras que los DTOs sirven como objetos de transferencia de datos entre la API y el dominio.
+
+| Tipo       | Clase / Nombre         | Descripción                                                       | Métodos / Endpoints principales                                                                 |
+|------------|------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| Controller | PaymentController      | Expone endpoints REST para la gestión de pagos de eventos.        | - **POST /payments** → registrar nuevo pago <br> - **GET /payments** → listar pagos <br> - **GET /payments/{id}** → obtener detalle de pago <br> - **DELETE /payments/{id}** → eliminar pago <br> - **PATCH /payments/{id}/status** → actualizar estado de pago |
+| DTO        | PaymentResource        | Objeto de transferencia que devuelve datos de un pago.            | id, eventId, userId, promoterId, amount, method, bankAccount, status, description              |
+| DTO        | PaymentCommandResource | Objeto de transferencia para recibir comandos de creación/edición.| eventId, musicianId, promoterId, amount, paymentMethod, bankAccountNumber, bankName, accountType, description |
+
+#### 2.6.4.3. Application Layer
+Esta capa orquesta los flujos de negocio de **Payments** mediante **command handlers** y **event handlers**. Traduce las peticiones de la interfaz a operaciones del dominio (validaciones, reglas y persistencia) y publica eventos de resultado.
+
+| Tipo            | Clase / Nombre                    | Descripción                                                                 | Método / Comandos / Eventos manejados                          |
+|-----------------|-----------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Command Handler | CreatePaymentHandler              | Maneja el proceso de registrar un nuevo pago.                              | `handle(CreatePaymentCommand)`                                  |
+| Command Handler | UpdatePaymentStatusHandler        | Actualiza el estado del pago (REQUESTED, PROCESSED, FAILED, CONFIRMED).    | `handle(UpdatePaymentStatusCommand)`                            |
+| Command Handler | DeletePaymentHandler              | Elimina un pago previamente registrado.                                     | `handle(DeletePaymentCommand)`                                  |
+| Command Handler | NotifyPaymentResultHandler        | Dispara notificaciones al usuario/promotor según el resultado del pago.     | `handle(NotifyPaymentResultCommand)`                            |
+| Event Handler   | PaymentProcessedEventHandler      | Reacciona cuando un pago se procesa correctamente.                          | `on(PaymentProcessedEvent)`                                     |
+| Event Handler   | PaymentFailedEventHandler         | Reacciona ante fallas de procesamiento y prepara reintentos/notificación.   | `on(PaymentFailedEvent)`                                        |
+| Event Handler   | PaymentConfirmedEventHandler      | Reacciona cuando el pago queda confirmado y sincroniza contextos externos.  | `on(PaymentConfirmedEvent)`                                     |
+
+#### 2.6.4.4. Infrastructure Layer
+En esta capa se implementa la conexión con servicios externos relacionados a los **pagos**, principalmente la base de datos y pasarelas de pago externas. Aquí se incluyen los repositorios que permiten la persistencia de información de pagos y estados asociados, además de integraciones con proveedores externos para garantizar la validación y ejecución segura de las transacciones. Con esto se asegura que el dominio permanezca independiente de la tecnología mientras la infraestructura garantiza un acceso confiable a los datos.
+
+| Tipo       | Clase / Nombre         | Descripción                                                     | Notas Técnicas                                      |
+|------------|------------------------|-----------------------------------------------------------------|-----------------------------------------------------|
+| Repository | PaymentRepository      | Implementación JPA/Hibernate para persistir pagos.              | Mapea la entidad Payment a la tabla `payments`.     |
+| Repository | PaymentStatusRepository| Gestiona el historial y actualización de estados de pago.       | Mapea estados de pago a tabla `payment_status`.     |
+| Adapter    | PaymentGatewayAdapter  | Conector con pasarela de pagos externa para procesar transacciones. | Implementa integración con API de terceros.         |
+| Adapter    | NotificationAdapter    | Envía notificaciones sobre el resultado del pago.               | Integra con servicios externos de mensajería/email. |
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+![Component-Payments-1](/assets/Component-4.png)
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+![Component-Payments-2](/assets/class-diagram-4.png)
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+![Component-Payments-3](/assets/db-diagram-4.png)
