@@ -1660,3 +1660,57 @@ En esta capa se implementa la conexión con servicios externos relacionados a lo
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 ![Component-Payments-3](/assets/db-diagram-4.png)
+
+### 2.6.5. Bounded Context: Evaluations
+Este bounded context gestiona la retroalimentación posterior al evento. Permite que las partes involucradas registren evaluaciones con puntuaciones, comentarios y checklists sobre la experiencia, tanto del artista como del lugar del evento. Además, deja disponibles estos resultados para análisis y mejora continua.
+
+#### 2.6.5.1. Domain Layer
+En esta capa se modela el núcleo del dominio de evaluaciones, incluyendo los agregados que encapsulan la creación y validación de evaluaciones, las entidades y objetos de valor que representan puntuaciones, comentarios y listas de verificación, junto con los servicios de dominio que aplican las reglas de negocio.
+
+| Tipo            | Clase / Nombre            | Descripción                                                                 | Atributos / Valores (ejemplos)                              |
+|-----------------|---------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|
+| Aggregate   | EvaluationManagement      | Unidad de consistencia para crear y validar evaluaciones.                   | evaluations                                                |
+| Aggregate Root | Evaluation             | Evaluación registrada para un evento e involucrados.                        | id, eventId, reviewerId, revieweeId, type, rating, comment, venueRating, venueComment, artistRating, artistComment, checklist, artistChecklist, createdAt |
+| Entity      | ChecklistItem             | Ítem evaluable dentro de un checklist.                                      | id, label, checked                                         |
+| Value Object| Rating                    | Puntuación normalizada con reglas de rango.                                 | value (0–5)                                                |
+| Value Object| Comment                   | Texto breve de retroalimentación.                                           | text                                                       |
+| Value Object| Checklist                 | Conjunto inmutable de ítems marcados.                                      | items: ChecklistItem[]                                     |
+| Domain Service | EvaluationPolicyService| Reglas para quién/cuándo se puede evaluar y evitar duplicados.              | canEvaluate(eventId, reviewerId, revieweeId), ensureNotDuplicate(...) |
+| Domain Service | ScoreAggregatorService | Calcula promedios o resúmenes por evento o participante.                    | aggregateByEvent(eventId), aggregateByUser(userId)         |
+| Enum        | EvaluationType            | Tipo de evaluación admitida.                                               | EVENT, VENUE, ARTIST, PROMOTER                             |
+
+#### 2.6.5.2. Interface Layer
+En esta capa se encuentran los controladores y objetos de transferencia (DTOs) que exponen los endpoints REST para gestionar evaluaciones. Su función principal es servir como punto de comunicación entre los usuarios y el sistema, permitiendo registrar y consultar evaluaciones de eventos, artistas y lugares.
+
+| Tipo        | Clase / Nombre        | Descripción                                                                 | Métodos / Endpoints principales |
+|-------------|-----------------------|-----------------------------------------------------------------------------|--------------------------------|
+| Controller  | EvaluationController  | Expone endpoints REST para registrar y consultar evaluaciones.               | - POST `/evaluations` — registrar nueva evaluación <br> - GET `/evaluations` — listar todas las evaluaciones <br> - GET `/evaluations/{id}` — obtener detalle de evaluación |
+| DTO         | EvaluationResource    | Objeto de transferencia que devuelve datos de evaluaciones.                  | id, eventId, reviewerId, revieweeId, type, rating, comment, checklist |
+| DTO         | EvaluationCommandResource | Objeto de transferencia para recibir comandos de creación o actualización. | eventId, musicianId, promoterId, type, rating, comment, venueRating, venueComment, artistRating, artistComment, checklist, artistChecklist |
+
+#### 2.6.5.3. Application Layer
+Esta capa orquesta los flujos de evaluación mediante **command handlers** y **event handlers**, coordinando la interacción entre la interfaz y el dominio para registrar y habilitar evaluaciones cuando corresponde.
+
+| Tipo            | Clase / Nombre                          | Descripción                                                                                     | Método / Comandos / Eventos manejados |
+|-----------------|-----------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------|
+| Command Handler | RegisterEvaluationHandler               | Gestiona el proceso de **registrar una nueva evaluación** delegando la validación al dominio.   | `handle(RegisterEvaluationCommand)`   |
+| Command Handler | UpdateEvaluationHandler *(opcional)*    | Permite **actualizar comentarios/checklists** antes del cierre definitivo (si la política lo permite). | `handle(UpdateEvaluationCommand)`     |
+| Event Handler   | OpenEvaluationsOnEventClosedHandler     | Habilita/abre la ventana de evaluaciones cuando el **evento se cierra**.                        | `on(EventClosed)`                     |
+| Event Handler   | NotifyOnPaymentConfirmedHandler *(opt)* | Emite notificación o marca elegibilidad cuando el **pago es confirmado** (si existe regla).     | `on(PaymentConfirmed)`                |
+
+#### 2.6.5.4. Infrastructure Layer
+En esta capa se implementa la conexión con servicios externos y la persistencia de las evaluaciones en la base de datos. Incluye los repositorios que almacenan las evaluaciones utilizando una implementación JPA/Hibernate, garantizando la separación entre la lógica de dominio y la tecnología subyacente.
+
+| Tipo       | Clase / Nombre       | Descripción                                                                 | Notas Técnicas                         |
+|------------|----------------------|-----------------------------------------------------------------------------|----------------------------------------|
+| Repository | EvaluationRepository | Implementación JPA/Hibernate para persistir las evaluaciones realizadas.    | Mapea las evaluaciones a la tabla `evaluations`. |
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+![Component-Evaluations-1](/assets/Component-5.png)
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+![Component-Evaluations-2](/assets/class-diagram-5.png)
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+![Component-Evaluations-3](/assets/db-diagram-5.png)
