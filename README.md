@@ -58,6 +58,21 @@ El lenguaje y estilo de la aplicación buscan conectar eficazmente con el públi
 
 #### 3.1.3.2. Landing Page Mock-up
 ### 3.1.4. Mobile Applications UX/UI Design
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/57f626cb-6a7d-4f28-9acb-a92a0cb60a32" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d7daa0ef-76c1-4813-8d6c-93ea44ecb08c" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d770aed9-dd76-4426-b293-83f3df9e789b" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/cca82563-8fdc-451a-bc31-98bbb2f415dd" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/185cf189-fc5b-44b6-ae3c-0e61b637dc39" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/2069101a-1e81-48e8-95e0-8454dcd9075e" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d2382646-1e95-4bb7-85a7-2f9da2b1f24e" />
+
 #### 3.1.4.1. Mobile Applications Wireframes
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
