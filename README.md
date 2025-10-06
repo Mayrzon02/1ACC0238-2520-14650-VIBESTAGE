@@ -86,7 +86,12 @@ En este apartado se presentarán los elementos más representativos de la identi
 Asimismo, se explorarán sus objetivos a mediano y largo plazo, junto con las estrategias que implementa para crecer y consolidarse en su sector. Comprender estos aspectos resulta fundamental para evaluar el potencial del startup profile y el impacto que puede generar en su entorno.
 ### 1.1.1. Descripción de la Startup
 
-VibeStage es una plataforma web innovadora que surge con el objetivo de conectar a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos, creando un espacio digital donde se facilita no solo la contratación directa, sino también la gestión integral de la disponibilidad de locales, la organización logística, la programación de presentaciones y la promoción musical en diferentes formatos. Los espacios pueden publicar de manera clara su disponibilidad indicando fechas, estilos musicales y ubicación, lo que permite que las bandas interesadas encuentren oportunidades acordes a su propuesta artística, postulen con facilidad, revisen posibles restricciones y agenden su participación sin intermediarios innecesarios. De igual manera, el sistema está equipado con funciones que agilizan el proceso profesional, como la generación y firma de contratos digitales, la administración de pagos seguros bajo la modalidad de escrow, la programación colaborativa en una agenda compartida y la promoción automatizada mediante la creación de entradas digitales que fortalecen la difusión de cada espectáculo. Cada presentación contempla un flujo de trabajo detallado que incluye la validación del rider técnico de la banda, el seguimiento en tiempo real de la agenda, el control de asistencia y una evaluación posterior al evento que permite mejorar futuras experiencias, garantizando así un ecosistema confiable, transparente y eficiente tanto para los artistas como para los organizadores, con el propósito de impulsar la escena musical independiente y acercar al público a nuevas propuestas artísticas.
+**VibeStage** es una **aplicación móvil innovadora** que surge con el objetivo de conectar a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos, creando un espacio digital en el que se facilita no solo la contratación directa, sino también la gestión integral de la disponibilidad de locales, la organización logística, la programación de presentaciones y la promoción musical en diferentes formatos.  
+Los espacios pueden publicar fácilmente su disponibilidad indicando fechas, estilos musicales y ubicación, lo que permite que las bandas interesadas encuentren oportunidades acordes a su propuesta artística, postulen con facilidad, revisen posibles restricciones y agenden su participación sin intermediarios innecesarios.  
+La app incorpora herramientas profesionales como la **firma digital de contratos**, **pagos seguros bajo modalidad escrow**, **sincronización con calendarios móviles**, y **promoción automatizada** mediante la creación de entradas digitales que fortalecen la difusión de cada espectáculo.  
+Cada presentación sigue un flujo de trabajo optimizado que incluye la validación del rider técnico, seguimiento en tiempo real desde el móvil, control de asistencia y evaluaciones posteriores al evento, garantizando así un ecosistema confiable, transparente y eficiente para artistas y organizadores.  
+El propósito de **VibeStage** es **impulsar la escena musical independiente** y acercar al público a nuevas propuestas artísticas mediante la tecnología móvil.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -100,7 +105,8 @@ VibeStage es una plataforma web innovadora que surge con el objetivo de conectar
 
 ## 1.2. Solution Profile
 
-VibeStage es una plataforma web integral desarrollada para transformar la forma en que se conectan músicos emergentes con espacios de entretenimiento como bares, discotecas, centros culturales y promotores de eventos. Su enfoque principal es profesionalizar y digitalizar todo el proceso de contratación musical en vivo, resolviendo desafíos críticos como la informalidad, la falta de visibilidad, la logística poco estructurada y los riesgos asociados a los pagos. La plataforma busca revolucionar la industria musical independiente al combinar tecnología con gestión cultural eficiente y segura, brindando oportunidades reales de crecimiento tanto a artistas como a promotores.
+**VibeStage** es una **app móvil integral** que transforma la manera en que los músicos emergentes se conectan con espacios de entretenimiento como bares, discotecas, centros culturales y promotores de eventos.  
+Su enfoque principal es profesionalizar y digitalizar el proceso de **contratación musical en vivo** mediante una interfaz intuitiva y accesible desde cualquier smartphone. La app aborda problemas críticos como la informalidad, la falta de visibilidad, la desorganización logística y los riesgos asociados a los pagos.
 
 Características Principales:
 
@@ -151,9 +157,8 @@ Esta **desconexión** genera frustración, pérdida de oportunidades y procesos 
 
 #### **Solución Propuesta: VibeStage**
 
-** VibeStage ** es una **plataforma web** que permite a músicos emergentes y promotores de eventos conectar de manera fácil, segura y estructurada.  
-A través de la plataforma, los músicos pueden **postularse a eventos**, firmar **contratos digitales**, recibir **pagos seguros** y construir su **reputación artística**.  
-Simultáneamente, los promotores pueden encontrar talento filtrado por género, estilo o ubicación, revisar perfiles artísticos verificados y **gestionar todo el proceso de contratación y pago de forma automatizada**.
+**VibeStage** permite a músicos y promotores conectarse, firmar contratos digitales, recibir pagos seguros y construir reputación artística, todo desde su teléfono.  
+Los promotores pueden filtrar talentos por género o ubicación y gestionar contrataciones y pagos automatizados.
 
 🔗 [Sofar Sounds – Comunidad musical global](https://www.sofarsounds.com/)  
 🔗 [Gigmor – Plataforma de contratación de músicos](https://www.gigmor.com/)  
