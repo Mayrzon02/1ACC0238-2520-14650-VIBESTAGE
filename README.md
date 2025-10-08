@@ -6,6 +6,7 @@
 Todo software requiere distintos entornos para su desarrollo, validación, despliegue y funcionamiento.  
 La configuración del entorno de implementación consiste en establecer y mantener estos espacios de trabajo, asegurando que cada fase del ciclo de vida del proyecto cuente con las condiciones necesarias.  
 Por ello, en esta sección se describen las principales herramientas empleadas para la gestión y configuración de dichos entornos.
+
 **4.1.1.** Software Development Environment Configuration  
 ### Project Management  
 **1. [WhatsApp](https://www.whatsapp.com/)**  
