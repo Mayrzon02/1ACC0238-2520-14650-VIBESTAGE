@@ -59,6 +59,23 @@ Realizamos nuestra base de datos en esta herramienta debido a que cuenta con una
 y permite trabajar colaborativamente.  
 
 **4.1.2.** Source Code Management  
+
+La gestión y actualización tanto de nuestra *landing page* como de este informe se llevaron a cabo mediante un repositorio colaborativo en **[GitHub](https://github.com/)**,donde administramos el control de versiones y registramos los cambios realizados por cada integrante del equipo. 
+
+**Organization:** [https://github.com/1ACC0238-2520-14650-VIBE-STAGE](https://github.com/1ACC0238-2520-14650-VIBE-STAGE)  
+**Landing Page Repository:** [https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Landing-Page](https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Landing-Page)  
+**Report Repository:** [https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Vibestage-Report](https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Vibestage-Report)
+
+Para optimizar la organización del código y asegurar un flujo de trabajo ordenado, implementamos la metodología **GitFlow**,  
+que facilita la creación y administración de ramas durante el ciclo de desarrollo.  
+Dentro de esta estructura, mantenemos dos ramas principales:  
+
+- **Main:** Contiene la versión estable y lista para producción del proyecto, representando el historial oficial de lanzamientos.  
+- **Develop:** Funciona como la rama central de integración, donde se reúnen y prueban las nuevas funcionalidades antes de ser publicadas.  
+
+Además, utilizamos ramas auxiliares llamadas **Feature**, destinadas a la implementación de nuevas características o mejoras.  
+Estas ramas parten de *develop* y se integran nuevamente una vez completadas, lo que permite trabajar en paralelo sin comprometer la estabilidad del entorno principal.  
+
 **4.1.3.** Source Code Style Guide & Conventions  
 **4.1.4.** Software Deployment Configuration  
 
