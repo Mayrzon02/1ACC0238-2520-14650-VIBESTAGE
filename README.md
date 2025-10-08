@@ -85,6 +85,20 @@ Estas ramas parten de *develop* y se integran nuevamente una vez completadas, lo
 
 ### 4.2. *Landing Page & Mobile Application Implementation*
 #### 4.2.1. *Sprint 1*
+| **Sprint #** | **Sprint 1** |
+|---------------|--------------|
+| **Sprint Planning Background** | |
+| **Date** | 08/10/2025 |
+| **Time** | 16:00 pm |
+| **Location** | Modalidad remota por Discord |
+| **Prepared By** | Equipo VibeStage |
+| **Attendees** | Todos los miembros del grupo VibeStage |
+| **Sprint n - 0 Review Summary** | Se desarrolló la **Landing Page** y la primera versión de la **Aplicación móvil**, ambas alineadas con los objetivos del proyecto *VibeStage*. <br><br> **Landing Page:** Propósito claro de la plataforma, Navegación fluida entre secciones, Diseño responsive adaptable,Versión en inglés y soporte multilenguaje, Formulario de contacto funcional, Selección del tipo de usuario,Visualización de planes por tipo de usuario, Botones CTA funcionales, Menú fijo con desplazamiento suave, Sección del equipo visible, Botón de “Enviar” funcional. <br><br> **Aplicación móvil:** Registro de artista, Acceso al dashboard del artista, Búsqueda de eventos por afinidad, Postulación rápida a eventos, Registro del promotor/local, Dashboard del promotor/local, Registro de usuario con selección de rol, Inicio de sesión con credenciales, Agenda de eventos del artista. <br><br> **Notas técnicas:** Se implementó estructura modular, pantallas por rol, flujo de registro y login funcional, navegación estable, interfaz coherente con la identidad visual de VibeStage y componentes reutilizables con Material Design. |
+| **Sprint n - 1 Retrospective Summary** | **Puntos positivos:** Se logró cumplir el alcance total del Sprint, entregando una experiencia funcional tanto en la web como en la app. Se consolidó la base de la arquitectura, diseño visual, navegación, e internacionalización. <br> **Aspectos destacados:** Alta cohesión en equipo, cumplimiento de tiempos, y pruebas exitosas en dispositivos móviles y navegadores. <br> **Próximos pasos:** (1) Integración con backend para gestión real de datos; (2) implementación de base de datos; (3) optimización SEO y despliegue productivo; (4) conexión del módulo de eventos, pagos y reputación. |
+| **Sprint Goal & User Stories** | **Objetivo del Sprint 1:** Implementar la base visual y funcional de *VibeStage* (Landing Page y App Móvil) para presentar el propósito del producto, atraer nuevos usuarios (artistas y promotores) y establecer el flujo inicial de registro y navegación por rol. <br><br> **User Stories desarrolladas:** <br> - *Landing Page:* US01, US02, US03, US04, US05, US06, US21, US22, US23, US24, US26. <br> - *Aplicación móvil:* US07, US08, US09, US10, US14, US15, US31, US32, US34. <br><br> **Technical Stories :** TS1, TS2, TS3, TS4, TS5, TS6, TS7, TS8, TS9, TS10, TS11.|
+| **Sprint 1 Velocity** | **Total de HU completadas:** 19   |  **Velocidad total:** 19 puntos |  **Estado general:** Sprint 1 completado exitosamente con todos los entregables funcionales y alineados al MVP de VibeStage. |
+
+
 **4.2.1.1.** Sprint Planning 1  
 **4.2.1.2.** Sprint Backlog 1  
 **4.2.1.3.** Development Evidence for Sprint Review  
