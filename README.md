@@ -4,6 +4,60 @@
 
 ### 4.1. Software Configuration Management
 **4.1.1.** Software Development Environment Configuration  
+### Project Management  
+**1. [WhatsApp](https://www.whatsapp.com/)**  
+Usamos WhatsApp como nuestro principal medio de comunicación y coordinación del equipo.  
+Nos permitió mantener una comunicación constante, compartir avances rápidamente y realizar llamadas grupales para discutir decisiones importantes del proyecto.  
+
+---
+
+### Requirements Management  
+**1. [Trello](https://trello.com/)**  
+Usamos esta herramienta para el manejo de nuestros requerimientos con el objetivo de organizar de manera más efectiva el backlog en equipo.  
+Trello es una aplicación para gestionar proyectos. Te permite crear y organizar tareas, plazos y equipos.  
+Trello se adapta a cualquier tipo de proyecto y se integra con otras aplicaciones.  
+
+---
+
+### Product UX/UI Design  
+**1. [UXPressia](https://uxpressia.com/)**  
+Esta herramienta nos ayudó en el desarrollo de nuestras *User Personas*, *Customer Journey Map*, *Empathy Map* e *Impact Map*,  
+debido a que ofrece plantillas que facilitan el desarrollo ágil de estos artefactos.  
+
+**2. [Mural](https://www.mural.co/)**  
+Realizamos nuestro *Scenario Mapping* para nuestros dos segmentos objetivos,  
+debido a que Mural es una herramienta fácil de usar y brinda plantillas de uso libre.  
+
+**3. [Figma](https://www.figma.com/)**  
+Usamos esta herramienta para la creación de nuestros *Wireframes*, *Mockups* y *Mobile Application Prototypes*,  
+ya que permite trabajar de manera colaborativa y cuenta con múltiples utilidades.  
+
+---
+
+### Software Development  
+**1. Landing Page**  
+Para el desarrollo de nuestra *Landing Page* usamos herramientas básicas para el diseño de páginas web como lo son:  
+**HTML5**, **CSS3** y **JavaScript**.  
+
+**2. Android Studio**  
+Empleamos **Android Studio** como entorno de desarrollo integrado (IDE) para la creación y prueba de nuestra aplicación móvil nativa.  
+Esta herramienta nos permitió implementar funcionalidades directamente sobre Android, realizar emulaciones en distintos dispositivos  
+y optimizar el rendimiento de la app mediante Kotlin y XML.  
+
+---
+
+### Software Documentation  
+**1. [LucidChart](https://lucid.app/)**  
+Esta herramienta la usamos para el desarrollo de *User Flow Diagrams*, *Wireflows* y el *Diagrama de Clases*.  
+En LucidChart se pueden crear diversos diagramas de forma rápida y colaborativa.  
+
+**2. [Structurizr](https://www.structurizr.com/)**  
+Nos permitió realizar los diagramas **C4** de manera rápida con el lenguaje de programación **C#**.  
+
+**3. [Vertabelo](https://vertabelo.com/)**  
+Realizamos nuestra base de datos en esta herramienta debido a que cuenta con una amplia variedad de motores  
+y permite trabajar colaborativamente.  
+
 **4.1.2.** Source Code Management  
 **4.1.3.** Source Code Style Guide & Conventions  
 **4.1.4.** Software Deployment Configuration  
