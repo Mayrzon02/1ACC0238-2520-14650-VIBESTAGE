@@ -184,6 +184,20 @@ Durante el Sprint 1 se desarrollaron y documentaron los servicios correspondient
 **4.2.1.7.** Software Deployment Evidence for Sprint Review  
 **4.2.1.8.** Team Collaboration Insights during Sprint  
 
+En esta sección se presentarán las evidencias que reflejan el trabajo colaborativo realizado durante el desarrollo del proyecto VibeStage.
+
+**Report**
+
+<img width="750" height="571" alt="Image" src="https://github.com/user-attachments/assets/46c357c3-dcb2-45e8-844e-fd319fbd16c7" />
+
+**Landing Page**
+
+<img width="750" height="571" alt="Image" src="https://github.com/user-attachments/assets/f3132076-0e01-454a-a69d-cbc657033c21" />
+
+**Mobile App**
+
+<img width="750" height="571" alt="Image" src="https://github.com/user-attachments/assets/e0d7395b-90c1-41ad-8095-3d3cc2582f74" />
+
 ### 4.3 Validation Interviews
 #### 4.3.1 Diseño de entrevistas
 
@@ -213,7 +227,7 @@ Estas preguntas nos ayudarán a conocer la experiencia del usuario con la plataf
 
 1. ¿Al ver la landing page comprendiste rápidamente el propósito de **VibeStage** y cómo podría ayudarte como promotor?  
 2. ¿Te pareció atractiva y clara la interfaz del sitio web?  
-3. ¿Te resultó sencillo crear tu cuenta y registrar la información de tu local o espacio para eventos en la app?  
+3. ¿Que te pareció la funcionalidad de crear tu cuenta y registrar la información de tu local o espacio para eventos en la app?  
 4. ¿Qué tan claro te pareció el proceso para revisar, aceptar o rechazar postulaciones de artistas?  
 5. ¿Consideras útil la vista de **Mis Eventos**, donde puedes gestionar tus próximos, en curso y completados?  
 6. ¿La aplicación te ayuda a llevar un control eficiente de tus contrataciones, pagos y fechas?  
