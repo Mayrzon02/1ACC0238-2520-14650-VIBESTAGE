@@ -253,6 +253,15 @@ Promoter Flow - Application Management
 
 En esta sección se muestran los mock-ups realizados para nuestro Mobile Applications.
 
-
+Onboarding Experience
+![alt text](image-13.png)
+Authentication
+![alt text](image-14.png)
+Artist Experience
+![alt text](image-15.png)
+Promoter Experience
+![alt text](image-16.png)
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+
 #### 3.1.4.5. Mobile Applications Prototyping
