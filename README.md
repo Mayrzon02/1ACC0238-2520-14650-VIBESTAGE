@@ -173,7 +173,54 @@ Durante el Sprint 1 se desarrollaron y documentaron los servicios correspondient
 **4.2.1.7.** Software Deployment Evidence for Sprint Review  
 **4.2.1.8.** Team Collaboration Insights during Sprint  
 
-#### 4.3. *Validation Interviews*
-**4.3.1.** Diseño de Entrevistas  
+### 4.3 Validation Interviews
+#### 4.3.1 Diseño de entrevistas
+
+**Objetivo de la entrevista:**
+
+Validar la usabilidad y efectividad de la landing page y de los flujos de usuario (user flows) de la aplicación móvil **VibeStage**, asegurando que cada flujo sea intuitivo, claro y funcional para los dos segmentos objetivo: **Promotores** y **Artistas**. Las entrevistas permitirán identificar percepciones, niveles de satisfacción y posibles mejoras en la experiencia general de uso.
+
+---
+
+#### Saludo y presentación
+
+Comenzamos con una introducción breve de los entrevistados para recordar quiénes son:
+
+1. ¿Cómo se llama?  
+2. ¿Cuántos años tiene?  
+3. ¿En qué distrito vive?  
+
+---
+
+#### Preguntas
+
+Estas preguntas nos ayudarán a conocer la experiencia del usuario con la plataforma **VibeStage**, evaluar si la interfaz y las funciones cumplen sus expectativas, y recoger sugerencias para futuras mejoras.
+
+---
+
+**Promotor:**
+
+1. ¿Al ver la landing page comprendiste rápidamente el propósito de **VibeStage** y cómo podría ayudarte como promotor?  
+2. ¿Te pareció atractiva y clara la interfaz del sitio web?  
+3. ¿Te resultó sencillo crear tu cuenta y registrar la información de tu local o espacio para eventos en la app?  
+4. ¿Qué tan claro te pareció el proceso para revisar, aceptar o rechazar postulaciones de artistas?  
+5. ¿Consideras útil la vista de **Mis Eventos**, donde puedes gestionar tus próximos, en curso y completados?  
+6. ¿La aplicación te ayuda a llevar un control eficiente de tus contrataciones, pagos y fechas?  
+7. ¿Qué tan importante consideras la función de promoción automática de eventos dentro de la app?  
+8. ¿Qué función agregarías o mejorarías en **VibeStage** para que se adapte mejor a tus necesidades como promotor?  
+
+---
+
+**Artista:**
+
+1. ¿Al ingresar a la landing page entendiste fácilmente qué ofrece **VibeStage** y a quién está dirigida la plataforma?  
+2. ¿Te pareció atractiva la presentación visual de la landing (colores, tipografía, secciones)?  
+3. ¿Qué tan fácil te resultó registrarte y crear tu perfil como artista dentro de la aplicación móvil?  
+4. ¿La app te ayudó a entender rápidamente cómo buscar y postular a presentaciones?  
+5. ¿Te parece útil que la aplicación muestre tus shows confirmados y pendientes en una agenda digital?  
+6. ¿Consideras importante que los contratos y pagos se gestionen digitalmente dentro de la app?  
+7. ¿Qué tan valioso te resulta recibir notificaciones o recordatorios sobre tus próximos eventos o evaluaciones?  
+8. ¿Qué función o herramienta agregarías o mejorarías para que **VibeStage** se adapte mejor a tu carrera artística?   
+
 **4.3.2.** Registro de Entrevistas  
 **4.3.3.** Evaluaciones según heurísticas  
