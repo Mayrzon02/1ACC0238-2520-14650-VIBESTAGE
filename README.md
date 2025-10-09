@@ -202,8 +202,16 @@ El Sistema de Navegación es la estructura que permite a los usuarios desplazars
 <img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d2382646-1e95-4bb7-85a7-2f9da2b1f24e" />
 
 #### 3.1.3.2. Landing Page Mock-up
-### 3.1.4. Mobile Applications UX/UI Design
 
+Procederemos a mostrar el Landing Page Mock-up de la aplicación:
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+### 3.1.4. Mobile Applications UX/UI Design
 
 
 #### 3.1.4.1. Mobile Applications Wireframes
