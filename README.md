@@ -2010,10 +2010,12 @@ Estas preguntas nos ayudarán a conocer la experiencia del usuario con la plataf
 
 **4.3.2.** Registro de Entrevistas  
 
-#### Segmento Segmento Administrador de locales
+#### Segmento Artistas
 
 Entrevistado #1
 
+| Campo                        | Información                                                                                                                           |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre del entrevistado**  |   Angela Ushiñahua                                                                                                               |
 | **Edad**                     |    25 años                                                                                                                            |
 | **Distrito**                 |         Villa el Salvador                                                                                                                    |
@@ -2024,7 +2026,40 @@ Entrevistado #1
 
 
 **4.3.3.** Evaluaciones según heurísticas  
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
 
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Aplicaciones para Dispositivos Móviles
+**SECCIÓN**: [14650]  
+**PROFESORES**: Todos  
+**AUDITOR**: Grupo VibeStage
+**CLIENTE(S)**: Todos
+
+**SITE o APP A EVALUAR**: VibeStage
+
+**TAREAS A EVALUAR**
+
+1. Visualización de beneficios y funcionalidades de la plataforma
+2. Acceso a la sección de contacto
+3. Navegación desde el menú
+4. Acceso a los botones de registro por tipo de usuario
+5. Cambio de idioma
+6. Visualización de testimonios u opiniones
+
+
+**EVALUACIÓN SEGÚN HEURÍSTICAS**
+
+| # | Heurística | Observación | Severidad (0-4) | Recomendación |
+|---|------------|-------------|----------------|---------------|
+| 1 | Visibilidad del estado del sistema | No hay indicador visual que confirme que se ha accedido a una sección distinta (por ejemplo, About o Contacto). | 2 | Añadir efectos de scroll o resaltado del menú activo. |
+| 2 | Correspondencia entre el sistema y el mundo real | El lenguaje utilizado en botones es claro y amigable ("Únete como artista/promotor"). | 0 | Ninguna. Excelente elección de lenguaje. |
+| 3 | Control y libertad del usuario | No hay opción para retroceder fácilmente a la parte superior desde secciones inferiores. | 1 | Añadir un botón “Volver arriba” o scroll automático al hacer clic en el logo. |
+| 4 | Consistencia y estándares | Buen uso de íconos y colores consistentes en toda la página. | 0 | Ninguna. |
+| 5 | Reconocimiento antes que recuerdo | Secciones como “Equipo” y “Beneficios” están claramente rotuladas. | 0 | Ninguna. |
+| 6 | Flexibilidad y eficiencia de uso | El sitio está adaptado a dispositivos móviles (responsive). | 1 | Optimizar el menú para que sea tipo "hamburguesa" en móvil. |
+| 7 | Diseño estético y minimalista | El diseño es limpio y moderno, no sobrecarga al usuario. | 0 | Ninguna. |
+| 8 | Ayuda y documentación | No hay sección de ayuda visible o guía para nuevos usuarios. | 2 | Incluir una sección tipo “¿Cómo funciona?” con pasos o video explicativo.. |
 
 ## Conclusiones
 Actualización constante:
