@@ -166,7 +166,10 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 
 **4.2.1.4.** Testing Suite Evidence for Sprint Review  
 **4.2.1.5.** Execution Evidence for Sprint Review  
-**4.2.1.6.** Services Documentation Evidence for Sprint Review  
+**4.2.1.6.** Services Documentation Evidence for Sprint Review 
+
+Durante el Sprint 1 se desarrollaron y documentaron los servicios correspondientes a los repositorios Landing Page y VibeStage Kotlin App, evidenciando el avance del proyecto mediante commits verificados y funcionales. En la Landing Page, se implementaron las secciones principales de la plataforma web, incluyendo encabezado, menú de navegación, diseño responsive, traducción bilingüe y formularios interactivos, cumpliendo con los requerimientos definidos en las historias de usuario. En la aplicación VibeStage Kotlin, se realizaron avances en la interfaz móvil, navegación entre pantallas y correcciones de estilo, alcanzando la versión 2 con mejoras visuales y de usabilidad. Ambas implementaciones reflejan un trabajo colaborativo y continuo, con un control de versiones que garantiza trazabilidad, calidad del código y cumplimiento de los objetivos establecidos para el Sprint 1.
+
 **4.2.1.7.** Software Deployment Evidence for Sprint Review  
 **4.2.1.8.** Team Collaboration Insights during Sprint  
 
