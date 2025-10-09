@@ -165,7 +165,18 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 | Landing Page | main | 961ad56 | Rafael Cuya | Initial commit | 17/09/2025 |
 
 **4.2.1.4.** Testing Suite Evidence for Sprint Review  
-**4.2.1.5.** Execution Evidence for Sprint Review  
+**4.2.1.5.** Execution Evidence for Sprint Review 
+
+<img width="1491" height="774" alt="image" src="https://github.com/user-attachments/assets/628fc7f0-514c-4aaf-a90a-06796fd8ffd2" />
+
+<img width="1482" height="762" alt="image" src="https://github.com/user-attachments/assets/000615db-1598-496e-82f5-9e756d7037e2" />
+
+<img width="1443" height="703" alt="image" src="https://github.com/user-attachments/assets/572920e7-5ae9-41ef-8fe3-32c0af2fba48" />
+
+<img width="1486" height="817" alt="image" src="https://github.com/user-attachments/assets/c02701b3-ae2b-4401-8f40-8f601ec53d15" />
+
+<img width="1491" height="717" alt="image" src="https://github.com/user-attachments/assets/321419f2-6a31-412f-b1e4-021cbadc115e" />
+
 **4.2.1.6.** Services Documentation Evidence for Sprint Review 
 
 Durante el Sprint 1 se desarrollaron y documentaron los servicios correspondientes a los repositorios Landing Page y VibeStage Kotlin App, evidenciando el avance del proyecto mediante commits verificados y funcionales. En la Landing Page, se implementaron las secciones principales de la plataforma web, incluyendo encabezado, menú de navegación, diseño responsive, traducción bilingüe y formularios interactivos, cumpliendo con los requerimientos definidos en las historias de usuario. En la aplicación VibeStage Kotlin, se realizaron avances en la interfaz móvil, navegación entre pantallas y correcciones de estilo, alcanzando la versión 2 con mejoras visuales y de usabilidad. Ambas implementaciones reflejan un trabajo colaborativo y continuo, con un control de versiones que garantiza trazabilidad, calidad del código y cumplimiento de los objetivos establecidos para el Sprint 1.
