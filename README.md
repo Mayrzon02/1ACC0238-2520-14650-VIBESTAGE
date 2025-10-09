@@ -211,11 +211,33 @@ Procederemos a mostrar el Landing Page Mock-up de la aplicación:
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 ![alt text](image-5.png)
+
 ### 3.1.4. Mobile Applications UX/UI Design
 
-
 #### 3.1.4.1. Mobile Applications Wireframes
+
+En esta sección se muestran los wireframes realizados para nuestro Web Application.
+
+Documentación completa del flujo de la aplicación
+
+![alt text](image-6.png)
+
+Authentication Flow
+
+![alt text](image-7.png)
+
+Artist Flow
+![alt text](image-8.png)
+
+Promoter Flow
+
+![alt text](image-9.png)
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
+
+
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
