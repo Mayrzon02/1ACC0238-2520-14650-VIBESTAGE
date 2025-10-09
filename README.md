@@ -289,5 +289,5 @@ Para visualizar el diseño completo de la aplicación, puedes acceder al siguien
 Ver video demostrativo en OneDrive:  
 [Video demostrativo en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EcKTzlOtZ9JLlvc714647RgBHxl2Gm1s0qdNq0CKHMX8fw?nav=eyJyZWZlcnJhbEluOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6Aa1cl)
 
-### 🔗 Prototipo de la aplicación web “TocaAquí” en Figma  
+### 🔗 Prototipo de la aplicación móvil VibeStage en Figma  
 [Prototipo en Figma](https://www.figma.com/design/SkxFiyo67OT8ELv0hhT7C9/Untitled?node-id=0-1&t=3UnZLelDV2MRvozJ-1)
