@@ -142,8 +142,28 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 | **TS10** | Contratos y Riders | **T30** | Diseñar diagrama C4 del módulo | Representar flujo de firma digital y validación técnica. | 2 | Juan Paul Llamccaya | Done |
 | **TS11** | Pagos y reputación | **T31** | Generar código estructurado del backend simulado | Mostrar endpoints y entidades de pagos/evaluaciones. | 3 | Stephano Landauri | Done |
 
+**4.2.1.3.** Development Evidence for Sprint Review 
 
-**4.2.1.3.** Development Evidence for Sprint Review  
+| **Repository** | **Branch** | **Commit ID** | **Author** | **Message** | **Time ago** |
+|----------------|-------------|---------------|-------------|--------------|---------------|
+| **vibestage-kotlin-app** | main | c1c8c1b | bluexdev | feat: fix style | 08/10/2025 |
+| vibestage-kotlin-app | main | 347def1 | bluexdev | feat: fix style | 08/10/2025 |
+| vibestage-kotlin-app | main | 584574d | bluexdev | feat: fix style | 08/10/2025 |
+| vibestage-kotlin-app | main | 7382f26 | bluexdev | feat(promoter): release version 2 with navigation and UI bug fixes | 06/10/2025 |
+| vibestage-kotlin-app | main | d2d79c1 | bluexdev | Initial version | 05/10/2025 |
+| **Landing Page** | main | 47c98e9 | bluexdev | feat: add new team member to landing page with photo, name, and alt text | 17/09/2025 |
+| Landing Page | main | ac3175c | Rafael Cuya | Feat added some pictures | 17/09/2025 |
+| Landing Page | main | ed6a9bf | Rafael Cuya | Merge remote-tracking branch 'origin/main' | 17/09/2025 |
+| Landing Page | main | e197375 | Rafael Cuya | Feat added style | 17/09/2025 |
+| Landing Page | main | 4426a42 | Rafael Cuya | Feat added main-en | 17/09/2025 |
+| Landing Page | main | 8904fd8 | Rafael Cuya | Feat added main.js | 17/09/2025 |
+| Landing Page | main | 8a91016 | Rafael Cuya | Feat added index | 17/09/2025 |
+| Landing Page | main | a746977 | Rafael Cuya | Feat added translation | 17/09/2025 |
+| Landing Page | main | aff4c44 | Rafael Cuya | Feat added pictures | 17/09/2025 |
+| Landing Page | main | 7bd30af | Rafael Cuya | feat added README | 17/09/2025 |
+| Landing Page | main | 8cc4fc3 | Rafael Cuya | Feat added Readme | 17/09/2025 |
+| Landing Page | main | 961ad56 | Rafael Cuya | Initial commit | 17/09/2025 |
+
 **4.2.1.4.** Testing Suite Evidence for Sprint Review  
 **4.2.1.5.** Execution Evidence for Sprint Review  
 **4.2.1.6.** Services Documentation Evidence for Sprint Review  
