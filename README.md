@@ -55,6 +55,7 @@
 | Versión | Fecha             | Autor                                                                                                                                                     | Descripción de modificación                                                                                                                                                                                                                                                                                                                                        |
 | ------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **TB1** | 18/09 | - Rafael Cuya Villegas<br>- Juan Paul Llamccaya Arone<br>- <br>- Gabriel Omar Lapa de la Cruz <br>- Stephano Landauri Preciado | Se han incluído los siguientes capítulos:<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Avance de Conclusiones, Bibliografía y Anexos |
+| **TP1** | 09/10 | - Rafael Cuya Villegas<br>- Juan Paul Llamccaya Arone<br>- Carlos Antonio Alvarez Ponce <br>- Gabriel Omar Lapa de la Cruz <br>- Stephano Landauri Preciado | Se han incluído los siguientes capítulos:<br>- Capítulo III: <br>- Capítulo IV: <br>- Avance de Conclusiones, Bibliografía y Anexos |
 
 # Project Report Collaboration Insights
 
@@ -86,7 +87,8 @@ En este apartado se presentarán los elementos más representativos de la identi
 Asimismo, se explorarán sus objetivos a mediano y largo plazo, junto con las estrategias que implementa para crecer y consolidarse en su sector. Comprender estos aspectos resulta fundamental para evaluar el potencial del startup profile y el impacto que puede generar en su entorno.
 ### 1.1.1. Descripción de la Startup
 
-VibeStage es una plataforma web innovadora que surge con el objetivo de conectar a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos, creando un espacio digital donde se facilita no solo la contratación directa, sino también la gestión integral de la disponibilidad de locales, la organización logística, la programación de presentaciones y la promoción musical en diferentes formatos. Los espacios pueden publicar de manera clara su disponibilidad indicando fechas, estilos musicales y ubicación, lo que permite que las bandas interesadas encuentren oportunidades acordes a su propuesta artística, postulen con facilidad, revisen posibles restricciones y agenden su participación sin intermediarios innecesarios. De igual manera, el sistema está equipado con funciones que agilizan el proceso profesional, como la generación y firma de contratos digitales, la administración de pagos seguros bajo la modalidad de escrow, la programación colaborativa en una agenda compartida y la promoción automatizada mediante la creación de entradas digitales que fortalecen la difusión de cada espectáculo. Cada presentación contempla un flujo de trabajo detallado que incluye la validación del rider técnico de la banda, el seguimiento en tiempo real de la agenda, el control de asistencia y una evaluación posterior al evento que permite mejorar futuras experiencias, garantizando así un ecosistema confiable, transparente y eficiente tanto para los artistas como para los organizadores, con el propósito de impulsar la escena musical independiente y acercar al público a nuevas propuestas artísticas.
+VibeStage es una aplicación móvil diseñada para conectar a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos. Su propósito es ofrecer un espacio práctico y confiable donde artistas y locales puedan gestionar fácilmente presentaciones en vivo, desde la contratación hasta la promoción del espectáculo. A través de la app, los espacios pueden publicar su disponibilidad con detalles como fechas, estilos musicales y ubicación, permitiendo que las bandas encuentren oportunidades compatibles con su propuesta artística y postulen de forma rápida y directa, sin intermediarios. Por su parte, los músicos pueden revisar condiciones, confirmar presentaciones y mantener toda su información organizada en un solo lugar. VibeStage también incorpora herramientas que profesionalizan el proceso, como contratos digitales, pagos seguros mediante escrow, agendas compartidas y promoción automática a través de entradas digitales. Además, cada evento incluye un flujo de trabajo claro que abarca la validación del rider técnico, el seguimiento en tiempo real, el control de asistencia y una evaluación posterior para optimizar futuras colaboraciones. Con esta propuesta, VibeStage busca fortalecer la escena musical independiente, ofrecer mayor visibilidad a los artistas y facilitar la gestión de eventos en un entorno confiable, transparente y colaborativo.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -100,33 +102,32 @@ VibeStage es una plataforma web innovadora que surge con el objetivo de conectar
 
 ## 1.2. Solution Profile
 
-VibeStage es una plataforma web integral desarrollada para transformar la forma en que se conectan músicos emergentes con espacios de entretenimiento como bares, discotecas, centros culturales y promotores de eventos. Su enfoque principal es profesionalizar y digitalizar todo el proceso de contratación musical en vivo, resolviendo desafíos críticos como la informalidad, la falta de visibilidad, la logística poco estructurada y los riesgos asociados a los pagos. La plataforma busca revolucionar la industria musical independiente al combinar tecnología con gestión cultural eficiente y segura, brindando oportunidades reales de crecimiento tanto a artistas como a promotores.
+VibeStage es una aplicación móvil integral creada para transformar la manera en que músicos emergentes se conectan con espacios de entretenimiento como bares, discotecas, centros culturales y promotores de eventos. Su objetivo es profesionalizar y digitalizar la contratación de presentaciones en vivo, solucionando problemas comunes como la informalidad, la falta de visibilidad, la desorganización logística y los riesgos en los pagos. La app busca revolucionar la escena musical independiente combinando tecnología con gestión cultural eficiente y segura, ofreciendo oportunidades reales de crecimiento tanto para artistas como para promotores.
 
 Características Principales:
 
-  - **Conexión Inteligente entre Músicos y Espacios:** VibeStage permite a músicos y bandas independientes explorar y postularse a espacios disponibles según ubicación, género musical y fechas. A través de filtros inteligentes, los artistas encuentran escenarios afines a su propuesta y los promotores acceden a un catálogo confiable de talento emergente.
+  - **Conexión Inteligente entre Músicos y Espacios:** VibeStage permite a los artistas descubrir y postularse a escenarios disponibles según su ubicación, género musical y fechas. Mediante filtros inteligentes, los músicos encuentran lugares compatibles con su estilo, mientras que los promotores acceden a un catálogo confiable de talento emergente.
 
-- **Gestión Logística Digitalizada:** La plataforma digitaliza cada paso del proceso: desde la publicación de fechas y requisitos por parte de los locales, hasta la coordinación del rider técnico, validación de la agenda y seguimiento en tiempo real de la programación. Esto garantiza una experiencia fluida, transparente y sin improvisaciones.
+- **Gestión Logística Digitalizada:** Cada etapa del proceso se gestiona directamente desde la app: publicación de fechas, coordinación del rider técnico, validación de la agenda y seguimiento en tiempo real del evento. Esto garantiza una experiencia fluida, organizada y sin contratiempos.
 
-- **Contratación Formal y Segura:** Con el uso de contratos digitales, VibeStage formaliza cada presentación. Los acuerdos incluyen condiciones, cláusulas de cancelación y validación de cumplimiento. Además, los pagos son gestionados a través de un sistema de escrow, asegurando que el músico reciba su compensación solo cuando el evento ha sido validado.
+- **Contratación Formal y Segura:** A través de contratos digitales y un sistema de pagos con escrow, VibeStage formaliza los acuerdos y asegura que los músicos reciban su compensación una vez validado el evento. Todo el proceso se maneja de forma transparente y sin intermediarios.
 
-- **Promoción Automatizada de Eventos:** Una vez cerrada la contratación, la plataforma genera automáticamente materiales de promoción, incluyendo entradas digitales, imágenes para redes sociales y publicación del evento en la agenda virtual del espacio. Esto facilita la difusión y aumenta la asistencia sin esfuerzo adicional.
+- **Promoción Automatizada de Eventos:** Una vez confirmada la actuación, la app genera materiales de difusión como entradas digitales, publicaciones para redes sociales y la inclusión del evento en la agenda del espacio. Esto simplifica la promoción y mejora el alcance de cada show.
 
-- **Seguimiento y Evaluación Post-Evento:** Tanto músicos como espacios pueden evaluarse mutuamente tras cada presentación. Este sistema de reputación ayuda a construir confianza en la comunidad, destacando a los artistas más responsables y a los promotores más organizados, fortaleciendo así el ecosistema musical independiente.
+- **Seguimiento y Evaluación Post-Evento:** Tras cada presentación, tanto los artistas como los locales pueden calificarse mutuamente. Este sistema de evaluación fomenta la confianza, destaca la responsabilidad y consolida una comunidad sólida dentro del ecosistema musical independiente.
 
-VibeStage no solo conecta talento con oportunidades, sino que impulsa un cambio estructural en la forma de organizar y vivir la música en vivo. Su visión es clara: profesionalizar la escena independiente y democratizar el acceso a escenarios reales para artistas emergentes.
-
+VibeStage no solo conecta talento con oportunidades, sino que redefine la manera de organizar y disfrutar la música en vivo. Su visión es clara: profesionalizar la escena independiente y abrir más escenarios reales para las nuevas generaciones de artistas.
 ### 1.2.1 Antecedentes y problemática
 
 | Pregunta   | Descripción                           | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Who?       | ¿Quién es afectado?                   | Músicos emergentes que buscan oportunidades para presentarse en vivo y espacios como bares, discotecas y centros culturales que necesitan talento nuevo. También se ven afectados los promotores de eventos que buscan artistas para fechas específicas.                                                                                                                   |
-| What?      | ¿Cuál es el problema?                 | La dificultad para conectar de manera confiable y profesional a músicos independientes con promotores o locales. Actualmente, muchas contrataciones se realizan de forma informal, lo que genera riesgos de impago, cancelaciones de último minuto y falta de visibilidad para los artistas.                                                                                                                     |
-| When?      | ¿Cuándo sucede el problema?           | Este problema ocurre constantemente en el ecosistema musical. Cada vez que un artista intenta conseguir una presentación o un local necesita llenar su agenda musical, ambos enfrentan complicaciones por la falta de una herramienta centralizada y confiable.                                                                                                             |
-| Where?     | ¿Dónde surge el problema?             | El problema surge principalmente en contextos urbanos y zonas con alta actividad cultural donde hay una gran oferta de músicos pero pocos canales formales de contratación. Con VibeStage, se busca resolverlo desde cualquier lugar con conexión a internet.                                                                                                               |
-| Why?       | ¿Cuál es la causa del problema?       | El origen radica en la informalidad de la industria musical emergente, la falta de visibilidad para los artistas independientes, y la ausencia de una plataforma que profesionalice la gestión de eventos y presentaciones musicales en vivo.                                                                                                                                |
-| How?       | ¿Qué llevó a la persona a esta situación? | Los músicos independientes suelen carecer de representación o contactos, mientras que los locales enfrentan incertidumbre sobre la calidad y responsabilidad de los artistas. Esta brecha impide relaciones sostenibles y eventos exitosos. VibeStage surge como solución digital que facilita la logística, contratación, pago seguro y retroalimentación para todas las partes. |
-| How Much?  | ¿Cuál es la cantidad, duración o intensidad del evento? | La plataforma apunta a atender un mercado activo en el que muchos espacios realizan entre 4 a 12 eventos mensuales, y existen decenas de miles de músicos que buscan espacios donde tocar. La falta de una solución como VibeStage representa una pérdida constante de oportunidades para ambos lados, así como eventos mal organizados y poco rentables. |
+| What?      | ¿Cuál es el problema?                 | La dificultad para conectar de manera ágil y segura a músicos independientes con promotores o locales. Actualmente, la mayoría de acuerdos se gestionan por redes sociales o contactos informales, generando riesgos como impagos, cancelaciones y falta de exposición.                                                                                                                     |
+| When?      | ¿Cuándo sucede el problema?           | Este problema ocurre constantemente dentro del ecosistema musical, especialmente cuando los artistas buscan fechas disponibles o los locales necesitan cubrir su programación. Sin una herramienta móvil centralizada, ambos deben invertir tiempo y esfuerzo en coordinar todo manualmente.                                                                                                             |
+| Where?     | ¿Dónde surge el problema?             | El problema se presenta principalmente en entornos urbanos y comunidades con alta actividad cultural, donde existe una gran cantidad de músicos y espacios, pero pocos medios confiables para conectar.                                                                                                              |
+| Why?       | ¿Cuál es la causa del problema?       | La informalidad del sector musical independiente, la falta de visibilidad de los artistas y la ausencia de herramientas tecnológicas adaptadas a la realidad móvil han dificultado una gestión profesional de los eventos en vivo                                                                                                                                |
+| How?       | ¿Qué llevó a la persona a esta situación? | Los músicos suelen carecer de representación o redes de contacto, mientras que los locales enfrentan incertidumbre sobre la calidad y compromiso de los artistas. Con la app, ambos pueden comunicarse, firmar contratos digitales, coordinar logística y realizar pagos seguros desde su dispositivo móvil. |
+| How Much?  | ¿Cuál es la cantidad, duración o intensidad del evento? | El mercado al que apunta la app es altamente activo: muchos espacios realizan entre 4 y 12 eventos mensuales, y existen miles de músicos buscando escenarios donde presentarse. La falta de una solución móvil como VibeStage implica pérdidas de tiempo, oportunidades y recursos, tanto para artistas como para promotores. |
                                 
 
 ### 1.2.2 Lean UX Process
@@ -134,15 +135,14 @@ VibeStage no solo conecta talento con oportunidades, sino que impulsa un cambio 
 El proceso Lean UX es una metodología ágil que transforma la manera de diseñar y construir productos digitales. En esta sección se analizarán los principios esenciales de Lean UX y la forma en que se incorporan dentro del ciclo de desarrollo. A través de la colaboración entre equipos multidisciplinarios, la iteración constante y la validación continua, veremos cómo este enfoque facilita la creación de productos centrados en el usuario de manera ágil, práctica y efectiva.
 
 ### 1.2.2.1 Lean UX Problem Statements  
-#### **VibeStage: Plataforma para la Contratación de Músicos Emergentes**
+#### **VibeStage: Aplicación Móvil para la Contratación de Músicos Emergentes**
 
 ---
 
 #### **Descripción del Problema**
 
-En el competitivo mundo de la industria de eventos musicales, los **músicos emergentes** enfrentan grandes dificultades para acceder a oportunidades reales de contratación. La mayoría carece de visibilidad, redes de contacto y canales formales para conectar con **promotores de eventos** que buscan talento nuevo.  
-Por otro lado, los promotores suelen invertir demasiado tiempo en buscar músicos adecuados y muchas veces no tienen acceso a un **catálogo confiable y actualizado** de artistas.  
-Esta **desconexión** genera frustración, pérdida de oportunidades y procesos de contratación informales e ineficientes.
+En la industria musical actual, los músicos emergentes enfrentan grandes obstáculos para acceder a oportunidades de presentación en vivo. Muchos carecen de visibilidad, contactos y herramientas que les permitan conectarse de manera directa y profesional con promotores o espacios de entretenimiento interesados en talento nuevo.
+A su vez, los promotores y locales dedican tiempo excesivo a buscar artistas adecuados, sin contar con un catálogo confiable y actualizado que facilite su labor. Esta falta de conexión efectiva genera procesos informales, riesgos en los pagos, cancelaciones de último momento y pérdida de oportunidades para ambos lados. La situación se agrava por la ausencia de una solución tecnológica accesible y práctica. En un contexto donde todo se gestiona desde el teléfono, no existe una app móvil que centralice la contratación, logística y promoción de eventos musicales en vivo.
 
 🔗 [Informe IFPI sobre Industria Musical](https://www.ifpi.org/resources/)  
 🔗 [Estudio sobre Booking de Artistas Emergentes – Berklee Online](https://online.berklee.edu/)
@@ -151,9 +151,7 @@ Esta **desconexión** genera frustración, pérdida de oportunidades y procesos 
 
 #### **Solución Propuesta: VibeStage**
 
-** VibeStage ** es una **plataforma web** que permite a músicos emergentes y promotores de eventos conectar de manera fácil, segura y estructurada.  
-A través de la plataforma, los músicos pueden **postularse a eventos**, firmar **contratos digitales**, recibir **pagos seguros** y construir su **reputación artística**.  
-Simultáneamente, los promotores pueden encontrar talento filtrado por género, estilo o ubicación, revisar perfiles artísticos verificados y **gestionar todo el proceso de contratación y pago de forma automatizada**.
+VibeStage es una aplicación móvil diseñada para conectar de manera ágil, segura y profesional a músicos emergentes, promotores de eventos y espacios de entretenimiento. Desde su smartphone, los usuarios pueden gestionar todo el proceso: postularse a eventos, firmar contratos digitales, recibir pagos seguros y fortalecer su reputación artística, sin depender de intermediarios. Para los promotores, la app ofrece herramientas que permiten buscar y filtrar artistas por género, ubicación o estilo, revisar perfiles verificados con material audiovisual y automatizar la contratación y el pago dentro de una misma plataforma. Todo se centraliza en un entorno móvil, intuitivo y confiable, optimizado para las necesidades reales de la industria musical independiente.
 
 🔗 [Sofar Sounds – Comunidad musical global](https://www.sofarsounds.com/)  
 🔗 [Gigmor – Plataforma de contratación de músicos](https://www.gigmor.com/)  
@@ -174,47 +172,46 @@ Los promotores de eventos en ciudades como Lima, Bogotá o Buenos Aires indican 
 
 #### **Objetivos Esperados con VibeStage **
 
-- **Reducir en un 40%** el tiempo promedio que toma encontrar y contratar músicos emergentes  
-  _(de 7 días a 3-4 días en promedio mediante contratación automatizada)_
+- Reducir en un 40% el tiempo promedio para encontrar y contratar músicos emergentes
+(de 7 días a 3-4 días en promedio, gracias a la gestión automatizada desde la app móvil).
 
-- **Aumentar en un 60%** la visibilidad de músicos independientes mediante perfiles públicos, reputación por estrellas y métricas de rendimiento
+- Aumentar en un 60% la visibilidad de artistas independientes mediante perfiles públicos, sistemas de reputación por estrellas y métricas de rendimiento accesibles desde la app.
+  
+- Digitalizar el 100% del proceso de contratación musical (registro, firma de contrato, pago y evaluación)
 
-- **Digitalizar el 100%** del proceso de contratación (registro, contrato, pago y evaluación)  
-  _(uso de Stripe + DocuSign + sistema de notificaciones)_
+- Reducir en un 70% los casos de impago o incumplimiento, mediante contratos digitales y pagos seguros en escrow, todo gestionado desde el dispositivo móvil.
 
-- **Reducir en un 70% los casos de impago o incumplimiento**, gracias a los contratos digitales con pago seguro en escrow
-
-- **Consolidar una red activa de al menos 1.000 músicos verificados y 250 promotores en el primer año**
+- Construir una comunidad activa de al menos 1.000 músicos verificados y 250 promotores durante el primer año de funcionamiento, consolidando un ecosistema móvil confiable y colaborativo para la música en vivo.
 
  #### 1.2.2.2. Lean UX Assumptions
  
   ### **Business Assumptions**
   
 - **Demanda del mercado:**  
-  Se asume una creciente demanda en el sector de eventos musicales en vivo, impulsada por músicos emergentes que buscan oportunidades y espacios que requieren talentos confiables para dinamizar sus agendas.
+  Se asume una creciente demanda dentro del sector de eventos musicales en vivo, impulsada por músicos emergentes que buscan escenarios y por locales que necesitan talento confiable para dinamizar su programación.
 
 - **Transformación digital del sector:**  
-  Se presupone que la digitalización de procesos en la industria musical facilitará la contratación, coordinación y pagos, generando mejoras en eficiencia y profesionalismo.
+  Se presupone que la digitalización y el uso de apps móviles facilitarán la contratación, coordinación y pagos entre músicos y promotores, mejorando la eficiencia y reduciendo la informalidad del proceso.
 
 - **Valor diferencial en formalización:**  
-  Se cree que herramientas como contratos digitales, pagos seguros y evaluaciones post-evento aportarán un valor agregado, diferenciando a *TocaAquí* de alternativas informales.
+  Se considera que herramientas integradas en la app, como contratos digitales, pagos seguros y evaluaciones post-evento, aportarán un valor competitivo que diferenciará a VibeStage de soluciones informales o web tradicionales.
 
-- **Creciente uso de tecnologías:**  
-  Se asume que músicos y promotores cuentan con infraestructura tecnológica suficiente y están dispuestos a adoptar plataformas digitales que optimicen sus operaciones.
+- **Alta adopción tecnológica:**  
+  Se asume que tanto músicos como promotores cuentan con dispositivos móviles y conexión a internet, además de una disposición favorable para usar aplicaciones que optimicen su trabajo diario.
 
 ---
   ### **Business Outcomes Assumptions**
 - **Optimización de operaciones:**  
-  Al centralizar la búsqueda, contratación y coordinación de eventos, los espacios reducirán tiempos y costos administrativos, aumentando su eficiencia.
+  Al centralizar en una app móvil la búsqueda, contratación y gestión de eventos, los espacios reducirán tiempos de coordinación y costos administrativos, aumentando su eficiencia.
 
 - **Incremento en la rentabilidad:**  
-  La digitalización del proceso disminuirá riesgos como cancelaciones o impagos, favoreciendo mayores ingresos y menor pérdida económica.
+ La digitalización móvil reducirá riesgos de impago, cancelaciones y errores logísticos, mejorando los márgenes económicos tanto para los artistas como para los promotores.
 
 - **Fidelización y crecimiento del ecosistema:**  
-  Una experiencia profesional y confiable fomentará la lealtad de usuarios y facilitará el crecimiento orgánico en nuevas regiones o segmentos.
+  Una experiencia profesional, práctica y confiable fomentará la lealtad de los usuarios, permitiendo que la app crezca de manera orgánica en nuevas regiones o nichos culturales.
 
 - **Posicionamiento como referente:**  
-  Se proyecta que * VibeStage * se consolide como líder en la contratación de eventos musicales en vivo, superando prácticas informales actuales.
+  Se proyecta que VibeStage se consolide como la aplicación móvil líder en la contratación y gestión de eventos musicales en vivo, reemplazando prácticas informales actuales.
 
 ---
   ### **User Assumptions**
@@ -222,37 +219,37 @@ Los promotores de eventos en ciudades como Lima, Bogotá o Buenos Aires indican 
 #### **Músicos y bandas independientes**
 
 - Buscan profesionalizar su carrera y aumentar su visibilidad.  
-- Requieren herramientas para autogestionar presentaciones, logística y pagos.  
-- Valoran una plataforma con contratos digitales, evaluaciones y coordinación centralizada.
-
+- Buscan herramientas móviles para autogestionar presentaciones, logística y pagos.  
+- Valoran la facilidad de uso, los contratos digitales y la reputación basada en evaluaciones dentro de una app segura.
+  
 #### **Espacios y promotores (bares, discotecas, centros culturales)**
 
-- Necesitan un sistema confiable y eficiente para contratar talentos según criterios específicos (género, ubicación, disponibilidad).  
-- Buscan minimizar incertidumbre, riesgos financieros y optimizar la planificación de sus eventos.
+- Requieren un sistema confiable y rápido para encontrar talentos según género, ubicación y disponibilidad.  
+- Buscan minimizar riesgos financieros y optimizar la planificación de sus eventos directamente desde su smartphone.
 
 #### **Capacidad tecnológica y disposición**
 
-- Ambos segmentos tienen la capacidad y disposición para usar una plataforma digital que facilite su operatividad diaria.
+- Ambos segmentos cuentan con dispositivos móviles y están dispuestos a adoptar una aplicación que simplifique la operativa diaria y profesionalice la industria musical.
 
 ---
   ### **User Outcomes Assumptions**
 
 #### **Para músicos y bandas**
 
-- Mayor visibilidad y acceso a nuevas oportunidades de presentación.  
-- Gestión autónoma y profesional de su carrera artística.  
-- Seguridad y confianza mediante pagos en escrow y contratos digitales.
+- Mayor visibilidad y acceso a oportunidades de presentación.
+- Gestión autónoma, profesional y 100% móvil de su carrera artística.
+- Seguridad y confianza mediante contratos digitales y pagos protegidos en escrow.
 
 #### **Para espacios y promotores**
 
-- Acceso ágil a talentos filtrados por criterios específicos.  
-- Planificación eficiente mediante agenda compartida y herramientas logísticas.  
-- Reducción de riesgos e incertidumbre en la contratación.
+- Acceso rápido a artistas filtrados por criterios específicos.
+- Coordinación eficiente mediante agenda compartida, recordatorios y seguimiento en tiempo real desde la app.
+- Reducción significativa de riesgos y cancelaciones.
 
 #### **Resultados compartidos**
 
-- Evaluaciones post-evento promueven transparencia, retroalimentación y mejora continua.  
-- Reputación fortalecida en todo el ecosistema musical.
+- Evaluaciones post-evento fomentan la transparencia, la retroalimentación y la mejora continua.
+- La reputación verificada fortalece la confianza en todo el ecosistema musical independiente.
 
 ---
 
@@ -263,42 +260,43 @@ Para la elaboración de las siguientes declaraciones de hipótesis, se utilizó 
 
 ---
 
-**Hipótesis 1: Simplificación del proceso de búsqueda**
+**Hipótesis 1: Simplificación del proceso de búsqueda desde el móvil**
 
-**Creemos que** simplificar el proceso de búsqueda y comparación de espacios y eventos musicales en la plataforma VibeStage
-**Esto logrará** aumentar las contrataciones al facilitar la conexión directa entre músicos emergentes y promotores de eventos  
-**Lo habremos demostrado cuando** observemos un aumento del 25% en la cantidad de contratos firmados entre músicos y promotores en los primeros seis meses.
+**Creemos que** optimizar la búsqueda y comparación de espacios y eventos musicales dentro de la app móvil de VibeStage  
+**Esto logrará** agilizar las contrataciones al permitir que músicos y promotores se conecten de manera directa y en tiempo real desde sus dispositivos móviles  
+**Lo habremos demostrado cuando** se observe un aumento del **25%** en la cantidad de contratos firmados en los primeros seis meses.
 
----
-**Hipótesis 2: Promoción automatizada para mayor visibilidad**
-
-**Creemos que** integrar un módulo de promoción automatizada que incluya difusión en redes sociales  
-**Esto logrará** aumentar la visibilidad de los músicos emergentes y atraer un mayor número de solicitudes de contratación  
-**Lo habremos demostrado cuando** se observe un aumento del 35% en las visitas a los perfiles de músicos y en las postulaciones a eventos durante el primer año.
 
 ---
-**Hipótesis 3: Mejora en la coordinación logística**
+### **Hipótesis 2: Promoción automatizada desde la app**
 
-**Creemos que** incorporar una herramienta de agenda compartida y validación de requerimientos técnicos  
-**Esto logrará** mejorar la organización y puntualidad en la ejecución de los eventos musicales  
-**Lo habremos demostrado cuando** las encuestas post-evento muestren un incremento del 20% en la satisfacción de los usuarios respecto a la coordinación logística.
+**Creemos que** integrar un módulo de promoción automatizada que genere contenido y publicaciones para redes sociales desde la app  
+**Esto logrará** incrementar la visibilidad de los músicos emergentes y atraer un mayor número de postulaciones a eventos  
+**Lo habremos demostrado cuando** las visitas a los perfiles de músicos y las solicitudes de contratación aumenten en un **35%** durante el primer año.
 
 ---
 
+### **Hipótesis 3: Coordinación logística móvil**
 
-**Hipótesis 4: Retroalimentación y profesionalización**
-
-**Creemos que** implementar un sistema de evaluaciones y retroalimentación post-evento  
-**Esto logrará** elevar la calidad del servicio y fortalecer la profesionalización dentro del ecosistema de VibeStage  
-**Lo habremos demostrado cuando** las calificaciones promedio superen 4.0 sobre 5 y se evidencie un aumento del 30% en la recurrencia de contrataciones.
+**Creemos que** incorporar una agenda compartida y validación digital del rider técnico dentro de la aplicación  
+**Esto logrará** mejorar la organización y puntualidad de los eventos, permitiendo un control más claro de fechas y requerimientos técnicos  
+**Lo habremos demostrado cuando** las encuestas post-evento reflejen un **incremento del 20%** en la satisfacción del usuario respecto a la logística.
 
 ---
 
-**Hipótesis 5: Seguridad en la contratación**
+### **Hipótesis 4: Retroalimentación y reputación profesional**
 
-**Creemos que** implementar un sistema integrado para la firma digital de contratos y pagos seguros  
-**Esto logrará** reducir significativamente los riesgos de impago y cancelaciones, generando mayor confianza entre los usuarios  
-**Lo habremos demostrado cuando** se registre una disminución del 30% en casos de impagos y cancelaciones en los eventos organizados a través de la plataforma.
+**Creemos que** implementar un sistema de evaluaciones y retroalimentación accesible desde la app móvil  
+**Esto logrará** fortalecer la profesionalización de los usuarios y crear una comunidad confiable de músicos y promotores  
+**Lo habremos demostrado cuando** las calificaciones promedio superen **4.0/5** y se registre un **aumento del 30%** en contrataciones recurrentes.
+
+---
+
+### **Hipótesis 5: Contratación y pagos seguros en entorno móvil**
+
+**Creemos que** integrar la firma digital de contratos y los pagos en escrow directamente en la app  
+**Esto logrará** reducir los casos de impago y cancelación, generando mayor confianza entre artistas y organizadores  
+**Lo habremos demostrado cuando** se evidencie una **disminución del 30%** en los incidentes de impago o cancelación dentro de los eventos gestionados desde VibeStage.
 
 ---
 
@@ -306,13 +304,16 @@ Para la elaboración de las siguientes declaraciones de hipótesis, se utilizó 
 El Lean UX Canvas es una herramienta  que permite a los equipos plasmar y visualizar de manera concisa los aspectos clave de su proyecto. En este punto, exploraremos cómo el Canvas facilita la colaboración y la alineación del equipo al definir claramente el problema, la solución propuesta, los usuarios y sus necesidades, así como las métricas de éxito.
 ![Lean Ux Canvas](/assets/Lean%20UX%20Canvas%20(v2)%20(Community)%20(1).jpg) 
 
-## 1.3. Segmentos objetivo.
-Los segmentos objetivo son grupos específicos de usuarios a los que se dirige un producto o servicio en particular.
-Los segmentos objetivos identificados se definirán en la siguiente tabla:
+## 1.3. Segmentos objetivo
+
+Los segmentos objetivo representan los grupos de usuarios a los que **VibeStage** busca ofrecer valor a través de su aplicación móvil.  
+Cada segmento ha sido definido considerando sus necesidades, comportamientos digitales y el impacto que la plataforma puede generar en su actividad profesional o comercial.
+
 | Segmento Objetivo | Características Demográficas | Información estadística de sustento |
 |-------------------|------------------------------|-------------------------------------|
-| **Artistas** | Edad: 18 a 40 años.<br/>Género: Varía (hombres, mujeres y disidencias).<br/>Ubicación: Zonas urbanas con movimiento cultural/artístico.<br/>Tecnología: Uso frecuente de redes sociales y plataformas digitales.<br/>Nivel educativo: Variable, pero con interés en formación musical o autodidactismo. | Según el estudio del Banco Interamericano de Desarrollo (BID) "Brechas de género en las industrias culturales y creativas" (2024), las mujeres representan solo el 31.1% del empleo en el sector creativo en países como Argentina, Colombia, México y Perú, y enfrentan barreras significativas para acceder a oportunidades laborales y posiciones de liderazgo. [Ver fuente](https://publications.iadb.org/es/brechas-de-genero-en-las-industrias-culturales-y-creativas) |
-| **Promotores** | Tipo de negocio: Pequeños y medianos bares, discotecas y locales de entretenimiento.<br/>Ubicación: Zonas con alta actividad nocturna o turística.<br/>Interés: Renovar su cartelera, atraer público nuevo, y automatizar procesos de contratación. | De acuerdo con PromPerú (2023), el sector de entretenimiento nocturno representa el 1.8% del PBI en sectores urbanos clave. Un estudio realizado en el mismo año revela que el 72% de los bares busca incorporar artistas en vivo como estrategia para aumentar sus ventas, pero enfrentan desafíos en encontrar propuestas confiables y adecuadas a su perfil. [Ver fuente](https://www.promperu.gob.pe/)
+| **Artistas y bandas independientes** | - **Edad:** 18 a 40 años.<br/>- **Género:** Diverso (hombres, mujeres y disidencias).<br/>- **Ubicación:** Zonas urbanas con alto movimiento cultural y artístico.<br/>- **Uso tecnológico:** Activos en redes sociales y aplicaciones móviles para promoción y gestión musical.<br/>- **Nivel educativo:** Variable, con tendencia a la formación musical técnica o autodidacta.<br/>- **Necesidades:** Mayor visibilidad, oportunidades de presentación y herramientas seguras para gestionar pagos y contratos desde el móvil. | El estudio del Banco Interamericano de Desarrollo (BID) *“Brechas de género en las industrias culturales y creativas”* (2024) indica que las mujeres representan solo el **31.1%** del empleo en el sector creativo en países como Argentina, Colombia, México y Perú, lo que refleja la necesidad de plataformas inclusivas que impulsen la participación equitativa. [Ver fuente](https://publications.iadb.org/es/brechas-de-genero-en-las-industrias-culturales-y-creativas) |
+| **Promotores y espacios de eventos** | - **Tipo de negocio:** Bares, discotecas, centros culturales y locales de entretenimiento.<br/>- **Ubicación:** Zonas con alta actividad nocturna o turística.<br/>- **Uso tecnológico:** Incorporan herramientas digitales para gestión de reservas, pagos y promoción.<br/>- **Necesidades:** Acceso rápido a talentos verificados, optimización del proceso de contratación y reducción de riesgos mediante contratos digitales y pagos seguros integrados en la app. | Según PromPerú (2023), el sector de entretenimiento nocturno representa el **1.8% del PBI** en zonas urbanas clave. Además, un **72%** de los locales busca incluir música en vivo como estrategia para atraer público, pero enfrenta dificultades para encontrar artistas confiables y disponibles. [Ver fuente](https://www.promperu.gob.pe/) |
+
 
 
 ### Capítulo II: Requirements Elicitation & Analysis
@@ -350,41 +351,43 @@ En el ecosistema de soluciones para la gestión de eventos musicales y contratac
 ------------------------------------------------------------------------------------------------------------------
 | **Categoría** | VibeStage  ![VibeStage-Logo](./assets/logo.jpg)) | **Songkick** ![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)| **GigSalad** ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)| **Indie on the Move**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy) |
 |---------------|--------------|--------------|--------------|------------------------|
-| **Perfil - Overview** | App móvil que conecta músicos emergentes con bares, promotores y espacios culturales. Ofrece contratación directa, contrato digital, pagos seguros (escrow) y herramientas de promoción. | Plataforma internacional que notifica sobre conciertos de artistas favoritos, con opción de compra de entradas. | Marketplace para contratar artistas y animadores para eventos privados (principalmente en EE. UU.). | Plataforma para que bandas independientes encuentren lugares donde tocar. Ofrece listas de contactos y recursos para planear giras. |
-| **Ventaja competitiva** | Conexión directa y segura, contrato digital, logística integrada, sistema de pagos protegidos y promoción del evento. | Gran alcance global y facilidad para descubrir eventos, pero sin contratación directa ni gestión logística. | Facilidad para eventos privados, pero sin enfoque cultural ni contratación formal. | Buen recurso de base de datos, pero sin automatización, sin contratos ni pagos seguros. |
+| **Perfil - Overview** | App móvil que conecta a músicos emergentes con bares, promotores y espacios culturales. Permite gestionar contrataciones de forma directa desde el celular, firmar contratos digitales, realizar pagos seguros mediante escrow y acceder a herramientas de promoción que impulsan la visibilidad de los artistas. | Plataforma internacional que notifica sobre conciertos de artistas favoritos, con opción de compra de entradas. | Marketplace para contratar artistas y animadores para eventos privados (principalmente en EE. UU.). | Plataforma para que bandas independientes encuentren lugares donde tocar. Ofrece listas de contactos y recursos para planear giras. |
+| **Ventaja competitiva** | Conexión directa y segura entre músicos y espacios, con contrato digital, logística integrada, sistema de pagos protegidos y herramientas de promoción desde la app móvil. | Facilidad para eventos privados, pero sin enfoque cultural ni contratación formal. | Buen recurso de base de datos, pero sin automatización, sin contratos ni pagos seguros. |
 | **Mercado objetivo** | Músicos emergentes, bares, discotecas, centros culturales, promotores de eventos comunitarios. | Fans de la música que buscan descubrir conciertos y comprar entradas. | Organizadores de eventos privados que buscan entretenimiento (bodas, fiestas, etc.). | Bandas que organizan sus propias giras en EE. UU. |
-| **Estrategias de marketing** | Redes sociales, colaboraciones con espacios culturales, showcases, recomendaciones por reputación y calificaciones. | Notificaciones personalizadas, integración con plataformas musicales. | Publicidad local y anuncios en redes para eventos privados. | Blog, comunidad en línea y estrategia de posicionamiento SEO. |
-| **Productos & Servicios** | Plataforma integral: contratación, pago escrow, firma digital, agenda compartida, validación del rider técnico y promoción del evento. | Seguimiento de artistas, alertas de conciertos, venta de entradas. | Catálogo de artistas, perfiles profesionales, contacto directo. | Listas de contactos de venues, herramientas de planificación de giras. |
+| **Estrategias de marketing** | Redes sociales, alianzas con espacios culturales, showcases presenciales y un sistema de recomendaciones basado en reputación y calificaciones dentro de la app móvil. | Notificaciones personalizadas, integración con plataformas musicales. | Publicidad local y anuncios en redes para eventos privados. | Blog, comunidad en línea y estrategia de posicionamiento SEO. |
+| **Productos & Servicios** | App móvil integral que permite la contratación directa, pagos seguros mediante escrow, firma digital de contratos, agenda compartida, validación del rider técnico y promoción automatizada del evento. | Seguimiento de artistas, alertas de conciertos, venta de entradas. | Catálogo de artistas, perfiles profesionales, contacto directo. | Listas de contactos de venues, herramientas de planificación de giras. |
 | **Precios & Costos** | Comisión por evento concretado. Acceso gratuito con opción premium para funciones adicionales. | Gratuito para usuarios. Ingresos por venta de entradas y acuerdos con promotores. | Comisión por contratación. Costos variables por tipo de artista. | Costos por acceso a base de datos y herramientas. Modelos freemium. |
 | **Canales de distribución** | App móvil, WhatsApp Business, integración con plataformas de pago y redes sociales. | App móvil, notificaciones por correo y apps de música. | App y correo directo con artistas. | App responsiva. |
-| **Fortalezas** | Contratación segura, experiencia automatizada, visibilidad para artistas emergentes, soporte integral al evento. | Gran base de usuarios y alianzas con plataformas musicales. | Amplia variedad de artistas para eventos sociales. | Apoyo a bandas independientes, útil para giras DIY. |
-| **Debilidades** | Plataforma en crecimiento. Necesita generar masa crítica de usuarios y confianza del mercado. | No gestiona contrataciones ni logística de artistas. | Limitado a eventos privados. Poca presencia cultural o comunitaria. | Gestión manual. Sin soporte legal ni de pagos. Limitado a EE. UU. |
-| **Oportunidades** | Expansión a más ciudades, alianzas con promotores, sistema de recompensas por reseñas, integración con plataformas de streaming. | Integración con redes sociales, nuevas funciones de comunidad. | Expansión internacional, integrar funciones logísticas. | Modernización con IA, agregar soporte contractual y pagos. |
+| **Fortalezas** | Contratación segura y confiable, experiencia automatizada desde el móvil, mayor visibilidad para artistas emergentes y soporte integral en la gestión de cada evento. | Gran base de usuarios y alianzas con plataformas musicales. | Amplia variedad de artistas para eventos sociales. | Apoyo a bandas independientes, útil para giras DIY. |
+| **Debilidades** | App móvil en expansión que aún requiere consolidar una masa crítica de usuarios y fortalecer la confianza dentro del mercado musical. | No gestiona contrataciones ni logística de artistas. | Limitado a eventos privados. Poca presencia cultural o comunitaria. | Gestión manual. Sin soporte legal ni de pagos. Limitado a EE. UU. |
+| **Oportunidades** | Expansión a nuevas ciudades, creación de alianzas con promotores, implementación de un sistema de recompensas basado en reseñas y futura integración con plataformas de streaming musical. | Integración con redes sociales, nuevas funciones de comunidad. | Expansión internacional, integrar funciones logísticas. | Modernización con IA, agregar soporte contractual y pagos. |
 | **Amenazas** | Competidores consolidados, reticencia a la digitalización en algunos sectores culturales, dependencia del éxito en eventos piloto. | Saturación del mercado de entradas, cambios en algoritmos de plataformas sociales. | Dependencia del mercado de eventos privados, reputación variable. | Competencia tecnológica, falta de diferenciación a largo plazo. |
 
-####  2.1.2. Estrategias y tácticas frente a competidores.
+#### 2.1.2. Estrategias y tácticas frente a competidores
 
-Para sobresalir dentro del competitivo sector musical y de entretenimiento, VibeStage necesita poner en marcha estrategias y acciones diferenciadoras que fortalezcan su propuesta de valor y le permitan atraer tanto a artistas como a promotores y espacios de presentación. A continuación, se plantean algunas de las principales iniciativas y enfoques estratégicos diseñados para alcanzar este objetivo.
+Para destacar dentro del competitivo sector musical y de entretenimiento, **VibeStage** —como **app móvil**— debe implementar estrategias y acciones diferenciadoras que fortalezcan su propuesta de valor, optimicen la experiencia del usuario y atraigan tanto a artistas como a promotores y espacios culturales.  
+A continuación, se presentan las principales iniciativas y enfoques estratégicos diseñados para lograrlo:
 
-###### 1.**Desarrollar una Propuesta de Valor Única**
-- **Estrategia:** Resaltar los beneficios clave de VibeStage como plataforma integral para la contratación y promoción de talento musical emergente.  
-- **Táctica:** Enfatizar características como contratos digitales, pagos seguros (escrow), validación de rider técnico y agenda compartida para destacar la profesionalización del proceso.
+###### 1. **Desarrollar una Propuesta de Valor Única**
+- **Estrategia:** Posicionar a VibeStage como una app móvil integral que facilita la contratación, gestión y promoción del talento musical emergente.  
+- **Táctica:** Resaltar funciones exclusivas como **contratos digitales**, **pagos seguros mediante escrow**, **validación de rider técnico** y **agenda compartida**, destacando la profesionalización del proceso desde el dispositivo móvil.
 
 ###### 2. **Enfoque en la Experiencia del Usuario**
-- **Estrategia:** Optimizar la experiencia tanto para músicos como para promotores mediante una interfaz clara, intuitiva y funcional.  
-- **Táctica:** Mejorar continuamente la usabilidad de la plataforma, con flujos ágiles para programación de eventos, seguimiento de pagos y validación de logística técnica.
+- **Estrategia:** Optimizar la experiencia dentro de la app para músicos y promotores mediante una interfaz fluida, intuitiva y centrada en la usabilidad.  
+- **Táctica:** Diseñar flujos simplificados para la **programación de eventos**, **seguimiento de pagos**, **comunicación en tiempo real** y **gestión técnica**, garantizando una experiencia móvil ágil y confiable.
 
 ###### 3. **Ampliar la Base de Usuarios**
-- **Estrategia:** Aumentar la comunidad de usuarios para consolidar la red y generar más oportunidades de conexión musical.  
-- **Táctica:** Implementar campañas de referidos para músicos y promotores, junto con descuentos por primera contratación y beneficios por uso frecuente.
+- **Estrategia:** Expandir la comunidad de VibeStage para generar más conexiones y oportunidades de colaboración.  
+- **Táctica:** Implementar **campañas de referidos** dentro de la app, con **recompensas por recomendación**, **descuentos en primeras contrataciones** y **beneficios por uso frecuente**.
 
 ###### 4. **Marketing Digital Segmentado**
-- **Estrategia:** Enfocar la comunicación digital hacia artistas independientes, bookers y dueños de locales culturales.  
-- **Táctica:** Usar campañas dirigidas en redes sociales, con contenidos creativos (videos de artistas, experiencias de contratación) y pauta en nichos como festivales locales, ferias musicales y foros de emprendimiento artístico.
+- **Estrategia:** Dirigir las acciones de comunicación hacia artistas independientes, promotores y dueños de locales culturales.  
+- **Táctica:** Desarrollar campañas segmentadas en redes sociales con **contenidos audiovisuales**, **testimonios reales de usuarios** y presencia en **festivales, ferias musicales y comunidades artísticas locales**.
 
 ###### 5. **Alianzas Estratégicas**
-- **Estrategia:** Colaborar con instituciones culturales, asociaciones de músicos y marcas relacionadas con la música en vivo para aumentar la visibilidad y credibilidad.  
-- **Táctica:** Generar convenios con bares, discotecas, escuelas de música y empresas de sonido para ofrecer beneficios cruzados y asegurar presencia constante en la escena.
+- **Estrategia:** Crear colaboraciones con entidades culturales, asociaciones de músicos y marcas vinculadas al entretenimiento en vivo para fortalecer la presencia de la app.  
+- **Táctica:** Establecer convenios con **bares, discotecas, escuelas de música y empresas de sonido**, ofreciendo beneficios conjuntos y asegurando una participación activa en la escena musical independiente.
+
 
 ###   2.2. Entrevistas. 
 
