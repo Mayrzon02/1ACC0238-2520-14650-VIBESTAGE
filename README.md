@@ -82,6 +82,16 @@ Estas ramas parten de *develop* y se integran nuevamente una vez completadas, lo
 
 **4.1.3.** Source Code Style Guide & Conventions  
 **4.1.4.** Software Deployment Configuration  
+En esta seccion colocaremos las evidenciaas de los pasos que seguimos para desplegar nuestra Landing Page.
+
+1. Ingresamos a nuestra organización y seleccionamos el repositorio correspondiente a la Landing Page de nuestro proyecto.
+   <img width="1902" height="393" alt="Image" src="https://github.com/user-attachments/assets/564905e7-fba7-413c-aff3-915f842526d7" />
+2. Una vez dentro del repositorio, seleccionamos la opción settings.
+   <img width="1914" height="459" alt="Image" src="https://github.com/user-attachments/assets/773f2397-1f47-4d4a-bc31-58f884d805de" />
+3. En el menú de la parte izquierda seleccionamos, la opción pages y en esta realizamos las configuraciones necesarias, una vez finalizadas nos dara un link.
+   <img width="1918" height="763" alt="Image" src="https://github.com/user-attachments/assets/539c4cb4-b1f8-4195-a8f5-34e1276a4acd" />
+4. Por último, podremos ver nuestra Landing Page desplegada.
+   <img width="1904" height="908" alt="Image" src="https://github.com/user-attachments/assets/4eff6d3d-1801-499e-8885-a5e1ba70f885" />
 
 ### 4.2. *Landing Page & Mobile Application Implementation*
 #### 4.2.1. *Sprint 1*
@@ -164,7 +174,9 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 | Landing Page | main | 8cc4fc3 | Rafael Cuya | Feat added Readme | 17/09/2025 |
 | Landing Page | main | 961ad56 | Rafael Cuya | Initial commit | 17/09/2025 |
 
-**4.2.1.4.** Testing Suite Evidence for Sprint Review  
+**4.2.1.4.** Testing Suite Evidence for Sprint Review 
+
+   
 **4.2.1.5.** Execution Evidence for Sprint Review 
 
 <img width="1491" height="774" alt="image" src="https://github.com/user-attachments/assets/628fc7f0-514c-4aaf-a90a-06796fd8ffd2" />
