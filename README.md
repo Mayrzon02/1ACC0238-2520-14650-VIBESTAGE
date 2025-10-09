@@ -237,7 +237,22 @@ Promoter Flow
 
 Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
 
+Complete User Journey
+
+![alt text](image-10.png)
+
+Artist Flow - Main Navigation
+
+![alt text](image-11.png)
+
+Promoter Flow - Application Management
+
+![alt text](image-12.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+En esta sección se muestran los mock-ups realizados para nuestro Mobile Applications.
+
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
