@@ -216,7 +216,7 @@ Procederemos a mostrar el Landing Page Mock-up de la aplicación:
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
-En esta sección se muestran los wireframes realizados para nuestro Web Application.
+En esta sección se muestran los wireframes realizados para nuestro Mobil Application.
 
 Documentación completa del flujo de la aplicación
 
