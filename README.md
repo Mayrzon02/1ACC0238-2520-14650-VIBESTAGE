@@ -505,7 +505,7 @@ Entrevistado #1
 | **Link de la entrevista**   |                   [Ver entrevista en Youtube](https://youtu.be/Pw7NdsG1w44)                                                                                                      |
 | **Tiempo de inicio y duración** |                 00:00 - 7:14                                                                  |                                                                                    |
 | **Resumen**                 |       Eduardo Arenas, un joven trabajador de un bar en San Isidro, nos comparte los desafíos que enfrenta en la gestión de los eventos del local. Señala que trabajan de jueves a domingo, y que cada día se desarrolla bajo una temática distinta, lo que implica una constante organización y adaptación. Además, Eduardo nos brinda su opinión acerca de lo que le gustaría encontrar en una aplicación móvil que lo apoye en su labor diaria. En particular, espera que esta herramienta le permita desempeñar su trabajo de manera más eficiente y sencilla, facilitando la coordinación de las actividades y mejorando la experiencia tanto del personal como de los clientes.                                                          |
-----
+
 Entrevistado #2
 
 | Campo                        | Información                                                                                                                           |
@@ -516,7 +516,6 @@ Entrevistado #2
 | **Link de la entrevista**   |                   [Ver entrevista en Youtube](https://youtu.be/lG9ygANtY2c)                                                                                                      |
 | **Tiempo de inicio y duración** |                 00:00 - 9:40                                                                  |                                                                                    |
 | **Resumen**                 |       Anapaula Díaz, una joven profesional del rubro de organización de eventos, nos comparte los procesos que sigue en su trabajo, las dificultades que enfrenta y sus expectativas respecto a una aplicación que pueda facilitar la gestión de eventos. Además, nos brinda algunas propuestas sobre las funcionalidades que le gustaría encontrar en esta app, con el objetivo de optimizar y potenciar su desempeño laboral.                                                          |
-----
 
 
 #### Segmento Artistas
@@ -566,7 +565,7 @@ Entrevistado #3
 
 Tras las entrevistas realizadas a tres responsables de espacios culturales y de entretenimiento —(NOMBRE DE LOS ENTREVISTADOS)— se logró identificar una serie de patrones recurrentes, necesidades específicas y retos compartidos vinculados con la gestión de eventos musicales y los procesos de contratación de artistas en el ámbito independiente.
 
----
+
 
 #### Uso de Tecnología y Herramientas de Gestión
 
@@ -1434,6 +1433,606 @@ Evaluations centraliza la retroalimentación de eventos y artistas. Se integra c
 
 <img width="3070" height="3500" alt="Image" src="/assets/Deployment.png" />
 
+# Capítulo III: Solution UI/UX Design
+## 3.1. Product design
+### 3.1.1. Style Guidelines
+VibeStage es una aplicación móvil que estará disponible en App Store y Play Store, diseñada para ser accesible a músicos, promotores y usuarios desde el dispositivo más utilizado: el celular. Contará con una interfaz intuitiva y fácil de usar, donde elementos como el logo y diversas imágenes han sido colocados estratégicamente para guiar al usuario y permitirle descubrir todas las ventajas y funcionalidades de la aplicación de manera clara y atractiva. 
+
+#### 3.1.1.1. General Style Guidelines
+
+Hemos diseñado el logo de nuestra aplicación VibeStage con una visión moderna, alineada con la temática musical de la aplicación. Para reforzar esta conexión, incorporamos una plumilla de guitarra en el diseño, ofreciendo una referencia directa al mundo de la música. En cuanto a la tipografía, seleccionamos un estilo claro y legible que también refleje la identidad musical de la aplicación.La paleta de colores elegida busca transmitir energía y dinamismo, al mismo tiempo que mantiene coherencia con la temática central de VibeStage, creando una experiencia visual atractiva y representativa de nuestra propuesta. A continuacion presentamos el logo de VibeStage.
+![Image](https://github.com/user-attachments/assets/cbefa98a-18df-43c8-a0b2-5c45edb9e82c)
+
+**Typography**
+En cuanto a la tipografía, hemos elegido Montserrat como fuente principal, una sans-serif que aporta una apariencia limpia y facilita la lectura para el usuario. Para los encabezados y títulos, optamos por Roboto, cuya versatilidad y dinamismo lo hacen ideal para destacar secciones importantes y captar la atención del usuario de manera efectiva.}
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/e183248e-f6d8-498c-9476-32d8b49f7998" width="400" />
+  <img src="https://github.com/user-attachments/assets/c586c651-d187-4436-88db-50e246720ceb" width="400" />
+</p>
+
+**Colors**
+
+La paleta de colores de VibeStage fue diseñada con el objetivo de transmitir energía y reflejar la esencia de nuestra aplicación. Se eligieron tonos que se asocian con distintos géneros musicales, lo que garantiza que la temática de la música esté siempre presente en la experiencia del usuario dentro de la aplicación móvil.
+
+<img width="813" height="527" alt="Image" src="https://github.com/user-attachments/assets/29e6e1c9-d975-494d-90ee-3599ec7c1e12" />
+
+**Espaciado y Layout**
+
+- El logo se colocará en la esquina izquierda de la pantalla.  
+- Algunos títulos estarán centrados, mientras que otros se alinearán a la izquierda según la jerarquía visual.  
+- Se prioriza la legibilidad y facilidad de navegación, asegurando un espacio adecuado entre los elementos de la interfaz.
+
+**Tono de comunicación**
+
+El lenguaje y estilo de la aplicación buscan conectar eficazmente con el público objetivo, transmitiendo un mensaje cercano, claro y profesional. La comunicación en la landing page y la app móvil mantiene coherencia, adaptándose al formato de cada plataforma.  
+
+**Web Style Guidelines**
+
+- La landing page se adaptará tanto a pantallas grandes como móviles, manteniendo consistencia visual y tipográfica.  
+- Se aplicarán los elementos de branding, colores y tipografía.  
+- Los layouts respetarán márgenes y alineaciones, manteniendo la experiencia visual y jerarquía de información.
+
+**Mobile Style Guidelines**
+
+- La aplicación móvil prioriza una interfaz y navegación intuitiva.  
+- Los títulos, botones y elementos interactivos seguirán la tipografía y la paleta de colores definidas.  
+- Se respetarán los alineamientos y espaciados optimizados para pantallas pequeñas, asegurando una experiencia clara y consistente.
+
+
+### 3.1.2. Information Architecture
+La arquitectura de información es esencial para organizar y estructurar el contenido de manera que sea fácilmente accesible y comprensible para los usuarios de la plataforma **VibeStage**. En esta sección, se presentan los sistemas de organización, etiquetado, etiquetas SEO y metaetiquetas, sistemas de búsqueda y navegación que guiarán la experiencia del usuario. Estas directrices están diseñadas para mejorar la usabilidad, promover la exploración fluida del contenido y garantizar que cada usuario —ya sea músico o promotor— encuentre rápidamente lo que necesita.
+
+#### 3.1.2.1. Organization Systems
+Los sistemas de organización que se implementarán en **VibeStage** responden a distintos contextos de uso y tipos de contenido que ofrece la plataforma. A continuación, se describen los tipos de organización aplicados y los esquemas de categorización adoptados:
+
+**Organización Jerárquica (Visual Hierarchy)**
+
+Se utilizará para estructurar la **navegación principal** y secciones clave como:
+
+- **Inicio**
+- **Explorar Eventos**
+- **Perfil del Usuario (Músico / Promotor)**
+- **Agenda / Contratos / Pagos**
+
+Este modelo permite descomponer la información desde niveles generales a específicos  
+(por ejemplo: "Explorar Eventos" → "Por Género Musical" → "Rock / Jazz / Cumbia").
+
+**Organización Secuencial (Step-by-Step)**
+
+Aplicada en flujos que requieren que el usuario siga pasos lógicos y cronológicos, como:
+
+- **Publicar un evento** (para locales/promotores)
+- **Postular a un evento** (para músicos)
+- **Proceso de firma de contrato y pagos**
+
+Este modelo guía al usuario en tareas complejas, asegurando que cada paso sea completado antes de continuar.
+
+**Organización Matricial**
+
+Utilizada en las interfaces de exploración de eventos o perfiles, donde los usuarios podrán:
+
+- **Filtrar por múltiples criterios** (género, ubicación, fecha, tipo de espacio)
+- **Comparar distintos resultados** en base a atributos visibles (rating, disponibilidad, tipo de música)
+
+La combinación flexible de filtros permite una navegación personalizada y precisa.
+
+**Esquemas de Categorización**
+
+Para facilitar aún más la exploración, el contenido se clasificará con base en diferentes esquemas según el contexto:
+
+- **Por Tópico:**  
+  Utilizado en secciones como *blog*, *centro de ayuda* o *categorías musicales* (ej. “Rock”, “Jazz”, “Electrónica”).
+
+- **Por Audiencia:**  
+  El contenido diferenciado para **músicos** y **promotores** será organizado en menús y vistas personalizadas, destacando las funciones que cada uno utiliza más frecuentemente.
+
+- **Cronológico:**  
+  Aplicado en la **agenda de eventos**, **historial de contrataciones** y **publicaciones recientes**.
+
+- **Alfabético:**  
+  Utilizado en listados como **directorios de bandas o lugares registrados**, para facilitar búsquedas directas.
+
+#### 3.1.2.2. Labelling Systems
+Los sistemas de etiquetado (Labeling Systems) son fundamentales para mejorar la usabilidad, navegación y optimización en motores de búsqueda. En el caso de VibeStage, se ha adoptado una estrategia de etiquetado clara, concisa y centrada en las necesidades de cada tipo de usuario: músicos y promotores.
+
+#### Tipos de Etiquetado
+
+- **Etiquetado Descriptivo**: Se utilizan etiquetas claras y comprensibles como "I'm an Artist", "I'm a Venue", "Select your ideal plan" o "Key tools to play live" que resumen con precisión el contenido y ayudan al usuario a encontrar lo que busca rápidamente.
+
+- **Etiquetado por Audiencia**: Se personalizan las secciones según el rol del usuario, usando etiquetas como “For Artists” y “For Venues” en los planes de membresía, mejorando la segmentación del contenido.
+
+- **Etiquetado Funcional**: Botones como “Get Started”, “Join today”, “Enviar” y “Apply Now” comunican acciones específicas que guían la interacción del usuario.
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+A continuación se detallan los principales metaetiquetas que se incluirán para cada página clave:
+
+**Landing Page (`index.html`)**
+
+- **Title**: VibeStage – Where Musicians and Stages Meet
+- **Meta Description**: Discover VibeStage, the platform that connects emerging artists with venues and promoters. Direct booking, digital contracts, secure payments, and event promotion in one place.
+- **Meta Keywords**: music booking, live gigs, musician platform, concert promotion, secure contracts, event management
+- **Meta Author**: VibeStage Dev Team
+
+**Sección de Planes (`#package`)**
+
+- **Title**: VibeStage Plans – Choose Your Ideal Membership
+- **Meta Description**: Compare VibeStage plans for artists and venues. Enjoy features like escrow payments, technical validation, and promotion tools to manage your musical events.
+- **Meta Keywords**: musician plans, venue subscriptions, music gigs platform, artist benefits, live music tools
+- **Meta Author**: VibeStage Dev Team
+
+**Sección de Contacto (`#contact`)**
+
+- **Title**: Contact VibeStage – Get in Touch with Our Team
+- **Meta Description**: Send us a message with your questions or feedback. We're here to help artists and venues connect more effectively.
+- **Meta Keywords**: contact VibeStage, music event platform, artist support, venue contact
+- **Meta Author**: VibeStage Dev Team
+
+**Sección de Acerca de Nosotros (`#about-us`)**
+
+- **Title**: About VibeStage – Empowering Live Music Connections
+- **Meta Description**: Learn more about the mission behind VibeStage, our development team, and how we’re revolutionizing live music bookings.
+- **Meta Keywords**: about VibeStage, music platform team, music technology, live music innovation
+- **Meta Author**: VibeStage Dev Team
+
+
+#### 3.1.2.4. Searching Systems
+El motor de búsqueda en **VibeStage** es esencial para conectar eficazmente a músicos emergentes con promotores y espacios culturales. Permite a los usuarios encontrar rápidamente talento o lugares que se ajusten a sus necesidades específicas.
+
+#### Características claves
+
+**Búsqueda por objetivo:**  
+Los usuarios podrán buscar según su intención principal, ya sea **contratar un músico para un evento específico**, encontrar **espacios disponibles para presentaciones**, o **descubrir nuevos talentos musicales** según el estilo deseado.
+
+**Búsqueda por características:**  
+
+Los usuarios podrán filtrar por características específicas como:  
+- **Género musical** (rock, jazz, urbano, clásico, etc.)  
+- **Tipo de evento** (bar, teatro, festival, privado)  
+- **Cantidad de integrantes**  
+- **Instrumentos principales o configuración escénica**  
+- **Valoraciones de otros eventos**
+
+**Filtros avanzados:**  
+El sistema incluirá filtros dinámicos como:  
+- Ubicación geográfica  
+- Disponibilidad en fechas y horarios  
+- Rango de precios  
+- Experiencia previa en tipos de evento  
+- Validación de rider técnico
+
+**Resultados relevantes:**  
+Los resultados de búsqueda serán personalizados y ordenados de acuerdo a:  
+- Coincidencia con criterios del usuario  
+- Popularidad y reseñas  
+- Disponibilidad inmediata  
+- Afinidad con eventos anteriores contratados por el usuario
+
+#### 3.1.2.5. Navigation Systems
+El Sistema de Navegación es la estructura que permite a los usuarios desplazarse eficientemente entre las distintas secciones y páginas de la aplicación  
+
+**Estructura de navegación:**  El Sistema de Navegación constará de las siguientes secciones principales en la barra de navegación
+
+-  Home
+-  Abour Us
+-  Packages
+-  Cotact Us
+-  Es
+-  Start Now
+
+### 3.1.3. Landing Page UI Design
+#### 3.1.3.1. Landing Page Wireframe
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/57f626cb-6a7d-4f28-9acb-a92a0cb60a32" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d7daa0ef-76c1-4813-8d6c-93ea44ecb08c" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d770aed9-dd76-4426-b293-83f3df9e789b" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/79a6d4b2-1009-42f5-bb1b-cd5427648e20" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/185cf189-fc5b-44b6-ae3c-0e61b637dc39" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/2069101a-1e81-48e8-95e0-8454dcd9075e" />
+
+<img width="847" height="469" alt="Image" src="https://github.com/user-attachments/assets/d2382646-1e95-4bb7-85a7-2f9da2b1f24e" />
+
+#### 3.1.3.2. Landing Page Mock-up
+
+Procederemos a mostrar el Landing Page Mock-up de la aplicación:
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+En esta sección se muestran los wireframes realizados para nuestro Mobil Application.
+
+Documentación completa del flujo de la aplicación
+
+![alt text](image-6.png)
+
+Authentication Flow
+
+![alt text](image-7.png)
+
+Artist Flow
+![alt text](image-8.png)
+
+Promoter Flow
+
+![alt text](image-9.png)
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
+
+Complete User Journey
+
+![alt text](image-10.png)
+
+Artist Flow - Main Navigation
+
+![alt text](image-11.png)
+
+Promoter Flow - Application Management
+
+![alt text](image-12.png)
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+En esta sección se muestran los mock-ups realizados para nuestro Mobile Applications.
+
+Onboarding Experience
+![alt text](image-13.png)
+Authentication
+![alt text](image-14.png)
+Artist Experience
+![alt text](image-15.png)
+Promoter Experience
+![alt text](image-16.png)
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+La presente sección muestra los **User Flow Diagrams** de la aplicación móvil, los cuales representan el recorrido que realiza el usuario al interactuar con las diferentes pantallas y funcionalidades de la app. Estos diagramas permiten visualizar la secuencia lógica de acciones, decisiones y transiciones, facilitando la comprensión de la experiencia de usuario y asegurando una navegación fluida e intuitiva dentro del sistema.
+
+Flujo Completo de Onboarding y Registro
+
+![alt text](image-17.png)
+
+Flujo del Artista - Búsqueda y Postulación a Shows
+
+![alt text](image-18.png)
+
+
+Flujo del Promotor - Gestión de Postulaciones
+
+![alt text](image-19.png)
+
+Para visualizar el diseño completo de la aplicación, puedes acceder al siguiente enlace de Figma:  
+
+[Ver diseño en Figma](https://www.figma.com/design/SkxFiyo67OT8ELv0hhT7C9/Untitled?node-id=27-4949&t=CkEEcWPDrhgvO0aC-1)
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+![alt text](image-20.png)
+
+### 🎥 Video de la aplicación móvil Vibestage  
+Ver video demostrativo en OneDrive:  
+[Video demostrativo en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EcKTzlOtZ9JLlvc714647RgBHxl2Gm1s0qdNq0CKHMX8fw?nav=eyJyZWZlcnJhbEluOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6Aa1cl)
+
+### 🔗 Prototipo de la aplicación móvil VibeStage en Figma  
+[Prototipo en Figma](https://www.figma.com/design/SkxFiyo67OT8ELv0hhT7C9/Untitled?node-id=0-1&t=3UnZLelDV2MRvozJ-1)
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4. Product Implementation & Validation
+
+### 4.1. Software Configuration Management
+Todo software requiere distintos entornos para su desarrollo, validación, despliegue y funcionamiento.  
+La configuración del entorno de implementación consiste en establecer y mantener estos espacios de trabajo, asegurando que cada fase del ciclo de vida del proyecto cuente con las condiciones necesarias.  
+Por ello, en esta sección se describen las principales herramientas empleadas para la gestión y configuración de dichos entornos.
+
+**4.1.1.** Software Development Environment Configuration  
+### Project Management  
+**1. [WhatsApp](https://www.whatsapp.com/)**  
+Usamos WhatsApp como nuestro principal medio de comunicación y coordinación del equipo.  
+Nos permitió mantener una comunicación constante, compartir avances rápidamente y realizar llamadas grupales para discutir decisiones importantes del proyecto.  
+
+---
+
+### Requirements Management  
+**1. [Trello](https://trello.com/)**  
+Usamos esta herramienta para el manejo de nuestros requerimientos con el objetivo de organizar de manera más efectiva el backlog en equipo.  
+Trello es una aplicación para gestionar proyectos. Te permite crear y organizar tareas, plazos y equipos.  
+Trello se adapta a cualquier tipo de proyecto y se integra con otras aplicaciones.  
+
+---
+
+### Product UX/UI Design  
+**1. [UXPressia](https://uxpressia.com/)**  
+Esta herramienta nos ayudó en el desarrollo de nuestras *User Personas*, *Customer Journey Map*, *Empathy Map* e *Impact Map*,  
+debido a que ofrece plantillas que facilitan el desarrollo ágil de estos artefactos.  
+
+**2. [Mural](https://www.mural.co/)**  
+Realizamos nuestro *Scenario Mapping* para nuestros dos segmentos objetivos,  
+debido a que Mural es una herramienta fácil de usar y brinda plantillas de uso libre.  
+
+**3. [Figma](https://www.figma.com/)**  
+Usamos esta herramienta para la creación de nuestros *Wireframes*, *Mockups* y *Mobile Application Prototypes*,  
+ya que permite trabajar de manera colaborativa y cuenta con múltiples utilidades.  
+
+---
+
+### Software Development  
+**1. Landing Page**  
+Para el desarrollo de nuestra *Landing Page* usamos herramientas básicas para el diseño de páginas web como lo son:  
+**HTML5**, **CSS3** y **JavaScript**.  
+
+**2. Android Studio**  
+Empleamos **Android Studio** como entorno de desarrollo integrado (IDE) para la creación y prueba de nuestra aplicación móvil nativa.  
+Esta herramienta nos permitió implementar funcionalidades directamente sobre Android, realizar emulaciones en distintos dispositivos  
+y optimizar el rendimiento de la app mediante Kotlin y XML.  
+
+---
+
+### Software Documentation  
+**1. [LucidChart](https://lucid.app/)**  
+Esta herramienta la usamos para el desarrollo de *User Flow Diagrams*, *Wireflows* y el *Diagrama de Clases*.  
+En LucidChart se pueden crear diversos diagramas de forma rápida y colaborativa.  
+
+**2. [Structurizr](https://www.structurizr.com/)**  
+Nos permitió realizar los diagramas **C4** de manera rápida con el lenguaje de programación **C#**.  
+
+**3. [Vertabelo](https://vertabelo.com/)**  
+Realizamos nuestra base de datos en esta herramienta debido a que cuenta con una amplia variedad de motores  
+y permite trabajar colaborativamente.  
+
+**4.1.2.** Source Code Management  
+
+La gestión y actualización tanto de nuestra *landing page* como de este informe se llevaron a cabo mediante un repositorio colaborativo en **[GitHub](https://github.com/)**,donde administramos el control de versiones y registramos los cambios realizados por cada integrante del equipo. 
+
+**Organization:** [https://github.com/1ACC0238-2520-14650-VIBE-STAGE](https://github.com/1ACC0238-2520-14650-VIBE-STAGE)  
+**Landing Page Repository:** [https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Landing-Page](https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Landing-Page)  
+**Report Repository:** [https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Vibestage-Report](https://github.com/1ACC0238-2520-14650-VIBE-STAGE/Vibestage-Report)
+
+Para optimizar la organización del código y asegurar un flujo de trabajo ordenado, implementamos la metodología **GitFlow**,  
+que facilita la creación y administración de ramas durante el ciclo de desarrollo.  
+Dentro de esta estructura, mantenemos dos ramas principales:  
+
+- **Main:** Contiene la versión estable y lista para producción del proyecto, representando el historial oficial de lanzamientos.  
+- **Develop:** Funciona como la rama central de integración, donde se reúnen y prueban las nuevas funcionalidades antes de ser publicadas.  
+
+Además, utilizamos ramas auxiliares llamadas **Feature**, destinadas a la implementación de nuevas características o mejoras.  
+Estas ramas parten de *develop* y se integran nuevamente una vez completadas, lo que permite trabajar en paralelo sin comprometer la estabilidad del entorno principal.  
+
+**4.1.3.** Source Code Style Guide & Conventions  
+**4.1.4.** Software Deployment Configuration  
+En esta seccion colocaremos las evidenciaas de los pasos que seguimos para desplegar nuestra Landing Page.
+
+1. Ingresamos a nuestra organización y seleccionamos el repositorio correspondiente a la Landing Page de nuestro proyecto.
+   <img width="1902" height="393" alt="Image" src="https://github.com/user-attachments/assets/564905e7-fba7-413c-aff3-915f842526d7" />
+2. Una vez dentro del repositorio, seleccionamos la opción settings.
+   <img width="1914" height="459" alt="Image" src="https://github.com/user-attachments/assets/773f2397-1f47-4d4a-bc31-58f884d805de" />
+3. En el menú de la parte izquierda seleccionamos, la opción pages y en esta realizamos las configuraciones necesarias, una vez finalizadas nos dara un link.
+   <img width="1918" height="763" alt="Image" src="https://github.com/user-attachments/assets/539c4cb4-b1f8-4195-a8f5-34e1276a4acd" />
+4. Por último, podremos ver nuestra Landing Page desplegada.
+   <img width="1904" height="908" alt="Image" src="https://github.com/user-attachments/assets/4eff6d3d-1801-499e-8885-a5e1ba70f885" />
+
+### 4.2. *Landing Page & Mobile Application Implementation*
+#### 4.2.1. *Sprint 1*
+**4.2.1.1.** Sprint Planning 1 
+
+| **Sprint #** | **Sprint 1** |
+|---------------|--------------|
+| **Sprint Planning Background** | |
+| **Date** | 08/10/2025 |
+| **Time** | 16:00 pm |
+| **Location** | Modalidad remota por Discord |
+| **Prepared By** | Equipo VibeStage |
+| **Attendees** | Todos los miembros del grupo VibeStage |
+| **Sprint n - 0 Review Summary** | Se desarrolló la **Landing Page** y la primera versión de la **Aplicación móvil**, ambas alineadas con los objetivos del proyecto *VibeStage*. <br><br> **Landing Page:** Propósito claro de la plataforma, Navegación fluida entre secciones, Diseño responsive adaptable,Versión en inglés y soporte multilenguaje, Formulario de contacto funcional, Selección del tipo de usuario,Visualización de planes por tipo de usuario, Botones CTA funcionales, Menú fijo con desplazamiento suave, Sección del equipo visible, Botón de “Enviar” funcional. <br><br> **Aplicación móvil:** Registro de artista, Acceso al dashboard del artista, Búsqueda de eventos por afinidad, Postulación rápida a eventos, Registro del promotor/local, Dashboard del promotor/local, Registro de usuario con selección de rol, Inicio de sesión con credenciales, Agenda de eventos del artista. <br><br> **Notas técnicas:** Se implementó estructura modular, pantallas por rol, flujo de registro y login funcional, navegación estable, interfaz coherente con la identidad visual de VibeStage y componentes reutilizables con Material Design. |
+| **Sprint n - 1 Retrospective Summary** | **Puntos positivos:** Se logró cumplir el alcance total del Sprint, entregando una experiencia funcional tanto en la web como en la app. Se consolidó la base de la arquitectura, diseño visual, navegación, e internacionalización. <br> **Aspectos destacados:** Alta cohesión en equipo, cumplimiento de tiempos, y pruebas exitosas en dispositivos móviles y navegadores. <br> **Próximos pasos:** (1) Integración con backend para gestión real de datos; (2) implementación de base de datos; (3) optimización SEO y despliegue productivo; (4) conexión del módulo de eventos, pagos y reputación. |
+| **Sprint Goal & User Stories** | **Objetivo del Sprint 1:** Implementar la base visual y funcional de *VibeStage* (Landing Page y App Móvil) para presentar el propósito del producto, atraer nuevos usuarios (artistas y promotores) y establecer el flujo inicial de registro y navegación por rol. <br><br> **User Stories desarrolladas:** <br> - *Landing Page:* US01, US02, US03, US04, US05, US06, US21, US22, US23, US24, US26. <br> - *Aplicación móvil:* US07, US08, US09, US10, US14, US15, US31, US32, US34. <br><br> **Technical Stories :** TS1, TS2, TS3, TS4, TS5, TS6, TS7, TS8, TS9, TS10, TS11.|
+| **Sprint 1 Velocity** | **Total de HU completadas:** 19   |  **Velocidad total:** 19 puntos |  **Estado general:** Sprint 1 completado exitosamente con todos los entregables funcionales y alineados al MVP de VibeStage. |
+
+**4.2.1.2.** Sprint Backlog 1  
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se deben realizar para completar el Sprint.
+
+| **Sprint #** | **Sprint 1** |
+|---------------|--------------|
+
+| **User Story** | **Work-Item / Task** | | | | | |
+|----------------|----------------------|---|---|---|---|---|
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| **US01** | Propósito claro de la plataforma | **T01** | Implementar encabezado principal y tagline | Mostrar el propósito de VibeStage y botón de acción principal. | 2 | Stephano Landauri | Done |
+| | | **T02** | Agregar logotipo y menú principal | Incluir logo, navegación y enlaces internos. | 2 | Carlos Álvarez | Done |
+| **US02** | Navegación fluida entre secciones | **T03** | Implementar scroll suave | Permitir desplazamiento fluido por anclas internas del menú. | 1 | Juan Paul Llamccaya | Done |
+| | | **T04** | Configurar navegación responsive | Asegurar que el menú se adapte correctamente a todos los dispositivos. | 1.5 | Gabriel Lapa | Done |
+| **US03** | Diseño responsive adaptable | **T05** | Crear media queries | Asegurar visualización correcta en móviles y tablets. | 2 | Rafael Cuya | Done |
+| **US04** | Implementar versión en inglés | **T06** | Configurar traducción ES/EN | Añadir archivo `translations.js` y textos bilingües. | 2 | Stephano Landauri | Done |
+| **US05** | Formulario de contacto funcional | **T07** | Crear formulario con validaciones | Implementar inputs, validación y mensaje de confirmación. | 3 | Carlos Álvarez | Done |
+| **US06** | Selección del tipo de usuario | **T08** | Agregar botones “Soy artista” / “Soy local” | Redirigir a flujo de registro según rol. | 2 | Juan Paul Llamccaya | Done |
+| **US21** | Visualización de planes | **T09** | Crear sección de planes | Mostrar planes para artistas y locales con sus características. | 3 | Gabriel Lapa | Done |
+| **US22** | Botones CTA funcionales | **T10** | Implementar botones de registro | Añadir acciones directas hacia el registro desde la landing. | 1 | Rafael Cuya | Done |
+| **US23** | Menú fijo y desplazamiento suave | **T11** | Añadir efecto sticky al menú | Mantener visible el menú durante el desplazamiento. | 1.5 | Stephano Landauri | Done |
+| **US24** | Sección del equipo visible | **T12** | Crear sección "Nuestro equipo" | Mostrar foto, rol y enlaces de cada miembro. | 3 | Carlos Álvarez | Done |
+| **US26** | Botón “Enviar” funcional | **T13** | Añadir botón de envío en contacto | Validar datos y mostrar mensaje de éxito. | 1 | Rafael Cuya | Done |
+| **US07** | Registro de artista | **T14** | Diseñar formulario de registro | Crear flujo visual de registro para artistas. | 3 | Stephano Landauri | Done |
+| **US08** | Dashboard del artista | **T15** | Crear vista principal del artista | Incluir resumen de perfil, agenda y eventos. | 4 | Carlos Álvarez | Done |
+| **US14** | Registro del promotor/local | **T16** | Crear flujo de registro para locales | Implementar formulario y vista inicial. | 2.5 | Juan Paul Llamccaya | Done |
+| **US15** | Dashboard del promotor/local | **T17** | Diseñar panel administrativo | Mostrar publicaciones, agenda y evaluaciones. | 3 | Gabriel Lapa | Done |
+| **US31** | Registro con selección de rol | **T18** | Implementar elección de rol | Permitir elegir entre Artista o Local al registrarse. | 2 | Rafael Cuya | Done |
+| **US32** | Inicio de sesión | **T19** | Crear flujo de login | Iniciar sesión y redirigir al dashboard. | 3 | Stephano Landauri | Done |
+| **US34** | Agenda del artista | **T20** | Crear vista de agenda | Mostrar eventos confirmados con fechas y estados. | 2 | Carlos Álvarez | Done |
+| **TS01** | Implementación del encabezado | **T21** | Crear estructura HTML/CSS del header | Mostrar tagline y botón principal. | 1.5 | Stephano Landauri | Done |
+| **TS02** | Menú fijo y navegación | **T22** | Agregar lógica JS del menú responsive | Controlar apertura/cierre del menú y scroll. | 2 | Rafael Cuya | Done |
+| **TS03** | Diseño responsive | **T23** | Configurar estilos adaptativos | Ajustar tamaños, grillas y tipografía por dispositivo. | 2 | Carlos Álvarez | Done |
+| **TS04** | Implementar traducción EN/ES | **T24** | Desarrollar archivo `translations.js` | Definir textos multilenguaje. | 1.5 | Stephano Landauri | Done |
+| **TS05** | Formulario de contacto | **T25** | Añadir validación JS | Mostrar alertas de confirmación o error. | 2 | Juan Paul Llamccaya | Done |
+| **TS06** | Botones de registro por rol | **T26** | Vincular botones CTA con secciones de registro | Habilitar navegación dinámica. | 1.5 | Gabriel Lapa | Done |
+| **TS07** | Sección de testimonios | **T27** | Crear sección “Testimonios” | Incluir tarjetas con nombre, rol y opinión. | 2 | Carlos Álvarez | Done |
+| **TS08** | Diagrama de contexto del artista | **T28** | Elaborar C4 Context Diagram | Mostrar interacción del artista con servicios externos. | 2 | Stephano Landauri | Done |
+| **TS09** | Componentes de eventos | **T29** | Crear C4 de componentes | Mostrar interacción entre servicios de eventos. | 2.5 | Rafael Cuya | Done |
+| **TS10** | Contratos y Riders | **T30** | Diseñar diagrama C4 del módulo | Representar flujo de firma digital y validación técnica. | 2 | Juan Paul Llamccaya | Done |
+| **TS11** | Pagos y reputación | **T31** | Generar código estructurado del backend simulado | Mostrar endpoints y entidades de pagos/evaluaciones. | 3 | Stephano Landauri | Done |
+
+**4.2.1.3.** Development Evidence for Sprint Review 
+
+| **Repository** | **Branch** | **Commit ID** | **Author** | **Message** | **Time ago** |
+|----------------|-------------|---------------|-------------|--------------|---------------|
+| **vibestage-kotlin-app** | main | c1c8c1b | bluexdev | feat: fix style | 08/10/2025 |
+| vibestage-kotlin-app | main | 347def1 | bluexdev | feat: fix style | 08/10/2025 |
+| vibestage-kotlin-app | main | 584574d | bluexdev | feat: fix style | 08/10/2025 |
+| vibestage-kotlin-app | main | 7382f26 | bluexdev | feat(promoter): release version 2 with navigation and UI bug fixes | 06/10/2025 |
+| vibestage-kotlin-app | main | d2d79c1 | bluexdev | Initial version | 05/10/2025 |
+| **Landing Page** | main | 47c98e9 | bluexdev | feat: add new team member to landing page with photo, name, and alt text | 17/09/2025 |
+| Landing Page | main | ac3175c | Rafael Cuya | Feat added some pictures | 17/09/2025 |
+| Landing Page | main | ed6a9bf | Rafael Cuya | Merge remote-tracking branch 'origin/main' | 17/09/2025 |
+| Landing Page | main | e197375 | Rafael Cuya | Feat added style | 17/09/2025 |
+| Landing Page | main | 4426a42 | Rafael Cuya | Feat added main-en | 17/09/2025 |
+| Landing Page | main | 8904fd8 | Rafael Cuya | Feat added main.js | 17/09/2025 |
+| Landing Page | main | 8a91016 | Rafael Cuya | Feat added index | 17/09/2025 |
+| Landing Page | main | a746977 | Rafael Cuya | Feat added translation | 17/09/2025 |
+| Landing Page | main | aff4c44 | Rafael Cuya | Feat added pictures | 17/09/2025 |
+| Landing Page | main | 7bd30af | Rafael Cuya | feat added README | 17/09/2025 |
+| Landing Page | main | 8cc4fc3 | Rafael Cuya | Feat added Readme | 17/09/2025 |
+| Landing Page | main | 961ad56 | Rafael Cuya | Initial commit | 17/09/2025 |
+
+**4.2.1.4.** Testing Suite Evidence for Sprint Review 
+
+   
+**4.2.1.5.** Execution Evidence for Sprint Review 
+**Landing Page**
+
+<img width="1491" height="774" alt="image" src="https://github.com/user-attachments/assets/628fc7f0-514c-4aaf-a90a-06796fd8ffd2" />
+
+<img width="1482" height="762" alt="image" src="https://github.com/user-attachments/assets/000615db-1598-496e-82f5-9e756d7037e2" />
+
+<img width="1443" height="703" alt="image" src="https://github.com/user-attachments/assets/572920e7-5ae9-41ef-8fe3-32c0af2fba48" />
+
+<img width="1486" height="817" alt="image" src="https://github.com/user-attachments/assets/c02701b3-ae2b-4401-8f40-8f601ec53d15" />
+
+<img width="1491" height="717" alt="image" src="https://github.com/user-attachments/assets/321419f2-6a31-412f-b1e4-021cbadc115e" />
+
+**Mobile App**
+
+![Image](https://github.com/user-attachments/assets/0f82da42-4bab-46b1-9cd7-a3ad804ee757)
+
+![Image](https://github.com/user-attachments/assets/d826adbf-a96c-493d-bc41-b3bb77108b1e)
+
+![Image](https://github.com/user-attachments/assets/0b87be3b-bacf-45b4-8bab-3fc85a4f6731)
+
+![Image](https://github.com/user-attachments/assets/8aaaa8a0-aa5a-4d66-b245-8e5775a9dc71)
+
+![Image](https://github.com/user-attachments/assets/70f2cc5c-8e14-4c03-9463-63761413e5e7)
+
+![Image](https://github.com/user-attachments/assets/520da043-c603-414f-9107-74fd191edd02)
+
+![Image](https://github.com/user-attachments/assets/9aafe534-3211-4b99-a49a-62e655f56270)
+
+
+
+**Backend**
+![Image](https://github.com/user-attachments/assets/8fd8e2cf-61b9-4289-bfe1-76826bf0e839)
+
+![Image](https://github.com/user-attachments/assets/8c5b5d07-efe5-49fd-ac39-accefc19af71)
+
+![Image](https://github.com/user-attachments/assets/fbe09557-8753-47b0-858f-c3ec87014efe)
+
+
+**4.2.1.6.** Services Documentation Evidence for Sprint Review 
+
+Durante el Sprint 1 se desarrollaron y documentaron los servicios correspondientes a los repositorios Landing Page y VibeStage Kotlin App, evidenciando el avance del proyecto mediante commits verificados y funcionales. En la Landing Page, se implementaron las secciones principales de la plataforma web, incluyendo encabezado, menú de navegación, diseño responsive, traducción bilingüe y formularios interactivos, cumpliendo con los requerimientos definidos en las historias de usuario. En la aplicación VibeStage Kotlin, se realizaron avances en la interfaz móvil, navegación entre pantallas y correcciones de estilo, alcanzando la versión 2 con mejoras visuales y de usabilidad. Ambas implementaciones reflejan un trabajo colaborativo y continuo, con un control de versiones que garantiza trazabilidad, calidad del código y cumplimiento de los objetivos establecidos para el Sprint 1.
+
+**4.2.1.7.** Software Deployment Evidence for Sprint Review  
+**4.2.1.8.** Team Collaboration Insights during Sprint  
+
+En esta sección se presentarán las evidencias que reflejan el trabajo colaborativo realizado durante el desarrollo del proyecto VibeStage.
+
+**Report**
+
+<img width="750" height="571" alt="Image" src="https://github.com/user-attachments/assets/46c357c3-dcb2-45e8-844e-fd319fbd16c7" />
+
+**Landing Page**
+
+<img width="750" height="571" alt="Image" src="https://github.com/user-attachments/assets/f3132076-0e01-454a-a69d-cbc657033c21" />
+
+**Mobile App**
+
+<img width="750" height="571" alt="Image" src="https://github.com/user-attachments/assets/e0d7395b-90c1-41ad-8095-3d3cc2582f74" />
+
+### 4.3 Validation Interviews
+#### 4.3.1 Diseño de entrevistas
+
+**Objetivo de la entrevista:**
+
+Validar la usabilidad y efectividad de la landing page y de los flujos de usuario (user flows) de la aplicación móvil **VibeStage**, asegurando que cada flujo sea intuitivo, claro y funcional para los dos segmentos objetivo: **Promotores** y **Artistas**. Las entrevistas permitirán identificar percepciones, niveles de satisfacción y posibles mejoras en la experiencia general de uso.
+
+---
+
+#### Saludo y presentación
+
+Comenzamos con una introducción breve de los entrevistados para recordar quiénes son:
+
+1. ¿Cómo se llama?  
+2. ¿Cuántos años tiene?  
+3. ¿En qué distrito vive?  
+
+---
+
+#### Preguntas
+
+Estas preguntas nos ayudarán a conocer la experiencia del usuario con la plataforma **VibeStage**, evaluar si la interfaz y las funciones cumplen sus expectativas, y recoger sugerencias para futuras mejoras.
+
+---
+
+**Promotor:**
+
+1. ¿Al ver la landing page comprendiste rápidamente el propósito de **VibeStage** y cómo podría ayudarte como promotor?  
+2. ¿Te pareció atractiva y clara la interfaz del sitio web?  
+3. ¿Que te pareció la funcionalidad de crear tu cuenta y registrar la información de tu local o espacio para eventos en la app?  
+4. ¿Qué tan claro te pareció el proceso para revisar, aceptar o rechazar postulaciones de artistas?  
+5. ¿Consideras útil la vista de **Mis Eventos**, donde puedes gestionar tus próximos, en curso y completados?  
+6. ¿La aplicación te ayuda a llevar un control eficiente de tus contrataciones, pagos y fechas?  
+7. ¿Qué tan importante consideras la función de promoción automática de eventos dentro de la app?  
+8. ¿Qué función agregarías o mejorarías en **VibeStage** para que se adapte mejor a tus necesidades como promotor?  
+
+---
+
+**Artista:**
+
+1. ¿Al ingresar a la landing page entendiste fácilmente qué ofrece **VibeStage** y a quién está dirigida la plataforma?  
+2. ¿Te pareció atractiva la presentación visual de la landing (colores, tipografía, secciones)?  
+3. ¿Qué tan fácil te resultó registrarte y crear tu perfil como artista dentro de la aplicación móvil?  
+4. ¿La app te ayudó a entender rápidamente cómo buscar y postular a presentaciones?  
+5. ¿Te parece útil que la aplicación muestre tus shows confirmados y pendientes en una agenda digital?  
+6. ¿Consideras importante que los contratos y pagos se gestionen digitalmente dentro de la app?  
+7. ¿Qué tan valioso te resulta recibir notificaciones o recordatorios sobre tus próximos eventos o evaluaciones?  
+8. ¿Qué función o herramienta agregarías o mejorarías para que **VibeStage** se adapte mejor a tu carrera artística?   
+
+**4.3.2.** Registro de Entrevistas  
+
+#### Segmento Segmento Administrador de locales
+
+Entrevistado #1
+
+| **Nombre del entrevistado**  |   Angela Ushiñahua                                                                                                               |
+| **Edad**                     |    25 años                                                                                                                            |
+| **Distrito**                 |         Villa el Salvador                                                                                                                    |
+| **Screenshot de la entrevista** |      <img src="https://github.com/user-attachments/assets/061caecb-7b90-4457-a22c-f5059ea72b03" alt="Image" width="1904" height="908" />                             |
+| **Link de la entrevista**    |                    [Ver entrevista en Youtube](https://youtu.be/joRDd0F2s2U)                                                                                                  |
+| **Tiempo de inicio y duración** |                  0:00 - 9:51                                                                                                  |
+| **Resumen**                  |   Angela es una artista del ámbito musical que compartió su experiencia al usar la aplicación **VibeStage**, destacando su facilidad de uso, el diseño atractivo y la claridad del propósito dirigido a músicos. Señaló que el registro y la búsqueda de presentaciones son simples, valoró la utilidad de la agenda para organizar sus eventos y consideró muy importante la gestión digital de contratos y pagos. Finalmente, sugirió agregar un botón interactivo que haga la aplicación más dinámica y funcional para los artistas.                       |
+
+
+**4.3.3.** Evaluaciones según heurísticas  
+
+
 ## Conclusiones
 Actualización constante:
 Durante el desarrollo de VibeStage nos dimos cuenta de la importancia de mantenernos actualizados en las herramientas y metodologías que usamos. La tecnología cambia muy rápido, y para poder responder a las necesidades del proyecto fue necesario reforzar conocimientos previos y aprender nuevas prácticas que hicieron más eficiente el proceso.
@@ -1446,6 +2045,7 @@ El uso de GitHub como repositorio compartido nos ayudó a organizarnos mejor y a
 
 ## Anexos
 Landing-Page: https://1acc0238-2520-14650-vibe-stage.github.io/Landing-Page/ 
+
 
 
 
