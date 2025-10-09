@@ -287,4 +287,24 @@ Estas preguntas nos ayudarán a conocer la experiencia del usuario con la plataf
 8. ¿Qué función o herramienta agregarías o mejorarías para que **VibeStage** se adapte mejor a tu carrera artística?   
 
 **4.3.2.** Registro de Entrevistas  
+
+#### Segmento Segmento Administrador de locales
+
+Entrevistado #1
+
+#### Segmento Artistas
+
+Entrevistado #1
+
+| Campo                        | Información                                                                                                                           |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre del entrevistado**  |   Angela Ushiñahua                                                                                                               |
+| **Edad**                     |    25 años                                                                                                                            |
+| **Distrito**                 |         Villa el Salvador                                                                                                                    |
+| **Screenshot de la entrevista** |      <img src="https://github.com/user-attachments/assets/061caecb-7b90-4457-a22c-f5059ea72b03" alt="Image" width="1904" height="908" />                             |
+| **Link de la entrevista**    |                    [Ver entrevista en Youtube](https://youtu.be/joRDd0F2s2U)                                                                                                  |
+| **Tiempo de inicio y duración** |                  0:00 - 9:51                                                                                                  |
+| **Resumen**                  |   Angela es una artista del ámbito musical que compartió su experiencia al usar la aplicación **VibeStage**, destacando su facilidad de uso, el diseño atractivo y la claridad del propósito dirigido a músicos. Señaló que el registro y la búsqueda de presentaciones son simples, valoró la utilidad de la agenda para organizar sus eventos y consideró muy importante la gestión digital de contratos y pagos. Finalmente, sugirió agregar un botón interactivo que haga la aplicación más dinámica y funcional para los artistas.                       |
+
+
 **4.3.3.** Evaluaciones según heurísticas  
